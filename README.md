@@ -6,14 +6,13 @@ Prizes will be awarded to winning teams, but the goal of this game jam is to com
 
 If you’re ready to get involved and find a team, introduce yourself in the Dojo Discord - new contributors are always welcome. From there, the Dojo Book is a great place to start your journey.
 
-
 <p align="center">
   <a href="https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_team.yaml&title=%5BTeam+Registration%5D:+Your+Team+Name">
     <img src=".github/assets/register.png" alt="Register your Team" style="height:47px;margin-top:40px;">
   </a>
 </p>
 
-## 🎁  Prizes
+## Prizes
 
 ![Game Jam 4 Prizes](.github/assets/game-jam-4/prizes.png)
 
@@ -21,7 +20,7 @@ $20K General + $36.5K Bounty Tracks!
 
 Please note: there will be no airdrops for participation in the Game Jam. Prizes will only be awarded to teams that build excellent projects that demonstrate the unique capabilities of the Dojo engine.
 
-## 📏  Rules
+## Rules
 
 - Submissions must be built using the Dojo Engine.
 - Submissions must be built during the game jam 72-hour window and exclusively for the Dojo Game Jam.
@@ -33,7 +32,7 @@ Please note: there will be no airdrops for participation in the Game Jam. Prizes
 - Projects can be removed from the Game Jam by the judges for any reason.
 - 5 contributors is the maximum team size.
 
-## ⚖️  Judging
+## Judging
 
 Review and judging of projects will take place in the week after the game jam concludes. Judging is subjective, but it will be based on the criteria listed below.
 
@@ -41,13 +40,3 @@ Review and judging of projects will take place in the week after the game jam co
 2. Originality of concept, game mechanics, visual design, etc.
 3. Compelling visual and game design
 4. Level of fun
-
-## 🤝  Partners & Sponsors
-
-### Cartridge
-
-Cartridge is a team of blockchain native builders - world class engineers and designers - on a mission to bring onchain games and Autonomous Worlds to life. We're building games as well as the tooling and infrastructure to enable them.
-
-### Starknet
-
-Starknet is a Layer-2 network that makes Ethereum transactions faster, cheaper, and more secure using zk-STARKs technology. It has a fully open-sourced core tech stack.
