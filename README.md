@@ -44,10 +44,10 @@ Review and judging of projects will take place in the week after the game jam co
 
 ## 🤝  Partners & Sponsors
 
-### Starknet
-
-Starknet is a Layer-2 network that makes Ethereum transactions faster, cheaper, and more secure using zk-STARKs technology. It has a fully open-sourced core tech stack.
-
 ### Cartridge
 
 Cartridge is a team of blockchain native builders - world class engineers and designers - on a mission to bring onchain games and Autonomous Worlds to life. We're building games as well as the tooling and infrastructure to enable them.
+
+### Starknet
+
+Starknet is a Layer-2 network that makes Ethereum transactions faster, cheaper, and more secure using zk-STARKs technology. It has a fully open-sourced core tech stack.
