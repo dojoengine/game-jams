@@ -36,8 +36,8 @@ Please note: there will be no airdrops for participation in the Game Jam. Prizes
 
 Submit your project before the Game Jam deadline to qualify for the prizes.
 
-- <a href="https://github.com/dojoengine/game-jams/new/main/submissions" target="_blank">Create a new file</a> in the `submissions` directory using the name of your project in `shotgun-case` as the file name.
 - Copy / Paste the <a href="https://raw.githubusercontent.com/dojoengine/game-jams/main/submissions/TEMPLATE.md" target="_blank">Game Jam Submission Template</a>, follow the instructions, and open a Pull Request which contributes the submission to the repository.
+- <a href="https://github.com/dojoengine/game-jams/new/main/submissions" target="_blank">Create a new file</a> in the `submissions` directory using the name of your project in `shotgun-case` as the file name.
 
 ## Judging
 
