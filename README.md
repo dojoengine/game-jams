@@ -25,10 +25,10 @@ $20K General + $36.5K Bounty Tracks!
 | DopeWars | $3,000 in PAPER | Build an onchain experience such as a game, social tool, ai experiment within the Dope World. Projects can incorporate Dope World assets or introduce new experiences within the DopeWorld lore. |
 | PixeLAW | $1,000 | Build a pixel-based game within the PixeLAW world! Option 1: Make existing apps interoperable. Check https://github.com/pixelaw/examples to find other app examples, and integrate interoperability functionality into them to create emergent gameplay. Option 2: Create a new interoperable app that interfaces with an existing app. PixeLAW contributors can help and extend an existing app that interfaces with your new app. Building new onchain apps has never been easier. Start [here](https://pixelaw.github.io/book/getting-started/quick-start.html) |
 | New World | $3,000 | Seed a new World or create a game or experience in a new world!! Judges will subjectively assess the quality of projects for this track based on the creativity, robustness, and extensibility of this new world.  |
-| Unity | $1K | Build a game or a mod using the Dojo <> Unity SDK |
-| Three.js | $1K | Build a game or a mod using Three.JS |
-| Phaser | $1K | Build a game or a mod using Phaser |
-| Your Favorite Engine | $1K | Build a game or a mod using any other Dojo SDK |
+| Unity | $1,000 | Build a game or a mod using the Dojo <> Unity SDK |
+| Three.js | $1,000 | Build a game or a mod using Three.JS for the client |
+| Phaser | $1,000 | Build a game or a mod using Phaser for the client |
+| Your Favorite Engine | $1,000 | Build a game or a mod using any other game engine for the client |
 | Hidden Information | $500 | Build a game that incorporates Hidden Information to produce a fun and novel gameplay experience. |
 | State Channels | $500 | Build a game that incorporates State Channels to produce a fun and novel gameplay experience. |
 | RTC | $500 | Build a game that incorporates Real Time Communication to produce a fun and novel gameplay experience. |
