@@ -1,0 +1,16 @@
+name: Project Submission
+description: Submit your project for the Game Jam
+title: "[Project Submission]: Your Team Name"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to Submit your project for the Game Jam!
+  - type: textarea
+    id: idea-summary
+    attributes:
+      label: Idea Summary
+      description: Give a short summary of your game idea.
+      placeholder: Tell us about your game!
+    validations:
+      required: true
