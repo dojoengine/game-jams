@@ -6,6 +6,7 @@ Prizes will be awarded to winning teams, but the goal of this game jam is to com
 
 If you’re ready to get involved and find a team, introduce yourself in the Dojo Discord - new contributors are always welcome. From there, the Dojo Book is a great place to start your journey.
 
+
 <p align="center">
   <a href="https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_team.yaml&title=%5BTeam+Registration%5D:+Your+Team+Name">
     <img src=".github/assets/register.png" alt="Register your Team" style="height:47px;margin-top:40px;">
