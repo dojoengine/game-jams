@@ -1,0 +1,65 @@
+name: Game Jam Team Registration
+description: Register your team for the Game Jam
+title: "[Team Registration]: "
+labels: ["team registration", "game jam"]
+blank_issues_enabled: false
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to register your team for the Game Jam!
+  - type: dropdown
+    id: game-jam-instance
+    attributes:
+      label: Game Jam Instance
+      description: Which instance of the Game Jam is this for?
+      options:
+        - Game Jam 4
+    validations:
+      required: true
+  - type: input
+    id: team-name
+    attributes:
+      label: Team Name
+      description: What's the name of your team?
+      placeholder: ex. Team Awesome
+    validations:
+      required: true
+  - type: textarea
+    id: idea-summary
+    attributes:
+      label: Idea Summary
+      description: Give a short summary of your game idea.
+      placeholder: Tell us about your game!
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Tell us a bit about yourself and your team.
+      placeholder: Share your story!
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform will your game be on?
+      options:
+        - Web
+        - Unity
+        - Mobile
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Game Jam Rules
+      description: By submitting this registration, you agree to follow our [Game Jam Rules](https://example.com)
+      options:
+        - label: I agree to follow the Game Jam Rules
+          required: true
