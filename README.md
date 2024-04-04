@@ -32,6 +32,13 @@ Please note: there will be no airdrops for participation in the Game Jam. Prizes
 - Projects can be removed from the Game Jam by the judges for any reason.
 - 5 contributors is the maximum team size.
 
+## Submitting
+
+Submit your project before the Game Jam deadline to qualify for the prizes.
+
+- [Create a new file](https://github.com/dojoengine/game-jams/new/main/submissions) in the `submissions` directory using the name of your project in `shotgun-case` as the file name.
+- Copy / Paste the [Game Jam Submission Template](https://raw.githubusercontent.com/dojoengine/game-jams/main/submissions/TEMPLATE.md), follow the instructions, and open a Pull Request which contributes the submission to the repository.
+
 ## Judging
 
 Review and judging of projects will take place in the week after the game jam concludes. Judging is subjective, but it will be based on the criteria listed below.
