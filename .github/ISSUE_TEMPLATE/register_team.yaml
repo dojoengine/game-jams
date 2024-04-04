@@ -1,65 +1,60 @@
 name: Game Jam Team Registration
 description: Register your team for the Game Jam
 title: "[Team Registration]: "
-labels: ["team registration", "game jam"]
-blank_issues_enabled: false
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to register your team for the Game Jam!
-  - type: dropdown
-    id: game-jam-instance
-    attributes:
-      label: Game Jam Instance
-      description: Which instance of the Game Jam is this for?
-      options:
-        - Game Jam 4
-    validations:
-      required: true
+        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: team-name
+    id: contact
     attributes:
-      label: Team Name
-      description: What's the name of your team?
-      placeholder: ex. Team Awesome
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
-      required: true
+      required: false
   - type: textarea
-    id: idea-summary
+    id: what-happened
     attributes:
-      label: Idea Summary
-      description: Give a short summary of your game idea.
-      placeholder: Tell us about your game!
-    validations:
-      required: true
-  - type: textarea
-    id: background
-    attributes:
-      label: Background
-      description: Tell us a bit about yourself and your team.
-      placeholder: Share your story!
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
-    id: platform
+    id: version
     attributes:
-      label: Platform
-      description: What platform will your game be on?
+      label: Version
+      description: What version of our software are you running?
       options:
-        - Web
-        - Unity
-        - Mobile
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
       default: 0
     validations:
       required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
   - type: checkboxes
     id: terms
     attributes:
-      label: Game Jam Rules
-      description: By submitting this registration, you agree to follow our [Game Jam Rules](https://example.com)
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: I agree to follow the Game Jam Rules
+        - label: I agree to follow this project's Code of Conduct
           required: true
