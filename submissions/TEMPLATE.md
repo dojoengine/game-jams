@@ -7,7 +7,8 @@ In a world where every corner has been explored, the only remaining mystery is t
 mcjkn007
 
 ### Play
-https://youtu.be/j8g6KALxocc
+Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
+> Enter your play instructions here!
 
 ### Twitter
 mcjkn007
