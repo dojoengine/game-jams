@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed33394c4164416a5b0f271499b4ed4, type: 3}
+  m_Name: ItemCollection
+  m_EditorClassIdentifier: 
+  SpriteCollections:
+  - {fileID: 11400000, guid: 620e7b0c742440a4be6c065493edd0eb, type: 2}
+  IconCollections:
+  - {fileID: 11400000, guid: 0b1224523bda42afbf2646ba665a77b3, type: 2}
+  Items:
+  - Id: Gold
+    Level: 0
+    Rarity: 0
+    Type: 1
+    Class: 0
+    Tags: 
+    Properties: []
+    Price: 0
+    Weight: 0
+    IconId: FantasyHeroes.Basic.Supplies.Gold
+    SpriteId: FantasyHeroes.Basic.Supplies.Gold
+    Meta: 
+    Localization: []
+  - Id: MilitiamanArmor
+    Level: 0
+    Rarity: 0
+    Type: 7
+    Class: 9
+    Tags: 
+    Properties:
+    - Id: 30
+      Value: 10
+    Price: 100
+    Weight: 80
+    IconId: FantasyHeroes.Basic.Armor.Militiaman
+    SpriteId: FantasyHeroes.Basic.Armor.Militiaman
+    Meta: 
+    Localization: []
+  - Id: MilitiamanHelmet
+    Level: 0
+    Rarity: 0
+    Type: 8
+    Class: 9
+    Tags: 
+    Properties:
+    - Id: 30
+      Value: 10
+    Price: 50
+    Weight: 30
+    IconId: FantasyHeroes.Basic.Helmet.MilitiamanHelmet2 [Paint]
+    SpriteId: FantasyHeroes.Basic.Helmet.MilitiamanHelmet2 [Paint]
+    Meta: 
+    Localization: []
+  - Id: Morgana
+    Level: 0
+    Rarity: 2
+    Type: 6
+    Class: 2
+    Tags: 
+    Properties:
+    - Id: 13
+      Value: 10-15
+    Price: 70
+    Weight: 30
+    IconId: FantasyHeroes.Basic.MeleeWeapon1H.Morgana
+    SpriteId: FantasyHeroes.Basic.MeleeWeapon1H.Morgana
+    Meta: 
+    Localization: []
+  - Id: LongHammer
+    Level: 0
+    Rarity: 1
+    Type: 6
+    Class: 4
+    Tags: 03000000
+    Properties:
+    - Id: 13
+      Value: 10-15
+    Price: 120
+    Weight: 80
+    IconId: FantasyHeroes.Basic.MeleeWeapon2H.LongHammer
+    SpriteId: FantasyHeroes.Basic.MeleeWeapon2H.LongHammer
+    Meta: 
+    Localization: []
+  - Id: GoldDragon
+    Level: 0
+    Rarity: 3
+    Type: 6
+    Class: 7
+    Tags: 03000000
+    Properties:
+    - Id: 13
+      Value: 40-50
+    Price: 1000
+    Weight: 40
+    IconId: FantasyHeroes.Basic.Bow.GoldDragon
+    SpriteId: FantasyHeroes.Basic.Bow.GoldDragon
+    Meta: 
+    Localization: []
+  - Id: MagicGoldenRing
+    Level: 0
+    Rarity: 1
+    Type: 10
+    Class: 10
+    Tags: 
+    Properties:
+    - Id: 21
+      Value: 50
+    Price: 500
+    Weight: 1
+    IconId: FantasyHeroes.Basic.Supplies.MagicGoldenRing
+    SpriteId: FantasyHeroes.Basic.Supplies.MagicGoldenRing
+    Meta: 
+    Localization: []
+  - Id: LargePotion
+    Level: 0
+    Rarity: 0
+    Type: 4
+    Class: 13
+    Tags: 
+    Properties:
+    - Id: 21
+      Value: 50
+    Price: 10
+    Weight: 5
+    IconId: FantasyHeroes.Basic.Supplies.LargePotion
+    SpriteId: FantasyHeroes.Basic.Supplies.LargePotion
+    Meta: 
+    Localization: []
+  BackgroundBlue: {fileID: 21300000, guid: 6a7965a697c24a689633cfa2a821ca7e, type: 3}
+  BackgroundBrown: {fileID: 21300000, guid: 533abca1f345417e984b150a43d1ef78, type: 3}
+  BackgroundGreen: {fileID: 21300000, guid: b7b50a648b914b71a63c6ede8a31ea9b, type: 3}
+  BackgroundGrey: {fileID: 21300000, guid: 176661c66228466f9f74c027f6d60f9f, type: 3}
+  BackgroundPurple: {fileID: 21300000, guid: 3d210ed8562242d3804c2502b7312c3a, type: 3}
+  BackgroundRed: {fileID: 21300000, guid: dbff44ea28934646b14fff229f0db0d9, type: 3}
