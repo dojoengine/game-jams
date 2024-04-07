@@ -1,37 +1,25 @@
-# Game Jam Submission Template
-
-Thanks for taking the time to Submit your project for the Game Jam!
-
-To submit your project:
-- Copy / Paste this template into a file with your project names as the file name, using `shotgun-case`.
-- Replace the placeholder content below with your projects info
-- Remove this overview section
-- Create a pull request to the `dojoengine/game-jams` repo with your submission
-
----
-
-# Project Name
+# AbyssX
 
 ### Project Summary
-Give a short summary of your game project.
-> Tell us about your game!
+In a world where every corner has been explored, the only remaining mystery is the great abyss known as "X". its depths extending into the unknown. In this vast, bottomless vertical cavern, dwell peculiar and wondrous creatures, and slumber precious idols beyond the craftsmanship of modern humanity. The allure of Abyss X's inexplicable existence draws adventurers to embark on a journey into its depths. Players take on the role of adventurers descending deeper into the vast abyssal cavern, confronting unknown and dangerous creatures, and harvesting mysterious treasures. Along the way, they acquire various skills, abilities, and blessings to strengthen themselves.Faced with irresistible temptations and irreversible curses, adventurers can only forge ahead, reaching the deepest depths to uncover the true secrets of the abyss.
 
 ### GitHub
-Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
-> Enter your GitHub here!
+mcjkn007
 
 ### Play
 Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
 > Enter your play instructions here!
 
 ### Twitter
-Provide the projects twitter handle. Please share your submission on socials too for more exposure!
-> Enter your twitter handle here!
+mcjkn007
 
 ### Team members
-Provide a list of your team members.
-> Provide names, githubs, discords, or twitters of each team member!
+midasX:  
+discords:midasx0322  
+  
+Lettie Clarke:  
+discords:0b1f5cc3
 
 ### Submission Tracks
-Provide a list of the tracks your project is submitting to.
-> Provide a list of tracks here!
+unity3d  
+new world
