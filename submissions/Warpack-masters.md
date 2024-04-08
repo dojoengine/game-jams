@@ -25,7 +25,7 @@ MrTrickster - Unity client developer | [website](https://mrtrickster.net)
 
 KahanMajmudar - Cairo developer | [github](https://github.com/KahanMajmudar) / [twitter](https://twitter.com/KahanMajmudar)
 
-Exxcuro - artist | [ig](https://www.instagram.com/kahiakahi) / [twitter]https://twitter.com/KahixKahi
+Exxcuro - artist | [ig](https://www.instagram.com/kahiakahi) / [twitter](https://twitter.com/KahixKahi)
 
 ### Submission Tracks
 
