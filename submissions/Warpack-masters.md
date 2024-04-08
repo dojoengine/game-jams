@@ -7,8 +7,9 @@ Warpack Masters is a competitive Player-versus-Player (PvP) game that combines i
 Engage in battles with Warpacks teeming with uniquely shaped and potent items. Strategize to assemble formidable Warpacks to outsmart and defeat other players in intense matches. Customize your arsenal with a variety of rare and legendary items to create and dominate the game's meta.
 
 ### Quick Links
-Play Now: [Warpack Masters Live](impulsedao.xyz/Warpack-Masters)
-Source Code: [Github](https://github.com/0xAsten/Warpack-Masters/)
+Demo version: [Warpack Masters Live](https://mrtrickster.net/work/arena/v01/)
+Contracts Source Code: [Github](https://github.com/0xAsten/Warpack-Masters/)
+Unity client Source code: [Github](https://github.com/r0ng-software/arena-unity-client)
 Follow Us: [Twitter @WarpackMasters](x.com/@Warpackmasters)
 
 ### Team members
