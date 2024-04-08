@@ -4,6 +4,8 @@
 Give a short summary of your game project.
 > Tell us about your game!
 
+"Blob arena" is a mini-game designed for a game jam, featuring unique characters known as "Bloberts" engaging in strategic, Pokémon-like battles. Players will navigate through exciting encounters, against other players or against AI, using their Bloberts’ distinctive traits to outsmart and defeat opponents. The game’s core mechanic revolves around an enhanced rock-paper-scissors style combat modified by each character’s attributes.
+
 ### GitHub
 Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
 > [Contracts](https://github.com/GrugLikesRocks/Blob-arena/)
