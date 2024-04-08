@@ -12,7 +12,7 @@ Provide the GitHub where your project is hosted. Please ensure your github repo 
 
 ### Play
 Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
-> [README.md](https://github.com/GrugLikesRocks/Blob-arena/edit/main/README.md)
+> [README.md](https://github.com/GrugLikesRocks/Blob-arena/tree/main/README.md)
 
 ### Twitter
 Provide the projects twitter handle. Please share your submission on socials too for more exposure!
