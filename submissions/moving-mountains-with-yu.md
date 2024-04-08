@@ -11,7 +11,7 @@ The unit of production is Blobert, which represents the population generated wit
 
 ### GitHub
 Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
-> https://app.onlydust.com/p/moving-mountains-with-yu
+> https://github.com/FrostStarBook/moving-mountains-with-yu
 
 ### Play
 Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
