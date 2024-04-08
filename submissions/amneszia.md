@@ -13,7 +13,7 @@ Amneszia is a multi-player Memory-like game using the Blobert collection.
 
 ### Play
 - [Remember to play here](https://amneszia.vercel.app/)
-- [Read the instructions](https://github.com/tekkac/amneszia-front/blob/main/README.md)
+- [Read the instructions](https://github.com/MartianGreed/amneszia-front/blob/main/README.md)
 - [Zero your Knowledge](https://github.com/tekkac/amneszia-dojo/blob/main/README.md)
 
 ### Twitter
