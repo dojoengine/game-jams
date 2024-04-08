@@ -1,0 +1,23 @@
+name: Create Submissions
+on:
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: "Game Jam Dir"
+        required: true
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Create Issues
+        run: |
+          for FILE in submissions/${{ github.event.inputs.folder }}/*.md
+          do
+            gh issue create -t "[Submission] $(sed -n '1p' $FILE | sed 's/^# //')" -b "$(cat $FILE)"
+          done
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
