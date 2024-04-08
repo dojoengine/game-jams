@@ -8,8 +8,11 @@ Engage in battles with Warpacks teeming with uniquely shaped and potent items. S
 
 ### Quick Links
 Demo version: [Warpack Masters Live](https://mrtrickster.net/work/arena/v01/)
+
 Contracts Source Code: [Github](https://github.com/0xAsten/Warpack-Masters/)
+
 Unity client Source code: [Github](https://github.com/r0ng-software/arena-unity-client)
+
 Follow Us: [Twitter @WarpackMasters](x.com/@Warpackmasters)
 
 ### Team members
