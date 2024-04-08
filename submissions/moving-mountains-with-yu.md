@@ -31,5 +31,4 @@ Provide a list of your team members.
 Provide a list of the tracks your project is submitting to.
 > - Road to Mainnet 
 > - Blobert / Realms 
-> - New World 
 > - RTC
