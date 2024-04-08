@@ -1,37 +1,44 @@
-# Game Jam Submission Template
-
-Thanks for taking the time to Submit your project for the Game Jam!
-
-To submit your project:
-- Copy / Paste this template into a file with your project names as the file name, using `shotgun-case`.
-- Replace the placeholder content below with your projects info
-- Remove this overview section
-- Create a pull request to the `dojoengine/game-jams` repo with your submission
-
----
-
-# Project Name
+# Kingdom of Lords
 
 ### Project Summary
-Give a short summary of your game project.
-> Tell us about your game!
+![Cover](./images/1.jpg)
+We rolled out the very initial version including the upgrading/resource-producing features. Try now: https://kingdom.0xmssp.xyz
+
+Gameplay:
+
+Simulation: Upgrade buildings/farms to enhance resource productivity and train troops
+
+Strategy: Form alliances to battle with others and construct The Wonders to win
+
+Low-frequency interaction while requiring huge strategic thinking, well adapted to blockchains
+
+Integration with Realms Ecosystem:
+
+Deposit Lords to get in-game tokens to enhance productivity and construction speed, adding up to the possibility of winning the game(This feature is still under development)
+Technical Highlights:
+
+Privacy System: When deploying troops, users can choose to hide their coordinates and verify them later when selecting their next action, such as attacking. This enables an ambush feature, allowing users to lie in wait at a specific geographical location and attack the enemy unexpectedly, significantly enhancing the game's strategic depth(This feature is still under development)
 
 ### GitHub
-Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
-> Enter your GitHub here!
+The frontend repo:[Frontend](https://github.com/Mississippi-Labs/kingdom_and_lord_fe)
+The Cario contract address: [Dojo Contract](https://github.com/Mississippi-Labs/kingdom_and_lord)
 
 ### Play
-Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
-> Enter your play instructions here!
+The playtest page:[Play](https://kingdom.0xmssp.xyz/)
+
 
 ### Twitter
-Provide the projects twitter handle. Please share your submission on socials too for more exposure!
-> Enter your twitter handle here!
+Feel free to follow us on our social accounts
+[Twitter](https://twitter.com/0xMississippi)
 
 ### Team members
-Provide a list of your team members.
-> Provide names, githubs, discords, or twitters of each team member!
+Fe:[Tiyo](https://github.com/TiyoSheng)
+Tech:[lidamao](https://github.com/LidamaoHub)
+Contract:[will](https://github.com/zsluedem)
 
 ### Submission Tracks
-Provide a list of the tracks your project is submitting to.
-> Provide a list of tracks here!
+> - General track
+> - Road to Mainnet 
+> - Hidden Information
+> - New World
+> - RTC
