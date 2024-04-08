@@ -1,3 +1,0 @@
-agdc filter=lfs diff=lfs merge=lfs -text
-libdojo_c.a filter=lfs diff=lfs merge=lfs -text
-libdojo_c.dll filter=lfs diff=lfs merge=lfs -text
