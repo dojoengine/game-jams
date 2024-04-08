@@ -29,6 +29,5 @@ Amneszia is a multi-player Memory-like game using the Blobert collection.
 
 > - Road to Mainnet 
 > - Blobert / Realms 
-> - New World
 > - Other
 > - Hidden Information
