@@ -1,29 +1,37 @@
-# Blobert Showdown
+# Game Jam Submission Template
+
+Thanks for taking the time to Submit your project for the Game Jam!
+
+To submit your project:
+- Copy / Paste this template into a file with your project names as the file name, using `shotgun-case`.
+- Replace the placeholder content below with your projects info
+- Remove this overview section
+- Create a pull request to the `dojoengine/game-jams` repo with your submission
+
+---
+
+# Project Name
 
 ### Project Summary
-"Blobert Showdown" is an onchain game which is inspired from Pokemon Showdown. Player can engage in a tectical battle using bloberts with various of elements and moves. Through a combination of skillful play and strategic team building, players can climb the ranks in the Blobert Showdown arena. Through on chain gaming, it promotes transparency, security and decentralized gaming experience that invite player to the evolving gaming ecosystem
-
+Give a short summary of your game project.
+> Tell us about your game!
 
 ### GitHub
--https://app.onlydust.com/p/blobert-showdown
--https://github.com/ML-Village/draft-blobert-showdown
-
+Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
+> Enter your GitHub here!
 
 ### Play
--DEMO https://github.com/ML-Village/draft-blobert-showdown/blob/main/README.md
+Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
+> Enter your play instructions here!
 
 ### Twitter
--@0xvincent_eth
--@0xgavinowen
--@0xhatsume
-
+Provide the projects twitter handle. Please share your submission on socials too for more exposure!
+> Enter your twitter handle here!
 
 ### Team members
--0xhatsume
--Valentino_1310
--0xOwenn
-
+Provide a list of your team members.
+> Provide names, githubs, discords, or twitters of each team member!
 
 ### Submission Tracks
--General track
--Blobert / Realms
+Provide a list of the tracks your project is submitting to.
+> Provide a list of tracks here!
