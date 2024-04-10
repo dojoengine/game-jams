@@ -10,25 +10,25 @@ The gameplay involves producing offspring by clicking on houses. You can increas
 The unit of production is Blobert, which represents the population generated with each click. This is a virtual world, so there's no rigid generation of people.
 
 ### GitHub
-Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
-> https://github.com/FrostStarBook/moving-mountains-with-yu
+> Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
+https://github.com/FrostStarBook/moving-mountains-with-yu
 
 ### Play
-Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
-> https://www.youtube.com/watch?v=wopJoorMcQA&ab_channel=BookFrostStar%28book%29
+> Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
+https://www.youtube.com/watch?v=wopJoorMcQA&ab_channel=BookFrostStar%28book%29
 
 ### Twitter
-Provide the projects twitter handle. Please share your submission on socials too for more exposure!
-> @book_frostStar
+> Provide the projects twitter handle. Please share your submission on socials too for more exposure!
+@book_frostStar
 
 ### Team members
-Provide a list of your team members.
-> - name:Frost
-> - githubs:FrostStarBook
-> - discords:FrostStar
+> Provide a list of your team members.
+- Frost
+  - Github: FrostStarBook
+  - Discord: FrostStar
 
 ### Submission Tracks
-Provide a list of the tracks your project is submitting to.
-> - Road to Mainnet 
-> - Blobert / Realms 
-> - RTC
+> Provide a list of the tracks your project is submitting to. Provide each track on a new line.
+Road to Mainnet 
+Blobert / Realms 
+RTC
