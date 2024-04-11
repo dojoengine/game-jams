@@ -8,7 +8,7 @@ If you’re ready to get involved and find a team, introduce yourself in the Doj
 
 <p align="center">
   <a href="https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_team.yaml&title=%5BTeam+Registration%5D:+Your+Team+Name">
-    <img src=".github/assets/register.png" alt="Register your Team" style="height:47px;margin-top:40px;">
+    <img src="../.github/assets/register.png" alt="Register your Team" style="height:47px;margin-top:40px;">
   </a>
 </p>
 
