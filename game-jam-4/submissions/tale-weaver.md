@@ -2,6 +2,7 @@
 
 ### Project Summary
 > Give a short summary of your game project.
+
 Tale Weaver stands out as an interactive storytelling marvel, leveraging AI to craft immersive narratives, beautifully rendered through DALL·E. Dive into a world where every choice shapes your journey, creating a dynamic narrative unlike any other.
 
 But what sets Tale Weaver apart isn't just its captivating tales; it's the integration of blockchain technology via Dojo. This ensures your adventures are not only thrilling but also secure, with every decision etched into the digital ledger for unparalleled transparency and composability.
@@ -16,18 +17,22 @@ Join us as we embark on this epic journey, where the fate of Bloberts hangs in t
 
 ### GitHub
 > Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
+
 https://github.com/taleweaver-ai/taleweaver-v2-gamejam
 
 ### Play
 > Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
+
 Contact us for API keys and further instructions
 
 ### Twitter
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
+
 https://twitter.com/TaleWeaverCo
 
 ### Team members
 > Provide a list of your team members.
+
 - Miguel
   - Github: [MigueReyRo](https://github.com/MigueReyRo)
   - Twitter: [@MiguelReyRo](https://twitter.com/MiguelReyRo)
@@ -45,7 +50,8 @@ https://twitter.com/TaleWeaverCo
 
 ### Submission Tracks
 > Provide a list of the tracks your project is submitting to. Provide each track on a new line.
+
 Road to Mainet
 Blobert
 New World
-Other
+Your Favorite Engine
