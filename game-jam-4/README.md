@@ -1,4 +1,4 @@
-![Game Jam 4 Header](.github/assets/game-jam-4/header.png)
+![Game Jam 4 Header](../.github/assets/game-jam-4/header.png)
 
 The Dojo Game Jam is back! This 72-hour weekend will bring together the Dojo ecosystem to build games on the open-source, provable Dojo Engine.
 
@@ -14,7 +14,7 @@ If you’re ready to get involved and find a team, introduce yourself in the Doj
 
 ## Prizes
 
-![Game Jam 4 Prizes](.github/assets/game-jam-4/prizes.png)
+![Game Jam 4 Prizes](../.github/assets/game-jam-4/prizes.png)
 
 $20K General + $36.5K Bounty Tracks!
 
