@@ -1,6 +1,6 @@
 # Dojo Game Jams
 
-![Game Jam Spooky Edition Header](.github/assets/game-jam-spooky-edition/header.png)
+![Game Jam Spooky Edition Header](.github/assets/SpookyHeader.png)
 
 The Dojo Game Jam is back! This 72-hour weekend will bring together the Dojo ecosystem to build games on the open-source, provable Dojo Engine.
 
