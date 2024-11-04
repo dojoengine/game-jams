@@ -23,7 +23,30 @@ Video of game being played in js - https://youtu.be/dgvBsHAXRGc
 
 Team members
 
-Average - AverageJoe69 - averagejoe80085 - https://x.com/Seggsy_Sosij - game design, artwork, front end 
-Cumberlord - Cumberlord - lordcumberlord - https://x.com/lordcumberlord - game design, pm
-Odinson - PoulavBhowmick03 - kimmich03 - https://x.com/impoulav - fullstack
-Deus Vult - deusvult6764 - .deus_vult. - https://x.com/DeusVult1497994 - full stack
+- **Average**
+  - Discord: AverageJoe69
+  - Telegram: averagejoe80085
+  - [Twitter](https://x.com/Seggsy_Sosij)
+  - [GitHub](https://github.com/AverageJoe69)
+  - Role: Game design, artwork, front end
+
+- **Cumberlord**
+  - Discord: Cumberlord
+  - Telegram: lordcumberlord
+  - [Twitter](https://x.com/lordcumberlord)
+  - [GitHub](https://github.com/Cumberlord)
+  - Role: Game design, project management
+
+- **Odinson**
+  - Discord: kimmich03
+  - Telegram: impoulav
+  - [Twitter](https://x.com/impoulav)
+  - [GitHub](https://github.com/PoulavBhowmick03)
+  - Role: Full stack/smart contract development
+
+- **Deus Vult**
+  - Discord: deusvult6764
+  - Telegram: .deus_vult.
+  - [Twitter](https://x.com/DeusVult1497994)
+  - [GitHub](https://github.com/Deusvult6764)
+  - Role: Full stack development
