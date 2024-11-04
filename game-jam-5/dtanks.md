@@ -20,6 +20,8 @@ Enter your play instructions here!
 
 - play on https://dtanks.vercel.app/
 
+- https://youtu.be/qaONpA7TiAE
+
 ### Twitter
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
 Enter your twitter handle here!
