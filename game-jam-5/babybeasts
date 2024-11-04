@@ -1,0 +1,79 @@
+# Project Name: BabyBeasts
+
+### Project Summary
+Welcome to BabyBeasts, a Tamagotchi-inspired game, where players care for a unique digital pet, or “beast,” that evolves through regular interactions and maintenance. 
+In this game, players can spawn their beast and manage its core stats: hunger, energy, happiness, and hygiene. 
+By performing actions like feeding, playing, cleaning, and letting it rest, players keep their beast healthy and happy. 
+As the beast levels up, it gains experience, along with improved stats in attack, defense, and speed, allowing for a richer progression experience. 
+The goal is to keep your beast alive and thriving through consistent care and engagement.
+
+### GitHub
+The main repository with integrated Dojo functionality is [BabyBeasts](https://github.com/ByteBuildersLabs/BabyBeasts). 
+Prior to this integration, we worked on isolated repositories for the backend and frontend components, which were later consolidated into the main repository.
+Backend repo: [GameJamDojo](https://github.com/ByteBuildersLabs/GameJamDojo)  
+Frontend repo: [DojoGameJamFrontend](https://github.com/ByteBuildersLabs/DojoGameJamFrontend)
+[OnlyDust](https://app.onlydust.com/p/babybeasts)
+
+### Play
+Getting Started
+Spawn Your Beast:
+When you start the game, you need to spawn your beast. This initializes your pet with default stats.
+Command: spawn()
+
+Understanding Your Beast's Stats:
+Hunger: Indicates how hungry your beast is. Keep it fed to maintain its health.
+Energy: Shows how energetic your beast is. Ensure it gets enough sleep.
+Happiness: Reflects your beast's mood. Play with it to keep it happy.
+Hygiene: Indicates how clean your beast is. Clean it regularly.
+Attack, Defense, Speed: These stats improve as your beast levels up.
+Level and Experience: Your beast gains experience and levels up by playing and being cleaned.
+Actions You Can Perform
+Feed Your Beast:
+Increases hunger and energy.
+
+Put Your Beast to Sleep:
+Increases energy and happiness.
+
+Wake Up Your Beast:
+Wakes up your beast if it is sleeping.
+
+Play with Your Beast:
+Increases happiness and experience, but decreases energy and hunger.
+
+Clean Your Beast:
+Increases hygiene and happiness, and gives experience.
+
+Revive Your Beast:
+If your beast dies (hunger or energy reaches 0), you can revive it.
+
+Managing Stats
+Decreasing Stats:
+Over time, your beast's stats will decrease. Hunger, energy, happiness, and hygiene will drop, so you need to regularly feed, play, clean, and let your beast sleep.
+
+Leveling Up:
+As your beast gains experience from playing and being cleaned, it will level up. Each level increases its attack, defense, and speed stats.
+Experience needed for the next level increases with each level up.
+
+Keeping Your Beast Alive
+Ensure that hunger and energy do not drop to 0, as this will cause your beast to die.
+Regularly perform actions to maintain your beast's stats.
+
+Remember to regularly check and manage your beast's stats to keep it happy and healthy. Enjoy playing BabyBeasts game! 
+
+### Twitter
+https://x.com/0xByteBeasts
+
+### Team members
+[RolandoDrRobot](https://github.com/RolandoDrRobot)
+[danielcdz](https://github.com/danielcdz)
+[juandiegocv27](https://github.com/juandiegocv27)
+[coxmars](https://github.com/coxmars)
+[jimenezz22](https://github.com/jimenezz22) 
+
+### Submission Tracks
+Road to Mainnet
+New World
+Your Favorite Engine
+Hidden Information
+State Channels
+RTC
