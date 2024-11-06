@@ -17,6 +17,8 @@ V2, as seen in this game loop, introduces phase 2 of the game. Players who avoid
 
 GitHub
 https://github.com/PoulavBhowmick03/rugged01 
+OnlyDust
+https://app.onlydust.com/p/rugged
 
 Play
 Video of game being played in js - https://youtu.be/dgvBsHAXRGc
