@@ -7,6 +7,14 @@ body:
       value: |
         Thanks for taking the time to register your team for the Game Jam!
   - type: textarea
+    id: discord-handle
+    attributes:
+      label: Discord Handle
+      description: Share your Discord handle so others can contact you.
+      placeholder: Your Discord handle (e.g. `@l337coder`)
+    validations:
+      required: true
+  - type: textarea
     id: idea-summary
     attributes:
       label: Idea Summary
