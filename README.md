@@ -2,9 +2,9 @@
 
 ![Vibe Jam Header](.github/assets/VibeHeader.png)
 
-The Dojo Game Jam is back! This 72-hour weekend will bring together the Dojo ecosystem to build games on the open-source, provable Dojo Engine.
+​Dojo G̶a̶m̶e̶ Vibe Jam is here and starts on 6/20!!
 
-Prizes will be awarded to winning teams, but the goal of this game jam is to combine the efforts of those who share the vision of fully onchain games and to identify teams who are ready to build and ship!
+​Join us for a special vibe-coding edition of the Dojo Game Jam! Teams will come together for 3 days to build games on the open-source, provable Dojo Engine, and compete for a slice of a $20,000+ prize pool.
 
 If you’re ready to get involved and find a team, introduce yourself in the [Dojo Discord](https://discord.gg/tHezCAA4) - new contributors are always welcome. From there, the [Dojo Book](https://book.dojoengine.org/) is a great place to start your journey.
 
@@ -14,9 +14,17 @@ If you’re ready to get involved and find a team, introduce yourself in the [Do
   </a>
 </p>
 
+## Tracks
+
+This Game Jam will have two tracks: full games, and game mods.
+
+1. The **Full Game Track** is for large or existing teams who want to ship full games or major features.
+2. The **Modding Track** is for small teams and solo devs who want to get their feet wet by modding existing games.
+
+
 ## Prizes
 
-There will be prizes for winning teams -- we'll announce more specifics shortly!
+🏆 We have a $20,000 prize pool (and growing!) to award to projects in the two tracks. 2/3 of the pool to the full game track, and 1/3 to the modding track.
 
 Please note: there will be **no airdrops** for participation in the Game Jam.
 Prizes will only be awarded to teams that build excellent projects that demonstrate the unique capabilities of the Dojo engine.
