@@ -7,13 +7,17 @@ To submit your project:
 - Replace the placeholder content below with your projects info.
     - Keep the section title and description (included in the `>` block) contained on the next line, only replace the placeholder content below the description.
     - Provide properly formatted urls for github and other references.
-    - The possible tracks are: [Road to Mainnet, Blobert / Realms, DopeWars, PixeLAW, New World, Unity, Three.js, Phaser, Your Favorite Engine, Hidden Information, State Channels, RTC]. Ensure your tracks match these exactly. Each line should only contain: `TRACK NAME`.
+    - The possible tracks are: [`Full Game`, `Game Mod`]. Ensure your track matches one of these exactly.
 - Remove this overview section
 - Create a pull request to the `dojoengine/game-jams` repo with your submission
 
 ---
 
 # Project Name
+
+### Submission Track
+> Indicate which track your project is submitting to.
+Enter your track here!
 
 ### Project Summary
 > Give a short summary of your game project.
@@ -34,7 +38,3 @@ Enter your twitter handle here!
 ### Team members
 > Provide a list of your team members.
 Provide names, githubs, discords, or twitters of each team member!
-
-### Submission Tracks
-> Provide a list of the tracks your project is submitting to. Provide each track on a new line.
-Provide a list of tracks here!
