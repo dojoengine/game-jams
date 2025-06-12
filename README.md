@@ -24,8 +24,8 @@ We have a $25,000 prize pool to award to projects. $15,000 will go to projects i
 
 ### Full game track, existing team
 
-If you're planning on submitting for the **full game** track and you **already have a team**, then get at it!
-If you have any questions or need any support, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
+If you're planning on submitting for the **full game** track and you **already have a team**, please [**register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_team.yaml&title=%5BTeam+Registration%5D:+Your+Team+Name).
+If you have any questions or need support, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
 
 ### Full game track, no team
 
@@ -35,7 +35,7 @@ The Dojo team will do our best to help match you with great people.
 
 ### Modding track
 
-If you're a solo developer / small team and want to make a mod for an existing game, check out our [modding guide](./MODDABLE.md) for a list of recommended games for modding.
+If you're a solo developer / small team and want to make a mod for an existing game, check out our [**moddable games guide**](./MODDABLE.md) for a list of recommended games.
 If you have any questions or need any support, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
 
 ## Tutorials
@@ -62,11 +62,15 @@ As always, if you have any questions or need any support, head over to the **#ga
 -   Projects can be removed from the Game Jam by the judges for any reason.
 -   5 contributors is the maximum team size.
 
+> Note: Vibe-coding is encouraged but **not strictly required**.
+> If you want to be old-school and write everything by hand, go for it!
+
 ## Submitting
 
-​Submissions are due on Monday, June 23 at 7:59 AM UTC which is Sunday, June 22 at 23:59 PST
+Coding begins Friday, June 20 at 00:00 **UTC**, and submissions are due on Sunday, June 22 at 23:59 **PST**.
+We end at midnight PST so that our west-coast friends won't miss any of the fun.
 
-Submit your project before the Game Jam deadline to qualify for the prizes.
+Submit your project before the deadline to qualify for the prizes:
 
 -   Copy / Paste the [Game Jam Submission Template](./templates/SUBMISSION_TEMPLATE.md), follow the instructions, and open a Pull Request which contributes the submission to the repository.
 -   Create a new file [`game-jam-6` directory](./game-jam-6) using the name of your project in `kebab-case` as the file name.
