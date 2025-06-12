@@ -3,7 +3,7 @@
 This document maintains a list of Dojo games with modding guides for game jams.
 If you're looking to get your feet wet by modding an existing Dojo game, these are great places to start!
 
-## Dope Wars
+## [Dope Wars](https://github.com/cartridge-gg/dopewars)
 
 One of the earliest and most iconic Dojo games, an on-chain version of the 1980's classic Drug Wars.
 
