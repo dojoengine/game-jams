@@ -1,11 +1,11 @@
-name: Team Registration
-description: Register your team for the Game Jam
-title: "[Team Registration]: Your Team Name"
+name: Project Registration
+description: Register your project for the Game Jam
+title: "[Project Registration]: Your Project Name"
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to register your team for the Game Jam!
+        Thanks for taking the time to register your project for the Game Jam!
   - type: textarea
     id: discord-handle
     attributes:
@@ -18,15 +18,15 @@ body:
     id: idea-summary
     attributes:
       label: Idea Summary
-      description: Give a short summary of your game idea.
-      placeholder: Tell us about your game!
+      description: Give a short summary of your project.
+      placeholder: Tell us about your project!
     validations:
       required: true
   - type: textarea
     id: background
     attributes:
       label: Background
-      description: Tell us a bit about yourself and your team.
+      description: Tell us a bit about yourself.
       placeholder: Share your story!
     validations:
       required: true
@@ -34,5 +34,5 @@ body:
     id: looking-for-members
     attributes:
       label: Looking for Members
-      description: Tell us a bit about what you're looking for.
+      description: If you're looking for team members, tell us a bit about what you're looking for.
       placeholder: Need a designer? An engineer? Something else?
