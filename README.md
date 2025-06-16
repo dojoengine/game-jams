@@ -33,7 +33,7 @@ If you want to create a full game but you don't already have a team, you can [**
 Then head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4) and start recruiting.
 The Dojo team will do our best to help match you with great people.
 
-If you're looking for game ideas, Dojo maintains a [**spreadsheet of interesting game concepts**](https://docs.google.com/spreadsheets/d/1A6Ggcu88VyMv4e6QcARUPAkmTrFHjIK39mG1MAV1rdA/edit?usp=sharing).
+If you're looking for game ideas, Dojo maintains a [**spreadsheet of interesting game concepts**](https://docs.google.com/spreadsheets/d/1dMq7T-29HsmEIPphJ57OQW8yXOLRslJQmhkvw6eAaqE).
 Feel free to grab an idea off the list!
 
 ### Modding track

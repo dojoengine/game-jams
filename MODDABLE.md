@@ -7,7 +7,7 @@ If you're looking to get your feet wet by modding an existing Dojo game, these a
 
 The team at ByteBeasts maintains a [full-featured starter template](https://github.com/AkatsukiLabs/Dojo-Game-Starter), with code stubs and a working front-end, ready for you to build with.
 
-Head to the [getting started guide]((https://github.com/AkatsukiLabs/Dojo-Game-Starter)) for everything you need to get going!
+Head to the [getting started guide](https://github.com/AkatsukiLabs/Dojo-Game-Starter/blob/main/README.md) for everything you need to get going!
 
 ## [🔫 Pistols at Dawn](https://pistols.gg/)
 
@@ -19,7 +19,7 @@ See the [development guide](https://github.com/underware-gg/pistols/blob/main/RE
 
 This Balatro-inspired card game is one of the most popular games in the Dojo ecosystem, created by the team at [Caravana Studios](https://github.com/caravana-studio).
 
-See the [modding guide](https://github.com/caravana-studio/jokers-of-neon-mods) for instructions and inspiration on how to extend the game.
+See the [modding guide](https://github.com/caravana-studio/jokers-of-neon-mods/blob/main/README.md) for instructions and inspiration on how to extend the game.
 
 ## [🧙‍♂️ Mage Duel](https://mageduel.evolute.network/)
 
