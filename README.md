@@ -24,10 +24,14 @@ We have a $25,000 prize pool to award to projects. $15,000 will go to projects i
 
 ### Full game track, existing team
 
+👉 [**Register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name)
+
 If you're planning on submitting for the **full game** track and you **already have a team**, please [**register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name).
 If you have any questions or need support, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
 
 ### Full game track, no team
+
+👉 [**Register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name)
 
 If you want to create a full game but you don't already have a team, you can [**register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name).
 Then head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4) and start recruiting.
@@ -38,8 +42,10 @@ Feel free to grab an idea off the list!
 
 ### Modding track
 
-If you're a solo developer / small team and want to make a mod for an existing game, check out our [**moddable games guide**](./MODDABLE.md) for a list of recommended games.
-Let us know what you're planning on working on by [**registering your mod idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name).
+👉 [**Register your mod idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name)
+
+If you're a solo developer / small team and want to make a mod for an existing game, check out our [**moddable games guide**](./MODDABLE.md) for a list of recommended games,
+and let us know what you're planning on working on by [**registering your mod idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name).
 If you have any questions or need any support, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
 
 ## Tutorials
