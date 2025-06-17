@@ -9,6 +9,19 @@ The team at ByteBeasts maintains a [full-featured starter template](https://gith
 
 Head to the [getting started guide](https://github.com/AkatsukiLabs/Dojo-Game-Starter/blob/main/README.md) for everything you need to get going!
 
+## [🧙‍♂️ Mage Duel](https://mageduel.evolute.network/)
+
+Inspired by the classic Carcassone, this beautiful game by [Evolute Studio](https://x.com/evolute_studio) lets you battle other wizards for control over the lands.
+
+See the [development guide](https://github.com/evolute-studio/territory-wars-dojo/blob/main/README.md) for instructions on how to install and run the game locally, and the full [game docs](https://docs.mageduel.evolute.network/docs/unity-client/introduction/overview) for more information about how to mod the game.
+
+## [🪙 Ponzi Land](https://ponzi.land/)
+
+A web3-native game of 16-bit arbitrage, PonziLand lets you claim token-associated territory and win by arbitraging against your neighbor's tokens.
+Made by the team at [Rune Labs](https://runelabs.xyz/).
+
+See the [modding guide](https://github.com/RuneLabsxyz/PonziLand/blob/main/GAMEJAM.md) for instructions on how to install, run, and mod the game locally.
+
 ## [🔫 Pistols at Dawn](https://pistols.gg/)
 
 A fun and engaging game of duels, created by the team at [Underware](https://underware.gg/).
@@ -20,12 +33,6 @@ See the [development guide](https://github.com/underware-gg/pistols/blob/main/RE
 This Balatro-inspired card game is one of the most popular games in the Dojo ecosystem, created by the team at [Caravana Studios](https://github.com/caravana-studio).
 
 See the [modding guide](https://github.com/caravana-studio/jokers-of-neon-mods/blob/main/README.md) for instructions and inspiration on how to extend the game.
-
-## [🧙‍♂️ Mage Duel](https://mageduel.evolute.network/)
-
-Inspired by the classic Carcassone, this beautiful game by [Evolute Studio](https://x.com/evolute_studio) lets you battle other wizards for control over the lands.
-
-See the [development guide](https://github.com/evolute-studio/territory-wars-dojo/blob/main/README.md) for instructions on how to install and run the game locally.
 
 ## [💰 Dope Wars: Roll Your Own](https://rollyourown.preview.cartridge.gg/)
 
@@ -39,7 +46,7 @@ Multiplayer Civilization with a real economy that never sleeps, created by the t
 
 See the [modding guide](https://github.com/BibliothecaDAO/eternum/blob/next/MODDING.md) for instructions on how to extend the game.
 
-## Coming Soon: O'Ruggin Trail
+## ⛺ O'Ruggin Trail (Coming Soon)
 
 A create-your-own text-based adventure in the spirit of early MUDs and the iconic Oregon Trail.
 
