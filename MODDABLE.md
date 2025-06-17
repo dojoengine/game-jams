@@ -32,3 +32,9 @@ See the [development guide](https://github.com/evolute-studio/territory-wars-doj
 One of the earliest and most iconic Dojo games, an on-chain version of the 1980's classic Drug Wars.
 
 See the [development guide](https://github.com/cartridge-gg/dopewars/blob/main/README.md) for instructions on how to set up your development environment, and the [game jam guide](https://github.com/cartridge-gg/dopewars/blob/main/GAMEJAM.md) for ideas on how to mod or extend the game.
+
+## Coming Soon: O'Ruggin Trail
+
+A create-your-own text-based adventure in the spirit of early MUDs and the iconic Oregon Trail.
+
+See the [development guide](https://github.com/ArchetypalTech/LORE) for instructions on how to set up your development environment. **WARNING: not quite stable, use at your own risk!**
