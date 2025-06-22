@@ -48,7 +48,7 @@ Clone the repo, launch client/CraftIslandPocket3.uproject file and start the gam
 DM @caillef on Discord to get access to the TestFlight beta (only available for iPhones)
 
 #### Just a video
-<ADD YOUTUBE LINK>
+[Video](https://www.youtube.com/watch?v=O1sthbGftJ8)]
 
 ### Twitter
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
