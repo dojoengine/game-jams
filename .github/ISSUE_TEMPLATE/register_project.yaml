@@ -1,0 +1,38 @@
+name: Project Registration
+description: Register your project for the Game Jam
+title: "[Project Registration]: Your Project Name"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to register your project for the Game Jam!
+  - type: textarea
+    id: discord-handle
+    attributes:
+      label: Discord Handle
+      description: Share your Discord handle so others can contact you.
+      placeholder: Your Discord handle (e.g. `@l337coder`)
+    validations:
+      required: true
+  - type: textarea
+    id: idea-summary
+    attributes:
+      label: Idea Summary
+      description: Give a short summary of your project.
+      placeholder: Tell us about your project!
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Tell us a bit about yourself.
+      placeholder: Share your story!
+    validations:
+      required: true
+  - type: textarea
+    id: looking-for-members
+    attributes:
+      label: Looking for Members
+      description: If you're looking for team members, tell us a bit about what you're looking for.
+      placeholder: Need a designer? An engineer? Something else?
