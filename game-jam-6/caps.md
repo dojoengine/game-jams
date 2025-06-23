@@ -19,7 +19,7 @@ To submit your project:
 Full Game
 
 ### Project Summary
-Caps is a fast paced chess like board game where your pieces have special abilities. There are 4 teams to choose from with a variety of playstyles, as well as elo based matchmaking and a daydreams agent to play against.
+Caps is a fast paced chess like board game where your pieces have special abilities. There are 4 teams to choose from with a variety of playstyles, as well as elo based matchmaking and a daydreams agent to play against. It also should be relatively mobile friendly
 
 ### GitHub
 https://github.com/ZackAmes/caps-jam
