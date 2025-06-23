@@ -61,4 +61,8 @@ Elven Escape is an adventure game where players embark on a fun journey through 
 > https://x.com/0xkeyaru
 
 ### Team members
-> solo hacker:)
+> **Kishore**
+
+* GitHub: [@Kishore-MK](https://github.com/Kishore-MK)
+* Discord: @0xkeyaru
+* Twitter: [@0xkeyaru](https://x.com/0xkeyaru))
