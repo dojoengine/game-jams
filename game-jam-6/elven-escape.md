@@ -13,7 +13,7 @@
 ### Play
 > Please go easy on him -_- : https://elvenescape.vercel.app/
 
-#### How to play
+**How to play**
 **Health & Survival**
 - You start with limited health points
 - Taking damage from combat or traps reduces your health
