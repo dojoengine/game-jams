@@ -64,6 +64,7 @@ Daniel Garbanzo:
 - GitHub: https://github.com/bitfalt
 - Discord: @bitfalt
 - Twitter/X: @bitfalt
+
 Erick Vasquez:
 - GitHub: https://github.com/evgongora
 - Discord: @snowwl_
