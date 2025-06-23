@@ -1,18 +1,3 @@
-# Game Jam Submission Template
-
-Thanks for taking the time to Submit your project for the Game Jam!
-
-To submit your project:
-- Copy / Paste this template into a file with your project names as the file name, using `kebab-case`.
-- Replace the placeholder content below with your projects info.
-    - Keep the section title and description (included in the `>` block) contained on the next line, only replace the placeholder content below the description.
-    - Provide properly formatted urls for github and other references.
-    - The possible tracks are: [`Full Game`, `Game Mod`]. Ensure your track matches one of these exactly.
-- Remove this overview section
-- Create a pull request to the `dojoengine/game-jams` repo with your submission
-
----
-
 # Project Name
 Caps
 https://caps-jam.vercel.app/
