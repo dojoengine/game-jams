@@ -9,7 +9,7 @@
 
 > Give a short summary of your game project.
 > AquaStark is a Web3 aquarium simulation game where players can create and personalize their own aquatic environment with unique fish and decorations. The game explores true digital ownership through onchain mechanics powered by Starknet smart contracts. In the MVP submitted for this Game Jam, players can connect their wallet, register a player profile, create their first aquarium, and generate their own fish — all of these actions are executed **onchain** and tied to their Starknet account.
-> Future features will include genetic traits for fish, breeding systems, feeding and care mechanics, in-game mini-games using your own fish, and a marketplace for trading fish and assets. The project aims to blend immersive gameplay with blockchain-backed ownership.
+> Future features will include genetic traits for fish, breeding systems, feeding and care mechanics, in-game mini-games using your own fish, and a marketplace for trading fish and assets. The project aims to blend immersive gameplay with blockchain-backed ownership. Contract deployed, can be consulted [here](https://sepolia.voyager.online/contract/0x02763e303122360ac44ec42deb128330d46a4dd23356c13942535b76aa997675)
 
 ### GitHub
 
