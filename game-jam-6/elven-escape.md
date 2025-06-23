@@ -4,8 +4,8 @@
 > Full Game
 
 ### Project Summary
-> Give a short summary of your game project.
-Tell us about your game!
+> Elven Escape is an adventure game where players embark on a fun journey through a mystical forest seeking escape. As you traverse this dangerous world step by step, you'll encounter ancient shrines offering powerful blessings and cosmetic rewards, face formidable gatekeepers in combat, and navigate deadly traps that test your survival instincts.
+  
 
 ### GitHub
 > https://github.com/Kishore-MK/elvenescape
@@ -13,10 +13,7 @@ Tell us about your game!
 ### Play
 > Please go easy on him -_- : https://elvenescape.vercel.app/
 
-#### Game Description
-
-Elven Escape is an adventure game where players embark on a fun journey through a mystical forest seeking escape. As you traverse this dangerous world step by step, you'll encounter ancient shrines offering powerful blessings and cosmetic rewards, face formidable gatekeepers in combat, and navigate deadly traps that test your survival instincts.
-  
+#### How to play
 **Health & Survival**
 - You start with limited health points
 - Taking damage from combat or traps reduces your health
