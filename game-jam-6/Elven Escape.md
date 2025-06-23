@@ -34,7 +34,7 @@ Elven Escape is an adventure game where players embark on a fun journey through 
 - Being "greed marked" indicates excessive risk-taking
 - The game punishes players who become too reckless
 
-####How to Play 
+**How to Play**
 1. **Initialize**: Connect your wallet and initialize your player character
 2. **Spawn**: Enter the game world at the starting position
 3. **Begin Walking**: Start taking steps forward into the unknown
