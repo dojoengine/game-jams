@@ -10,7 +10,7 @@
 
 ### GitHub
 
-> https://github.com/mgrunwaldt/overgoal-game-repo
+> [https://github.com/mgrunwaldt/overgoal-game-repo](https://github.com/mgrunwaldt/overgoal_game_repo)
 
 ### Play
 
@@ -30,15 +30,13 @@
 
 > (inside client/) npm run dev:https
 
-> Open the HTTPS URL shown in the console on your mobile browser.
-
-> Game is mobile-first; desktop works but layout isn’t polished yet.
-
-> Heads-up: Right now match logic runs client-side. A backend service for authoritative simulation and state proofs is in progress.
+Open the HTTPS URL shown in the console on your mobile browser.
+Game is mobile-first; desktop works but layout isn’t polished yet.
+ Heads-up: Right now match logic runs client-side. A backend service for authoritative simulation and state proofs is in progress.
 
 ### Twitter
 
-> @berto_bau · @ger_gahn · @matigru93
+@berto_bau · @ger_gahn · @matigru93
 
 ### Team Members
 
