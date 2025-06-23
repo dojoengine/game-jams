@@ -1,40 +1,53 @@
-# Game Jam Submission Template
-
-Thanks for taking the time to Submit your project for the Game Jam!
-
-To submit your project:
-- Copy / Paste this template into a file with your project names as the file name, using `kebab-case`.
-- Replace the placeholder content below with your projects info.
-    - Keep the section title and description (included in the `>` block) contained on the next line, only replace the placeholder content below the description.
-    - Provide properly formatted urls for github and other references.
-    - The possible tracks are: [`Full Game`, `Game Mod`]. Ensure your track matches one of these exactly.
-- Remove this overview section
-- Create a pull request to the `dojoengine/game-jams` repo with your submission
-
----
-
-# Project Name
+# Overgoal: More Than a Match
 
 ### Submission Track
-> Indicate which track your project is submitting to.
-Enter your track here!
+
+> Full Game
 
 ### Project Summary
-> Give a short summary of your game project.
-Tell us about your game!
+
+> Overgoal drops you into the boots—and life—of a rising football legend. Matches play out in snappy, arcade-style sequences, while off-field choices (endorsements, nightlife, training) reshape your stats and storyline. Every decision is stored on-chain, so your player’s history is provably yours and can carry into future titles in the Over universe. ⚽️📈
 
 ### GitHub
-> Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
-Enter your GitHub here!
+
+> https://github.com/mgrunwaldt/overgoal-game-repo
 
 ### Play
-> Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
-Enter your play instructions here!
+
+> Local test-run
+
+> sozo build
+
+> katana --config katana.toml
+
+> sozo migrate
+
+> torii --world "<world-address>"
+
+> (inside contracts/) ./scripts/seed_teams.sh
+
+> (inside contracts/) ./scripts/seed_non_match_events.sh
+
+> (inside client/) npm run dev:https
+
+> Open the HTTPS URL shown in the console on your mobile browser.
+
+> Game is mobile-first; desktop works but layout isn’t polished yet.
+
+> Heads-up: Right now match logic runs client-side. A backend service for authoritative simulation and state proofs is in progress.
 
 ### Twitter
-> Provide the projects twitter handle. Please share your submission on socials too for more exposure!
-Enter your twitter handle here!
 
-### Team members
-> Provide a list of your team members.
-Provide names, githubs, discords, or twitters of each team member!
+> @berto_bau · @ger_gahn · @matigru93
+
+### Team Members
+
+> Bautista Berto
+
+> Ger Gahn
+
+> Matías Grunwaldt
+
+### Next Steps
+
+> Complete Match Logic.
