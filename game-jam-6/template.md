@@ -1,40 +1,20 @@
 # Game Jam Submission Template
 
-Thanks for taking the time to Submit your project for the Game Jam!
-
-To submit your project:
-- Copy / Paste this template into a file with your project names as the file name, using `kebab-case`.
-- Replace the placeholder content below with your projects info.
-    - Keep the section title and description (included in the `>` block) contained on the next line, only replace the placeholder content below the description.
-    - Provide properly formatted urls for github and other references.
-    - The possible tracks are: [`Full Game`, `Game Mod`]. Ensure your track matches one of these exactly.
-- Remove this overview section
-- Create a pull request to the `dojoengine/game-jams` repo with your submission
-
----
-
-# Project Name
+# BlockRooms
 
 ### Submission Track
-> Indicate which track your project is submitting to.
-Enter your track here!
+> `Full Game`
 
 ### Project Summary
-> Give a short summary of your game project.
-Tell us about your game!
+> Blockroooma is a first person backrooms inspired 3d shooter game that brings the spookiness of the void onchain! While others got it easy, you are trapped by some mysterious folks who tie you down on to  a wall and left to feed you to those lost sulds. Fight against randomly spawning entities and decide which one of them is even real? Survive to try even more harder levels to escape the infinite enclosures.
 
 ### GitHub
-> Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
-Enter your GitHub here!
+> https://github.com/suhas-sensei/BlockroomsLive
 
 ### Play
-> Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
-Enter your play instructions here!
-
-### Twitter
-> Provide the projects twitter handle. Please share your submission on socials too for more exposure!
-Enter your twitter handle here!
+> Use mouse to move and left button to shoot, remember not your nose!
+> working on the live link to bring the fun onchain!
 
 ### Team members
-> Provide a list of your team members.
-Provide names, githubs, discords, or twitters of each team member!
+> @bruhhgnik - https://github.com/bruhhgnik
+@suhas-sensei - https://github.com/bruhhgnik/suhas-sensei
