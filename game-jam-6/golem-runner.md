@@ -29,6 +29,8 @@ The game is running live on sepolia: https://golemrunner.live/
 
 Enter into the link, connect your controller and start playing.
 
+[Demo video](https://youtube.com/shorts/QJrE3gRWE0c)
+
 ### Twitter
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
 https://x.com/devJimenezz22
