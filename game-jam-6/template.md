@@ -30,6 +30,10 @@
 
 > (inside client/) npm run dev:https
 
+### IMPORTANT
+
+Go to [https://localhost:3002/login](https://localhost:3002/login) to start the game
+
 Open the HTTPS URL shown in the console on your mobile browser.
 Game is mobile-first; desktop works but layout isn’t polished yet.
  Heads-up: Right now match logic runs client-side. A backend service for authoritative simulation and state proofs is in progress.
