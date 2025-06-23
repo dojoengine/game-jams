@@ -13,32 +13,32 @@ Tell us about your game!
 ### Play
 > Please go easy on him -_- : https://elvenescape.vercel.app/
 
-## Game Description
+> Game Description
 
 Elven Escape is an adventure game where players embark on a fun journey through a mystical forest seeking escape. As you traverse this dangerous world step by step, you'll encounter ancient shrines offering powerful blessings and cosmetic rewards, face formidable gatekeepers in combat, and navigate deadly traps that test your survival instincts.
  
-## Core Mechanics
+> Core Mechanics
 
-### **Health & Survival**
+> **Health & Survival**
 - You start with limited health points
 - Taking damage from combat or traps reduces your health
 - Death resets your progress but tracks your statistics
  
-### **Movement & Exploration** 
+> **Movement & Exploration** 
 - Move forward one step at a time through the world
 - Each step counts toward your total journey progress
 - Your position determines what you encounter
 - Some locations hide shrines and gatekeepers
  
-### **Ego & Greed**
+> **Ego & Greed**
 - Your ego increases as you kill gatekeepers
 - High ego unlocks new abilities but attracts more danger
 - Being "greed marked" indicates excessive risk-taking
 - The game punishes players who become too reckless
 
-## How to Play
+> How to Play
 
-### **Getting Started**
+> **Getting Started**
 1. **Initialize**: Connect your wallet and initialize your player character
 2. **Spawn**: Enter the game world at the starting position
 3. **Begin Walking**: Start taking steps forward into the unknown
