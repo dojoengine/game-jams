@@ -2,14 +2,17 @@
 
 ### Submission Track
 > Indicate which track your project is submitting to.
+
 Full Game
 
 ### Project Summary
 > Give a short summary of your game project.
+
 "Echoes of the Void" is a minimalist, puzzle-platformer where players navigate pitch-black, procedurally generated chambers using only sound. Each move and action—whether stepping, or emitting a revealing sound pulse is a provable on-chain transaction on Starknet, powered by Dojo. The map is hidden by default. Players reveal their surroundings by sending out pulses that momentarily illuminate the grid, uncovering walls, paths, and the elusive exit. Every chamber is uniquely generated from an on-chain seed, ensuring fairness and replayability. Progression, movement, and map discovery are all validated and stored on-chain, while the client handles real-time rendering and input for a responsive, immersive experience. "Echoes of the Void" explores the potential of on-chain gameplay, blending cryptographic transparency with atmospheric, strategic puzzle-solving.
 
 ### GitHub
 > Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
+
 https://github.com/bitfalt/echoes-of-the-void/tree/main
 
 ### Play
@@ -50,11 +53,13 @@ Now run `npm run dev:https` and you should be ready to go!
 
 ### Twitter
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
+
 @bitfalt
 @3rickDev
 
 ### Team members
 > Provide a list of your team members.
+
 Daniel Garbanzo:
 - GitHub: https://github.com/bitfalt
 - Discord: @bitfalt
