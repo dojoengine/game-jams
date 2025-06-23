@@ -28,7 +28,7 @@ Enter your twitter handle here!
 > Provide a list of your team members.
 
 - **Habib Yusuf**
-  - Discord: manlikehb
+  - Discord: @manlikehb
   - Telegram: @manlike_HB
   - [GitHub](https://github.com/manlikeHB)
   - Role: Smart contract development
@@ -37,4 +37,10 @@ Enter your twitter handle here!
   - Discord: 
   - Telegram: @Eccentrique
   - [GitHub](https://github.com/PeterOche)
+  - Role: Frontend development
+
+- **Asher**
+  - Discord: @the_force50
+  - Telegram: @No_body_q
+  - [GitHub](https://github.com/No-bodyq)
   - Role: Frontend development
