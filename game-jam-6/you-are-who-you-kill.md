@@ -16,7 +16,7 @@ Long-term vision includes PvP, modular NFT body parts, and cross-game interopera
 ### GitHub
 > Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.  
 
-https://github.com/yourname/you-are-who-you-kill
+https://github.com/last-dot/you-are-who-you-kill
 
 Regitred my github **account** on OnlyDust, didn't find the possibility to register repo.
 
