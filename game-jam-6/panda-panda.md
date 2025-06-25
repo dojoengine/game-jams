@@ -22,6 +22,12 @@ Provide instructions on how to play your game. It could be a URL, a README, or a
 
 *Desktop only – use a modern browser like Chrome or Firefox.*
 
+**It is deployed on Slot**
+* Katana: https://api.cartridge.gg/x/panda-panda/katana 
+* Torii:  https://api.cartridge.gg/x/panda-panda/torii
+
+## 🚀🚀🚀 Tap a tile, send a transaction 🚀🚀🚀
+
 **Instructions:** Click tiles to move them to your holding area. Match 3 identical tiles to clear them. You can only hold up to 7 tiles at a time. Plan your moves wisely!
 
 ### Team members
