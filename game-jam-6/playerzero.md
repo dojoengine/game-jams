@@ -12,6 +12,10 @@
 ### Play
 > The instruction to play -> https://github.com/0xmukeshr/Player_zero/blob/main/README.md
 
+Live deployment [here](https://player-zero-final-1pot.vercel.app/ ).
+
+See a demo video [here](https://drive.google.com/drive/folders/1TxY2aQ_gUX_UlUSMXX4VlVWArW_8efsW?usp=drive_link).
+
 ### Twitter
 > @ProbablyMukesh
 
