@@ -23,7 +23,7 @@ If you have any questions or need support, head over to the **#game-jam** channe
 Then head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4) and start recruiting.
 The Dojo team will do our best to help match you with great people.
 
-If you're looking for game ideas, Dojo maintains a [**spreadsheet of interesting game concepts**](https://docs.google.com/spreadsheets/d/1dMq7T-29HsmEIPphJ57OQW8yXOLRslJQmhkvw6eAaqE).
+If you're looking for game ideas, Dojo maintains a [**spreadsheet of interesting game concepts**](https://docs.google.com/spreadsheets/d/16onyBjTdgYFO1W7bGfSXldpdjLvv9SPk5p3k88eJWBs).
 Feel free to grab an idea off the list!
 
 ## Tutorials
