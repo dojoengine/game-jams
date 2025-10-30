@@ -55,8 +55,10 @@ As always, if you have any questions or need any support, head over to the **#ga
 
 ## Submitting
 
-Coding begins Friday, October 31 at 00:00 **UTC**, and submissions are due on Sunday, November 2 at 23:59 **PST**.
-We end at midnight PST so that our west-coast friends won't miss any of the fun.
+Coding begins Friday, October 31 at 00:00 **AOE**, and submissions are due on Sunday, November 2 at 23:59 **AOE**.
+We use **AOE** (anywhere on earth) to make it easy to participate from anywhere on the planet.
+
+> If you submit late, we will ignore any commits made after the deadline.
 
 Submit your project before the deadline to qualify for the prizes:
 
