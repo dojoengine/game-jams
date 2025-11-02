@@ -24,8 +24,9 @@
 
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
 > Enter your twitter handle here!
+> [@zarah_0x](https://x.com/zarah_0x)
 
 ### Team members
 
 > Provide a list of your team members.
-> @zarah_0x
+> [@zarah_0x](https://x.com/zarah_0x)
