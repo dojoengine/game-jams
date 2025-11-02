@@ -21,7 +21,7 @@
 
 > [How to play](https://github.com/zarah-s/stark-city/blob/main/README.md)
 
-> [Play](starkcity.vercel.app)
+> [Play](https://starkcity.vercel.app)
 
 ### Twitter
 
