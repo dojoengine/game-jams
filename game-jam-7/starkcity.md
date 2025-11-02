@@ -13,20 +13,25 @@
 ### GitHub
 
 > Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
-> [Prpject Github](https://github.com/zarah-s/stark-city)
+> [Project Github](https://github.com/zarah-s/stark-city)
 
 ### Play
 
 > Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
+
 > [How to play](https://github.com/zarah-s/stark-city/blob/main/README.md)
+
+> [Play](starkcity.vercel.app)
 
 ### Twitter
 
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
 > Enter your twitter handle here!
+
 > [@zarah_0x](https://x.com/zarah_0x)
 
 ### Team members
 
 > Provide a list of your team members.
+
 > [@zarah_0x](https://x.com/zarah_0x)
