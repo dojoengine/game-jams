@@ -39,23 +39,28 @@
 * `fn mint(ref self: TState, recipient: ContractAddress) -> u128;`
 Mints a new game, with empty scores, to the player (recipient). Generates the game `seed`.
 
-`fn start_game(self: @TState, game_id: u128) -> GameState;`
+* `fn start_game(self: @TState, game_id: u128) -> GameState;`
 Returns the inital state of a game to be played in the client.
 
-`fn move(self: @TState, game_state: GameState, direction: Direction) -> GameState;`
+* `fn move(self: @TState, game_state: GameState, direction: Direction) -> GameState;`
 Sends a move to be processed, with the current `game_state` and a `direction` to move. Returns the new `game_state`, with a recycled seed. We keep calling this method until there are no more moves allowed (the grid is full).
 
-`fn submit_game(ref self: TState, game_id: u128, moves: Array<Direction>) -> GameState;`
+* `fn submit_game(ref self: TState, game_id: u128, moves: Array<Direction>) -> GameState;`
 When the game is over, we sugmit all the moves to be re-played and results stored. I have no idea how many moves the contract os capable of processing. At least 50 moves was tested with success.
 
-`fn get_game_info(self: @TState, game_id: u128) -> GameInfo;`
+* `fn get_game_info(self: @TState, game_id: u128) -> GameInfo;`
 Returns the current data of a game, including the top score and score holder. This enables playing without an indexer.
 
+#### Resources used
 
-### GitHub
-Repository: [https://github.com/rsodre/feral-forge](https://github.com/rsodre/feral-forge)
+* [Dojo](https://book.dojoengine.org/) : Fully on-chain ECS game engine on Starknet
+* [Dojo Starter](https://github.com/dojoengine/dojo-starter) : Initial template with `sozo init`
+* [Loot Survivor](https://lootsurvivor.io) | [Savage Summit](https://github.com/Provable-Games/summit) : Beasts, lore, inspiration, gratitude
+* [1337skulls](https://1337skulls.xyz/) : Original Beasts art
+* [Pistols at Dawn](https://github.com/rsodre/feral-forge) : Dojo project template, rng, hash traits, migration scripts, js utils
+* [Astraea](https://github.com/rsodre/ASTRAEA) : Client template
+* [GPT](https://chatgpt.com/) : Background art, ideation
 
-> configured with [OnlyDust](https://app.onlydust.com) for awards distribution.
 
 ### Play
 
@@ -65,6 +70,12 @@ Repository: [https://github.com/rsodre/feral-forge](https://github.com/rsodre/fe
 * Select an existing game to beat it's top score and claim ownership
 * Or create a new game
 * Gameplay is straight-forwatd 2048 style, as explained above.
+
+
+### GitHub
+Repository: [https://github.com/rsodre/feral-forge](https://github.com/rsodre/feral-forge)
+
+> configured with [OnlyDust](https://app.onlydust.com) for awards distribution.
 
 
 ### Twitter
