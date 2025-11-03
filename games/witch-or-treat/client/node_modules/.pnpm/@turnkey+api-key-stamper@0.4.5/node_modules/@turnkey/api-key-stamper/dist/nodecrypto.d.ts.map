@@ -1,0 +1,1 @@
+{"version":3,"file":"nodecrypto.d.ts","sourceRoot":"","sources":["../src/nodecrypto.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,cAAc,UAAiB;IAC1C,OAAO,EAAE,MAAM,CAAC;IAChB,SAAS,EAAE,MAAM,CAAC;IAClB,UAAU,EAAE,MAAM,CAAC;CACpB,KAAG,QAAQ,MAAM,CAkBjB,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"base64url.d.ts","sourceRoot":"","sources":["../../src/webauthn-json/base64url.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,eAAe,GAAG,MAAM,CAAC;AAErC,wBAAgB,iBAAiB,CAC/B,eAAe,EAAE,eAAe,GAC/B,WAAW,CAgBb;AAED,wBAAgB,iBAAiB,CAAC,MAAM,EAAE,WAAW,GAAG,eAAe,CAkBtE"}

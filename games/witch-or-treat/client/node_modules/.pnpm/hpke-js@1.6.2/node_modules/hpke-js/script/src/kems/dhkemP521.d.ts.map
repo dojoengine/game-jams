@@ -1,0 +1,1 @@
+{"version":3,"file":"dhkemP521.d.ts","sourceRoot":"","sources":["../../../src/src/kems/dhkemP521.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAM,KAAK,EAAE,MAAM,cAAc,CAAC;AAIhD,qBAAa,mBAAoB,SAAQ,KAAK;IACnC,EAAE,EAAE,KAAK,CAA6B;IACtC,UAAU,EAAE,MAAM,CAAM;IACxB,OAAO,EAAE,MAAM,CAAO;IACtB,aAAa,EAAE,MAAM,CAAO;IAC5B,cAAc,EAAE,MAAM,CAAM;;CAOtC"}

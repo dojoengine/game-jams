@@ -1,0 +1,1 @@
+{"version":3,"file":"api.js","sources":["../../src/webauthn-json/api.ts"],"sourcesContent":[null],"names":["convert","bufferToBase64url","publicKeyCredentialWithAssertion"],"mappings":";;;;;;AA8CM,SAAU,iBAAiB,CAC/B,UAA+B,EAAA;IAE/B,OAAOA,eAAO,CACZC,2BAAiB,EACjBC,uCAAgC,EAChC,UAAU,CACX,CAAC;AACJ;;;;"}

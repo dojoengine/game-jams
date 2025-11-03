@@ -1,0 +1,4 @@
+export declare const SIGNATURE_SCHEME_TK_API_SECP256K1_EIP191 = "SIGNATURE_SCHEME_TK_API_SECP256K1_EIP191";
+export declare const SIGNATURE_SCHEME_TK_API_ED25519 = "SIGNATURE_SCHEME_TK_API_ED25519";
+export declare const STAMP_HEADER_NAME = "X-Stamp";
+//# sourceMappingURL=constants.d.ts.map

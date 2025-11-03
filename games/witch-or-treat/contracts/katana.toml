@@ -1,0 +1,9 @@
+[dev]
+dev = true
+
+[server]
+http_cors_origins = "*"
+
+[cartridge]
+controllers = true
+paymaster = true

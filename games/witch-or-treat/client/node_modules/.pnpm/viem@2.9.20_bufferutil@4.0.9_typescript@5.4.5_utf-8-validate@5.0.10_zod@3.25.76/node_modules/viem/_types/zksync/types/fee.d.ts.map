@@ -1,0 +1,1 @@
+{"version":3,"file":"fee.d.ts","sourceRoot":"","sources":["../../../zksync/types/fee.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,eAAe,CAAC,SAAS,GAAG,MAAM,IAAI;IAChD,QAAQ,EAAE,SAAS,CAAA;IACnB,YAAY,EAAE,SAAS,CAAA;IACvB,oBAAoB,EAAE,SAAS,CAAA;CAChC,CAAA"}
