@@ -13,8 +13,7 @@ Planned next: bigger maps, co-op, and (actually working) leaderboard.
 https://github.com/KaranSinghBisht/ghostgrid
 
 ### Play
-[https://ghostgrid.vercel.app/
-](https://ghostgrid-qsqs2p623-karan-singh-bishts-projects-3b89b238.vercel.app/play)
+[Link to the game](https://ghostgrid-qsqs2p623-karan-singh-bishts-projects-3b89b238.vercel.app/play)
 
 [Watch the Explainer Video!
 ](https://www.youtube.com/watch?v=dEG7h394k8Q)
