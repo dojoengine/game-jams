@@ -69,7 +69,3 @@ https://www.youtube.com/watch?v=bSJI_kUsw-s
 - **Double Damage**: Amplify your next attack
 - **Resurrection**: Cheat death once per match
 - **Aura**: Continuous magical effects that persist between turns
-
-## License
-
-MIT License
