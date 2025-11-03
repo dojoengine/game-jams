@@ -26,24 +26,16 @@ https://github.com/truthixify/mastermind-dojo
 
 **Setup Instructions:**
 
-1. **Prerequisites:** Node.js >= 20, Python 3.10
+1. **Prerequisites:** Node.js >= 20
 2. **Install dependencies:**
    ```bash
-   make install-bun
-   make install-noir
-   make install-barretenberg
-   make install-starknet
-   make install-devnet
-   make install-garaga
+   cd packages/app
+   yarn install
    ```
-3. **Build and deploy:**
+3. **Build and run dApp:**
    ```bash
-   make build-circuit
-   make gen-vk
-   make gen-verifier
-   yarn chain  # Start local devnet
-   yarn deploy # Deploy contracts
-   yarn start  # Start UI
+   cd packages/app
+   yarn dev
    ```
 
 **How to Play:**
