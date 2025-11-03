@@ -21,6 +21,10 @@ The game is all about being fast, and using cartridge's embedded wallet was a no
 ### Play
 > http://bobasoda1.vercel.app/
 
+demo video :
+
+https://drive.google.com/file/d/1_n8KjNv3Qrq5KwecZjlbzsn5d7mL5LSk/view?usp=sharing
+
 Faucet some testnet tokens to be able to participate in the pool! or ask some from me! @soosy-baka on discord.
 
 ### Twitter
