@@ -1,0 +1,77 @@
+# Memorabilia
+
+### Submission Track
+Full Game
+
+### Project Summary
+A fully on-chain memory card matching game built on Starknet using the Dojo framework, integrated with Telegram Mini Apps for seamless user experience through Account Abstraction. The game features a custom Dojo Telegram SDK that enables gasless transactions and real-time game state updates.
+
+### GitHub
+[Memorabilia Repository](https://github.com/Talent-Index/memorabilia)
+
+### Play
+1. Install dependencies:
+```bash
+# Install frontend dependencies
+cd frontend
+npm install
+# Install SDK dependencies
+cd ../dojo-telegram-sdk
+npm install
+Start the game:
+
+Bash
+
+# Run in demo mode (no contracts required)
+./scripts/run_local_demo.sh --demo
+For full blockchain mode, see DEPLOYMENT_GUIDE.md for contract deployment steps.
+
+Twitter
+Provide the projects twitter handle. Please share your submission on socials too for more exposure!
+
+Project: @memorabiliadojo
+
+Team members
+Provide a list of your team members.
+
+Ahmed @ahmedabdikadir914 - ahmedabdikadir914@gmail.com
+
+Leonard @tweenhaven35 - tweenhaven35@gmail.com
+
+Daniel @mwihoti - DanielMwihoti@gmail.com
+
+Kelly @gakikelly - gakikelly403@gmail.com
+
+Peter Maina @mainapeter - mainapeterkanyuki@gmail.com
+
+Rosemary @rozypopyl - Rozypopyl6@gmail.com
+
+Key Features
+Memory card matching game with multiple difficulty levels
+
+Real-time game state updates via Torii indexer
+
+Gasless transactions using Account Abstraction
+
+Telegram Mini App integration
+
+Custom Dojo Telegram SDK for easy integration
+
+On-chain leaderboard and achievements
+
+Technical Stack
+Smart Contracts: Cairo (Dojo framework)
+
+Frontend: React + Vite + Tailwind
+
+Blockchain: Starknet (Katana for local development)
+
+Integration: Telegram Mini Apps API
+
+SDK: Custom Dojo Telegram SDK
+
+Indexing: Torii for real-time updates
+
+Greeting System: Proof-of-concept for gasless interactions
+
+
