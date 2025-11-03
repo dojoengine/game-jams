@@ -12,7 +12,7 @@ https://github.com/nlyrthiia/duels-x
 
 ### Play
 
-https://duels-x-client-git-main-nlyrthiias-projects.vercel.app/
+https://duels-x-client.vercel.app/
 
 ### Video
 
