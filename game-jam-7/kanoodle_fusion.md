@@ -11,6 +11,9 @@ https://github.com/dpinones/kanoodle-fusion
 ### Play
 https://kanoodle-fusion.vercel.app/
 
+### Video
+https://www.youtube.com/watch?v=eW0aSUBjs6c
+
 ### Team Members
 - Damian Piñones - [@dpinoness](https://x.com/dpinoness)
 - Ivan Piñones - [@pilito_06](https://x.com/pilito_06)
