@@ -1,1 +1,0 @@
-export { authDate, chat, chatInstance, chatType, canSendAfter, canSendAfterDate, hash, queryId, raw, restore, receiver, state, startParam, user, } from './init-data.js';

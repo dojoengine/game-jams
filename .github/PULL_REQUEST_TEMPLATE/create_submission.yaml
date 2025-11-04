@@ -1,8 +1,0 @@
-name: Project Submission
-description: Submit your project for the Game Jam
-title: "[Project Submission]: Your Team Name"
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to Submit your project for the Game Jam!
