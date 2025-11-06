@@ -17,7 +17,7 @@ Chance-Master is classic chess with a twist of chance: before each move you roll
 > https://github.com/armaanansari121/Chance-Master
 
 ### Youtube Demo Link
-> https://youtu.be/riC3G5mFHcI
+> https://youtu.be/li_P68mlM-Y
 
 ### Play
 > Clone the repo https://github.com/armaanansari121/Chance-Master
