@@ -23,7 +23,7 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           allowed_tools: "Bash,Read,Grep,Glob,WebFetch"
-          prompt: |
+          direct_prompt: |
             You are screening a Dojo Game Jam submission PR for validity.
 
             ## Your Task
