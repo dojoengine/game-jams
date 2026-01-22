@@ -1,0 +1,98 @@
+name: Submission Screening
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'game-jam-*/*.md'
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Screen submission
+        uses: anthropics/claude-code-action@beta
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          allowed_tools: "Bash,Read,Grep,Glob,WebFetch"
+          prompt: |
+            You are screening a Dojo Game Jam submission PR for validity.
+
+            ## Your Task
+
+            1. **Find the submission file** in this PR (look in game-jam-*/*.md for new/modified files)
+            2. **Extract the GitHub repository URL** from the submission
+            3. **Parse jam dates** from README.md (look for "Coding begins... submissions are due" line)
+            4. **Clone and analyze the submitted repository:**
+               - Calculate % of commits during jam window
+               - Calculate % of lines changed during jam window
+               - Check for Dojo contracts (Cairo files with #[dojo::model], #[dojo::contract], #[dojo::event])
+               - Check for Dojo SDK usage in frontend (@dojoengine/* imports in JS/TS files)
+               - CRITICAL: Verify frontend actually USES the SDK (look for hook calls, not just imports)
+            5. **Post a PR comment** with your findings using gh cli
+
+            ## Screening Criteria
+
+            **Timeline (flag if violated):**
+            - At least 80% of commits should occur during jam window
+            - At least 80% of code changes should occur during jam window
+            - Repository created months before jam (3+) is suspicious
+
+            **Dojo Usage (flag if violated):**
+            - Must have Dojo contracts in Cairo files
+            - Frontend must import AND use Dojo SDK
+            - Having contracts but not using them in frontend = FAIL
+
+            ## Comment Format
+
+            Use this exact format for the PR comment (use gh pr comment):
+
+            ```
+            <!-- submission-screening-bot -->
+            ## 🤖 Automated Submission Screening
+
+            > [🚨 **FLAGGED FOR MANUAL REVIEW** 🚨 OR ✅ **Preliminary Check Passed**]
+
+            ### Summary
+            **Project:** [name]
+            **Repository:** [url]
+            **Verdict:** [APPROVED or FLAGGED]
+
+            [Your assessment paragraph]
+
+            ### Timeline Analysis
+            - First commit: [date]
+            - Commits during jam: X of Y (Z%)
+            - Lines changed during jam: Z%
+            [Assessment]
+
+            ### Dojo Usage
+            **Contracts:** [X models, Y systems, Z events]
+            **Frontend SDK:** [Found/Not found, actual usage detected?]
+            [Assessment]
+
+            ---
+            *Automated screening. A maintainer will perform final review.*
+            ```
+
+            ## Guidelines
+
+            - Be pragmatic and inclusive - flag only clear violations
+            - Concentrated commits (all in one day) are NORMAL - developers work locally
+            - Post-deadline commits for polish/deployment are OK
+            - Quality of work is not suspicious
+            - When in doubt, APPROVE
+
+            ## Environment
+
+            - PR number: ${{ github.event.pull_request.number }}
+            - Repository: ${{ github.repository }}
+
+            Now analyze this submission and post your findings as a PR comment.
