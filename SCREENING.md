@@ -248,196 +248,43 @@ Output format in `submissions-reviewed.md`:
 
 ## GitHub Workflow Implementation
 
-Place this in `.github/workflows/submission-prescreen.yml`:
+The automated screening workflow is implemented in `.github/workflows/submission-screen.yml`.
+It uses the `anthropics/claude-code-action` to have Claude directly analyze submissions and post results as PR comments.
 
-```yaml
-name: Submission Pre-Screen
+### Setup Instructions
 
-on:
-  pull_request:
-    types: [opened, edited]
-    paths:
-      - 'game-jam-*/*.md'
+1. **Add the Anthropic API key** to your repository secrets:
+   - Go to Settings → Secrets and variables → Actions
+   - Add a new secret named `ANTHROPIC_API_KEY` with your API key
 
-jobs:
-  extract-and-check:
-    runs-on: ubuntu-latest
-    env:
-      JAM_START: "2025-10-31"  # Update per jam
-      JAM_END: "2025-11-03"    # Update per jam
+2. **Update jam dates** in `README.md`:
+   - Claude parses jam dates from the README
+   - Format: "Coding begins Friday, October 31 at 00:00 **AOE**, and submissions are due on Sunday, November 2 at 23:59 **AOE**"
 
-    steps:
-      - name: Checkout jam repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+3. **Workflow triggers automatically** when:
+   - A PR is opened targeting `game-jam-*/*.md` files
+   - A PR is updated (synchronize event)
+   - A PR is reopened
 
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v40
-        with:
-          files: 'game-jam-*/*.md'
+### What Claude Checks
 
-      - name: Extract repository URLs
-        id: extract-repos
-        run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "Processing $file"
+1. **Timeline Analysis**:
+   - Percentage of commits during jam window (flags if <80%)
+   - Percentage of code changes during jam window (flags if <80%)
+   - Detects if repository was created months before jam
 
-            # Extract GitHub repository URL
-            REPO_URL=$(grep -oP 'https://github\.com/[a-zA-Z0-9_-]+/[a-zA-Z0-9_-]+' "$file" | head -1)
+2. **Dojo Usage Verification**:
+   - Checks for Dojo contracts (Cairo files with `#[dojo::model]`, `#[dojo::contract]`, `#[dojo::event]`)
+   - Checks for Dojo SDK usage in frontend (`@dojoengine/*` packages)
+   - **Critical check**: Verifies frontend actually uses the Dojo SDK (not just imports)
 
-            if [ -z "$REPO_URL" ]; then
-              echo "WARNING: No repository URL found in $file"
-              continue
-            fi
+### PR Comment Format
 
-            echo "Found repository: $REPO_URL"
-            echo "$REPO_URL" >> repos.txt
-          done
-
-          if [ ! -f repos.txt ]; then
-            echo "No repositories to check"
-            exit 0
-          fi
-
-      - name: Check repositories
-        id: check-repos
-        run: |
-          mkdir -p checks
-
-          while IFS= read -r REPO_URL; do
-            echo "==================================="
-            echo "Checking: $REPO_URL"
-            echo "==================================="
-
-            REPO_NAME=$(basename "$REPO_URL")
-            OUTPUT_FILE="checks/${REPO_NAME}.txt"
-
-            # Clone repository
-            if ! git clone --depth=50 "$REPO_URL" "temp_${REPO_NAME}"; then
-              echo "❌ FAILED TO CLONE: $REPO_URL" | tee "$OUTPUT_FILE"
-              continue
-            fi
-
-            cd "temp_${REPO_NAME}"
-
-            {
-              echo "# Pre-Screen Report for $REPO_NAME"
-              echo ""
-              echo "## Repository Information"
-              echo "- URL: $REPO_URL"
-              echo "- First commit: $(git log --reverse --format='%ai - %s' | head -1)"
-              echo "- Latest commit: $(git log --format='%ai - %s' | head -1)"
-              echo "- Total commits: $(git log --oneline | wc -l)"
-              echo ""
-
-              echo "## Jam Window Analysis"
-              JAM_COMMITS=$(git log --since="$JAM_START" --until="$JAM_END" --oneline | wc -l)
-              echo "- Commits during jam ($JAM_START to $JAM_END): $JAM_COMMITS"
-
-              if [ "$JAM_COMMITS" -gt 0 ]; then
-                echo "- ✅ Activity during jam window detected"
-              else
-                echo "- ⚠️  WARNING: No commits found during jam window"
-              fi
-              echo ""
-
-              echo "## Dojo Usage Check"
-
-              # Check for Scarb.toml with Dojo
-              if find . -name "Scarb.toml" -exec grep -l "dojo" {} \; | head -1; then
-                echo "- ✅ Found Scarb.toml with Dojo dependency"
-              else
-                echo "- ⚠️  WARNING: No Scarb.toml with Dojo found"
-              fi
-
-              # Check for Dojo config files
-              DOJO_CONFIGS=$(find . -name "dojo*.toml" | wc -l)
-              echo "- Dojo config files found: $DOJO_CONFIGS"
-
-              # Check for Dojo annotations in Cairo files
-              DOJO_MODELS=$(grep -r "#\[dojo::model\]" --include="*.cairo" 2>/dev/null | wc -l)
-              DOJO_CONTRACTS=$(grep -r "#\[dojo::contract\]" --include="*.cairo" 2>/dev/null | wc -l)
-              DOJO_EVENTS=$(grep -r "#\[dojo::event\]" --include="*.cairo" 2>/dev/null | wc -l)
-
-              echo "- Dojo models found: $DOJO_MODELS"
-              echo "- Dojo contracts found: $DOJO_CONTRACTS"
-              echo "- Dojo events found: $DOJO_EVENTS"
-
-              TOTAL_DOJO=$((DOJO_MODELS + DOJO_CONTRACTS + DOJO_EVENTS))
-              if [ "$TOTAL_DOJO" -gt 0 ]; then
-                echo "- ✅ Dojo game engine usage confirmed"
-              else
-                echo "- ⚠️  WARNING: No Dojo annotations found in Cairo files"
-              fi
-              echo ""
-
-              echo "## Preliminary Assessment"
-              if [ "$JAM_COMMITS" -gt 0 ] && [ "$TOTAL_DOJO" -gt 0 ]; then
-                echo "✅ LIKELY VALID - Manual review recommended"
-              elif [ "$JAM_COMMITS" -eq 0 ]; then
-                echo "⚠️  NEEDS REVIEW - No commits during jam window"
-              elif [ "$TOTAL_DOJO" -eq 0 ]; then
-                echo "⚠️  NEEDS REVIEW - Cannot confirm Dojo usage"
-              else
-                echo "⚠️  NEEDS REVIEW - Manual verification required"
-              fi
-
-            } | tee "$OUTPUT_FILE"
-
-            cd ..
-            rm -rf "temp_${REPO_NAME}"
-
-          done < repos.txt
-
-      - name: Generate comment
-        id: generate-comment
-        run: |
-          COMMENT="## 🤖 Automated Pre-Screen Results\n\n"
-          COMMENT="${COMMENT}This is a preliminary automated check. A human reviewer will perform the final evaluation.\n\n"
-
-          for report in checks/*.txt; do
-            if [ -f "$report" ]; then
-              COMMENT="${COMMENT}---\n\n"
-              COMMENT="${COMMENT}$(cat "$report")\n\n"
-            fi
-          done
-
-          COMMENT="${COMMENT}---\n\n"
-          COMMENT="${COMMENT}**Next Steps**: A maintainer will review these results and provide final approval.\n"
-
-          # Save to file for PR comment
-          echo -e "$COMMENT" > pr_comment.txt
-
-      - name: Comment on PR
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const comment = fs.readFileSync('pr_comment.txt', 'utf8');
-
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment
-            });
-```
-
-## Usage Instructions
-
-1. **Copy this SCREENING.md** to your game jams repository
-2. **Update the GitHub workflow** with specific jam dates
-3. **Run automated pre-screen** on PR submissions
-4. **Use Claude Code for detailed review**:
-   ```bash
-   claude-code "Review game-jam-X submissions using SCREENING.md guidelines"
-   ```
-5. **Generate final report** with approved/review/rejected lists
-6. **Contact submitters** in "needs review" category for clarification
-7. **Publish results** and proceed to judging for approved submissions
+Claude posts a comment with:
+- 🚨 **FLAGGED FOR MANUAL REVIEW** banner if issues found, or ✅ **Preliminary Check Passed**
+- Summary with project name, repository URL, and verdict
+- Timeline analysis with commit/line percentages
+- Dojo usage breakdown (contracts + frontend SDK)
 
 ## Key Takeaway
 
