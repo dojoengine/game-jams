@@ -26,7 +26,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           allowed_tools: "Bash,Read,Grep,Glob,WebFetch"
           mode: agent
-          direct_prompt: |
+          prompt: |
             You are screening a Dojo Game Jam submission PR for validity.
 
             ## Your Task
