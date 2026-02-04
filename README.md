@@ -1,11 +1,10 @@
 # Dojo Game Jams
 
-![Game Jam VII Header](.github/assets/GJVIIHeader.png)
+![Game Jam VIII Header](.github/assets/GJ8Header.png)
 
-​Dojo **Game Jam VII** is here and **starts on 10/31**!
+​Dojo **Game Jam VIII** is here and **starts on 2/27**!
 
-​Join us for a **special spooky edition** of the Dojo Game Jam, celebrating the release of Dojo 1.7.
-Teams will come together for **3 days** to build games on the open-source, provable Dojo Engine, competing for a slice of a **$15,000 prize pool**.
+​Teams will come together for **3 days** to build games on the open-source, provable Dojo Engine, competing for a slice of a **$10,000 prize pool**.
 
 ## Getting Started
 
@@ -55,7 +54,7 @@ As always, if you have any questions or need any support, head over to the **#ga
 
 ## Submitting
 
-Coding begins Friday, October 31 at 00:00 **AOE**, and submissions are due on Sunday, November 2 at 23:59 **AOE**.
+Coding begins Friday, February 27 at 00:00 **AOE**, and submissions are due on Sunday, March 2 at 23:59 **AOE**.
 We use **AOE** (anywhere on earth) to make it easy to participate from anywhere on the planet.
 
 > If you submit late, we will ignore any commits made after the deadline.
@@ -63,7 +62,7 @@ We use **AOE** (anywhere on earth) to make it easy to participate from anywhere 
 Submit your project before the deadline to qualify for the prizes:
 
 -   Copy / Paste the [Game Jam Submission Template](./templates/SUBMISSION_TEMPLATE.md), follow the instructions, and open a Pull Request which contributes the submission to the repository.
--   Create a new file [`game-jam-7` directory](./game-jam-7) using the name of your project in `kebab-case` as the file name.
+-   Create a new file [`game-jam-8` directory](./game-jam-8) using the name of your project in `kebab-case` as the file name.
 
 ## Judging
 
