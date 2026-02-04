@@ -34,6 +34,18 @@ See [here](https://github.com/dojoengine/vibe-sample) for an example game vibe-c
 
 As always, if you have any questions or need any support, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
 
+## Claude Code Skills
+
+If you're using [Claude Code](https://claude.ai/code), you can install skills that provide documentation and best practices for Dojo and Cartridge development:
+
+```bash
+# Dojo skills
+npx skills add dojoengine/book
+
+# Controller skills
+npx skills add cartridge-gg/docs
+```
+
 ## Rules
 
 -   Submissions must be built using the Dojo Engine.
