@@ -9,6 +9,7 @@ on:
 jobs:
   screen:
     runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.title, '[Project Submission]')
     permissions:
       contents: read
       pull-requests: write
