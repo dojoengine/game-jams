@@ -36,15 +36,25 @@ As always, if you have any questions or need any support, head over to the **#ga
 
 ## Claude Code Skills
 
-If you're using [Claude Code](https://claude.ai/code), you can install skills that provide documentation and best practices for Dojo and Cartridge development:
+If you're using [Claude Code](https://claude.ai/code), you can install **skills** that give Claude specialized knowledge about Dojo and Cartridge.
+Skills are like plugins that teach Claude how to work with specific frameworks.
+
+Once installed, you can ask Claude things like:
+- "Create a Dojo model for a player inventory"
+- "Set up a Cartridge Controller connection"
+- "Write tests for my Dojo system"
+
+Install the skills:
 
 ```bash
-# Dojo skills
+# Dojo skills (models, systems, testing, deployment)
 npx skills add dojoengine/book
 
-# Controller skills
+# Cartridge Controller skills
 npx skills add cartridge-gg/docs
 ```
+
+After installing, restart Claude Code to activate the skills.
 
 ## Rules
 
@@ -74,7 +84,29 @@ We use **AOE** (anywhere on earth) to make it easy to participate from anywhere 
 Submit your project before the deadline to qualify for the prizes:
 
 -   Copy / Paste the [Game Jam Submission Template](./templates/SUBMISSION_TEMPLATE.md), follow the instructions, and open a Pull Request which contributes the submission to the repository.
--   Create a new file [`game-jam-8` directory](./game-jam-8) using the name of your project in `kebab-case` as the file name.
+-   Create a new file in the [`game-jam-8` directory](./game-jam-8) using the name of your project in `kebab-case` as the file name.
+-   See [EXAMPLE_SUBMISSION.md](./templates/EXAMPLE_SUBMISSION.md) for what a complete submission looks like.
+
+### Submission Checklist
+
+Before submitting, make sure you have:
+
+- [ ] **Dojo contracts** with models and systems (not just config files)
+- [ ] **Frontend that uses Dojo SDK** (contracts must be integrated, not just present)
+- [ ] **Deployed to Slot / Sepolia**
+- [ ] **Cartridge Controller** for wallet connection
+- [ ] **Play instructions** with live URL, video demo, or setup steps
+
+## What We Check
+
+When you submit a PR, an automated screening process checks your submission.
+Here's what we verify:
+
+1. **Dojo Usage**: Your project must meaningfully use the Dojo engine—Cairo contracts with `#[dojo::model]`, `#[dojo::contract]`, etc., and a frontend that actually integrates with them.
+2. **Timeline**: The bulk of your work should happen during the 72-hour jam window. Post-deadline polish and deployment commits are fine.
+
+Our philosophy is **pragmatic and inclusive**—we default to approving submissions and give benefit of the doubt.
+See [SCREENING.md](./SCREENING.md) for full details.
 
 ## Judging
 

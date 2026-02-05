@@ -1,34 +1,41 @@
 # Game Jam Submission Template
 
-Thanks for taking the time to Submit your project for the Game Jam!
+Thanks for taking the time to submit your project for the Game Jam!
+
+**See [EXAMPLE_SUBMISSION.md](./EXAMPLE_SUBMISSION.md) for a complete example.**
 
 To submit your project:
-- Copy / Paste this template into a file with your project names as the file name, using `kebab-case`.
-- Replace the placeholder content below with your projects info.
-    - Keep the section title and description (included in the `>` block) contained on the next line, only replace the placeholder content below the description.
-    - Provide properly formatted urls for github and other references.
-    - The possible tracks are: [`Full Game`, `Game Mod`]. Ensure your track matches one of these exactly.
-- Remove this overview section
-- Create a pull request to the `dojoengine/game-jams` repo with your submission
+- Copy / Paste this template into a file with your project name as the file name, using `kebab-case`.
+- Replace the placeholder content below with your project's info.
+    - Keep the section titles, only replace the placeholder content.
+    - Provide properly formatted URLs for GitHub and other references.
+- Remove this overview section.
+- Create a pull request to the `dojoengine/game-jams` repo with your submission.
 
 ---
 
 # Project Name
-
-### Submission Track
-> Indicate which track your project is submitting to.
-Enter your track here!
 
 ### Project Summary
 > Give a short summary of your game project.
 Tell us about your game!
 
 ### GitHub
-> Provide the GitHub where your project is hosted. Please ensure your github repo is registered with [OnlyDust](https://app.onlydust.com/p/create) to receive awards.
+> Provide the GitHub URL where your project is hosted.
 Enter your GitHub here!
 
 ### Play
-> Provide instructions on how to play your game. It could be a URL, a README, or a link to a binary to install.
+> Provide instructions on how to play your game. Include at least one of the following:
+> - **Live URL** (preferred): Link to deployed game (e.g., Vercel, Netlify)
+> - **Video demo**: Link to a gameplay video
+> - **Local setup**: Brief instructions to run locally
+>
+> Example format:
+> ```
+> **Live:** https://my-game.vercel.app
+> **How to play:** Connect wallet, click New Game, drag pieces to score points.
+> ```
+
 Enter your play instructions here!
 
 ### Twitter
