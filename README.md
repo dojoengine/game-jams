@@ -102,10 +102,11 @@ Before submitting, make sure you have:
 When you submit a PR, an automated screening process checks your submission.
 Here's what we verify:
 
-1. **Dojo Usage**: Your project must meaningfully use the Dojo engine—Cairo contracts with `#[dojo::model]`, `#[dojo::contract]`, etc., and a frontend that actually integrates with them.
+1. **Dojo Usage**: Your project must meaningfully use the Dojo engine — Cairo contracts with `#[dojo::model]`, `#[dojo::contract]`, etc., and a frontend that actually integrates with them.
 2. **Timeline**: The bulk of your work should happen during the 72-hour jam window. Post-deadline polish and deployment commits are fine.
+3. **Classification**: Submissions are automatically classified as **Whole Game** (90%+ of the repo was built during the jam) or **Feature** (new features added to an existing game). Feature submissions are evaluated on their jam-window work, not the full repo history.
 
-Our philosophy is **pragmatic and inclusive**—we default to approving submissions and give benefit of the doubt.
+Our philosophy is **pragmatic and inclusive** — we default to approving submissions and give benefit of the doubt.
 See [SCREENING.md](./SCREENING.md) for full details.
 
 ## Judging
