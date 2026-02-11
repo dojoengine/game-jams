@@ -23,13 +23,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: background
+    id: team-members
     attributes:
-      label: Background
-      description: Tell us a bit about yourself.
-      placeholder: Share your story!
-    validations:
-      required: true
+      label: Team Members
+      description: List your current team members (Discord handles or GitHub usernames).
+      placeholder: "@alice, @bob"
   - type: textarea
     id: looking-for-members
     attributes:
