@@ -18,8 +18,7 @@ Dojo also maintains a [**spreadsheet of interesting game concepts**](https://doc
 ## Resources
 
 - [**Dojo Book**](https://book.dojoengine.org/) — start here if you're new to Dojo development.
-- [**Sensei MCP Server**](https://github.com/dojoengine/sensei-mcp/blob/main/README.md) — AI-assisted Dojo development. See a [sample vibe-coded game](https://github.com/dojoengine/vibe-sample).
-- **Claude Code Skills** — if you use [Claude Code](https://claude.ai/code), install Dojo and Cartridge skills:
+- **Agent Skills** — if you code with agents, install Dojo and Cartridge skills:
   ```bash
   npx skills add dojoengine/book
   npx skills add cartridge-gg/docs
@@ -27,7 +26,7 @@ Dojo also maintains a [**spreadsheet of interesting game concepts**](https://doc
 
 ## Rules
 
-- Built with the [Dojo Engine](https://dojoengine.org/), deployed to Slot / Sepolia, using the [Cartridge Controller](https://docs.cartridge.gg/controller/getting-started).
+- Built with the [Dojo Engine](https://dojoengine.org/), deployed to Slot / Sepolia, using the [Cartridge Controller](https://docs.cartridge.gg/controller).
 - Built during the 72-hour jam window. New features for existing games are allowed but must be clearly scoped.
 - All external sources must be cited (worlds, code, libraries, assets).
 - 5 contributors max per team.
@@ -38,13 +37,10 @@ Dojo also maintains a [**spreadsheet of interesting game concepts**](https://doc
 Coding begins **Friday, March 6 at 00:00 AOE** and submissions are due **Sunday, March 8 at 23:59 AOE**.
 ([AOE](https://en.wikipedia.org/wiki/Anywhere_on_Earth) = anywhere on earth, so everyone can participate.)
 
-> Commits made after the deadline will be ignored.
-
 To submit, open a Pull Request adding a file to the [`game-jam-8` directory](./game-jam-8):
 
-1. Copy the [Submission Template](./templates/SUBMISSION_TEMPLATE.md) and fill it out.
+1. Copy the [Submission Template](./templates/SUBMISSION_TEMPLATE.md) and fill it out ([see example]((./templates/EXAMPLE_SUBMISSION.md)))
 2. Name the file after your project in `kebab-case`.
-3. See [EXAMPLE_SUBMISSION.md](./templates/EXAMPLE_SUBMISSION.md) for reference.
 
 Your submission must include Dojo contracts (models + systems), a frontend using the Dojo SDK, Cartridge Controller integration, deployment to Slot/Sepolia, and play instructions.
 See [SCREENING.md](./SCREENING.md) for details on the automated screening process.
@@ -57,3 +53,6 @@ Judging takes place the week after the jam and is based on:
 2. Originality of concept and mechanics.
 3. Visual and game design.
 4. Fun!
+
+All Dojo Sensei can participate in judging.
+To become a Sensei, contribute to the Dojo community through the [Dojo Discord](https://discord.gg/tHezCAA4).
