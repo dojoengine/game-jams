@@ -1,0 +1,55 @@
+name: Enrich Submissions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'game-jam-*/*.md'
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Find new/modified submissions
+        id: changed
+        run: |
+          files=$(git diff --name-only HEAD~1 HEAD -- 'game-jam-*/*.md' | grep -v README.md || true)
+          if [ -z "$files" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "files<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$files" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch enrichment instructions
+        if: steps.changed.outputs.skip != 'true'
+        run: curl -sL https://raw.githubusercontent.com/dojoengine/daimyo/main/ENRICHMENT.md > ENRICHMENT.md
+
+      - name: Enrich submissions
+        if: steps.changed.outputs.skip != 'true'
+        uses: anthropics/claude-code-action@beta
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          allowed_tools: "Bash,Read,Write,Grep,Glob,WebFetch"
+          direct_prompt: |
+            You are enriching Dojo Game Jam submissions for the judging system.
+
+            Read ENRICHMENT.md (in the current directory) for the full enrichment process and follow it step by step.
+
+            The following files were just merged and need enrichment:
+            ${{ steps.changed.outputs.files }}
+
+            Skip any files that already have YAML frontmatter (they've already been enriched).
+
+            After enriching each file, commit and push the changes.
