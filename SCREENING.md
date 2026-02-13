@@ -41,6 +41,19 @@ The project must meaningfully use the Dojo engine.
 - Uses a different "Dojo" framework (e.g. the legacy Dojo Toolkit JS library)
 - Only config files, no actual implementation
 
+#### Cartridge Controller
+
+The project must use [Cartridge Controller](https://docs.cartridge.gg/controller/overview) for player authentication and wallet management.
+
+**Pass:**
+- Frontend imports and uses `@cartridge/connector` or `@cartridge/controller`
+- Controller configuration visible (e.g. session key policies, theme customization, paymaster setup)
+- Game uses Controller for player onboarding (passkeys, social login, etc.)
+
+**Fail:**
+- No Cartridge Controller integration — uses a generic wallet connector instead
+- Controller packages installed but never used in the application
+
 #### Timeline
 
 Check when commits were made relative to the jam window.
@@ -53,7 +66,7 @@ Flag only if there's a clear problem:
 
 ### Step 4: Decide
 
-- **APPROVE** if the project uses Dojo and has meaningful work during the jam window
+- **APPROVE** if the project uses Dojo, integrates Cartridge Controller, and has meaningful work during the jam window
 - **FLAG** if either check fails — a maintainer will review
 
 ### Step 5: Post Comment
@@ -70,6 +83,7 @@ Post a PR comment using `gh pr comment` with this format:
 **Repository:** [url]
 
 **Dojo Usage:** [1-2 sentences — what Dojo artifacts were found]
+**Cartridge Controller:** [1-2 sentences — how Controller is integrated]
 **Timeline:** [1-2 sentences — when work happened relative to jam window]
 
 [If flagged: explain what triggered the flag]
