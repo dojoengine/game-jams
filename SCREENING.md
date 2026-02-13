@@ -1,7 +1,7 @@
 # Game Jam Submission Screening
 
-This document defines the screening process for Dojo Game Jam submissions.
-It is used both as human-readable documentation and as instructions for the automated screening agent.
+Instructions for the automated screening agent.
+Runs when a submission PR is opened.
 
 ## Philosophy
 
@@ -10,9 +10,7 @@ Game jams should be inclusive.
 Trust participants unless there's clear evidence of a violation.
 When in doubt, approve and let judges evaluate the game itself.
 
-## Screening Process
-
-When a submission PR is opened, the screening agent performs the following steps.
+## Process
 
 ### Step 1: Find the Submission
 
@@ -21,40 +19,21 @@ Extract the GitHub repository URL from the submission file.
 
 ### Step 2: Parse Jam Dates
 
-Read `README.md` and find the line containing "Coding begins... submissions are due."
-Extract the start and end dates.
+Read the jam's `README.md` and find the date range.
 Use AOE (Anywhere on Earth) timezone.
 
-### Step 3: Clone and Analyze
+### Step 3: Analyze
 
-Clone the submitted repository and perform two analyses:
+Clone the submitted repository and check two things:
 
-#### Submission Classification
-
-Calculate what percentage of the repository's total codebase was changed during the jam window.
-Compare lines changed (additions + deletions) in jam-window commits vs total lines in the repo.
-Exclude lockfiles, generated bindings, and vendored assets from this calculation — they skew the ratio and don't reflect authored work.
-
-- **90% or more** = **Whole Game** submission (the game was built for the jam)
-- **Less than 90%** = **Feature** submission (new features added to an existing game)
-
-#### Jam-Window Commit Summary
-
-Identify all commits that fall within the jam window (with reasonable buffer: a day before, a day after).
-Produce a concise summary of what those commits contain.
-For Feature submissions, describe the changes in the context of the overall game.
-
-### Step 4: Evaluate
-
-#### Dojo Usage (required for both types)
+#### Dojo Usage
 
 The project must meaningfully use the Dojo engine.
 
 **Pass:**
 - Cairo files with `#[dojo::model]`, `#[dojo::contract]`, or `#[dojo::event]`
 - Dojo dependencies in `Scarb.toml`
-- Frontend imports AND uses `@dojoengine/*` packages (not just generated/dead code)
-- World dispatcher usage (`world.read_model()`, `world.write_model()`)
+- Frontend that imports AND uses `@dojoengine/*` packages (not just generated/dead code)
 
 **Fail:**
 - No Dojo annotations in Cairo files
@@ -64,55 +43,40 @@ The project must meaningfully use the Dojo engine.
 
 #### Timeline
 
-**For Whole Game submissions:**
-- At least 80% of commits should fall within the jam window
-- At least 80% of code changes should fall within the jam window
-- Flag if the repository was created 3+ months before the jam
+Check when commits were made relative to the jam window.
+A few commits before (setup) or after (polish, deployment) are fine.
+The goal is to catch submissions with no meaningful work during the jam — not to penalize edge cases.
 
-**For Feature submissions:**
-- The repository will pre-date the jam; this is expected and not suspicious
-- Focus on whether the described features were built during the jam window
-- At least 80% of the feature-related commits should fall within the jam window
-- A few commits before (setup) or after (polish, deployment) are fine
+Flag only if there's a clear problem:
+- Repository has substantial code but zero commits during the jam window
+- All meaningful work predates the jam by months
 
-### Step 5: Post Results
+### Step 4: Decide
 
-Post a PR comment using `gh pr comment` with the following format:
+- **APPROVE** if the project uses Dojo and has meaningful work during the jam window
+- **FLAG** if either check fails — a maintainer will review
+
+### Step 5: Post Comment
+
+Post a PR comment using `gh pr comment` with this format:
 
 ```
 <!-- submission-screening-bot -->
-## Automated Submission Screening
+## Submission Screening
 
-> [VERDICT BANNER: see below]
+> [✅ **Approved** or 🚨 **Flagged for Manual Review**]
 
-### Summary
 **Project:** [name]
 **Repository:** [url]
-**Classification:** [Whole Game / Feature]
-**Verdict:** [APPROVED / FLAGGED FOR MANUAL REVIEW]
 
-### Jam-Window Changes
-[Summary of what was built/changed during the jam window]
-[For Feature submissions: describe how these changes fit into the existing game]
+**Dojo Usage:** [1-2 sentences — what Dojo artifacts were found]
+**Timeline:** [1-2 sentences — when work happened relative to jam window]
 
-### Timeline Analysis
-- First commit: [date]
-- Jam-window commits: X of Y total (Z%)
-- Lines changed during jam: Z% of total repo
-[Assessment]
-
-### Dojo Usage
-**Contracts:** [X models, Y systems, Z events]
-**Frontend SDK:** [Found/Not found, actual usage detected?]
-[Assessment]
+[If flagged: explain what triggered the flag]
 
 ---
 *Automated screening — a maintainer will perform final review.*
 ```
-
-**Verdict banner:**
-- Use `✅ **Preliminary Check Passed**` when all checks pass
-- Use `🚨 **FLAGGED FOR MANUAL REVIEW** 🚨` when any check fails
 
 ## Edge Cases
 
@@ -123,13 +87,10 @@ Developers often work locally and push once.
 Likely deployment, bug fixes, or polish.
 
 **Very sophisticated project in 3 days** — APPROVE.
-Game jams produce impressive results. Don't penalize quality.
-
-**Repository created before jam (Whole Game)** — FLAG.
-Ask submitter to clarify. Could be a Feature submission that should be reclassified.
+Game jams produce impressive results.
 
 **Contracts exist but frontend doesn't use them** — FLAG.
 Dead code doesn't count as Dojo usage.
 
-**Uses "Dojo" but wrong framework** — REJECT.
-Must use the Dojo game engine.
+**Uses "Dojo" but wrong framework** — FLAG.
+Must use the Dojo game engine, not the legacy Dojo Toolkit JS library.
