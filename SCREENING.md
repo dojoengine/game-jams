@@ -14,7 +14,7 @@ When in doubt, approve and let judges evaluate the game itself.
 
 ### Step 1: Find the Submission
 
-Look in `game-jam-*/*.md` for new or modified files in the PR.
+Look in `gj*/*.md` for new or modified files in the PR.
 Extract the GitHub repository URL from the submission file.
 The URL may appear in various formats — look for any GitHub link in the file and extract the owner/repo.
 
