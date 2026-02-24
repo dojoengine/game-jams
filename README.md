@@ -37,7 +37,7 @@ Dojo also maintains a [**spreadsheet of interesting game concepts**](https://doc
 Coding begins **Friday, March 6 at 00:00 AOE** and submissions are due **Sunday, March 8 at 23:59 AOE**.
 ([AOE](https://en.wikipedia.org/wiki/Anywhere_on_Earth) = anywhere on earth, so everyone can participate.)
 
-To submit, open a Pull Request adding a file to the [`game-jam-8` directory](./game-jam-8):
+To submit, open a Pull Request adding a file to the [`gj8` directory](./gj8):
 
 1. Copy the [Submission Template](./templates/SUBMISSION_TEMPLATE.md) and fill it out ([see example]((./templates/EXAMPLE_SUBMISSION.md)))
 2. Name the file after your project in `kebab-case`.

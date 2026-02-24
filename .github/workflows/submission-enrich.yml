@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'game-jam-*/*.md'
+      - 'gj*/*.md'
 
 jobs:
   enrich:
@@ -21,7 +21,7 @@ jobs:
       - name: Find new/modified submissions
         id: changed
         run: |
-          files=$(git diff --name-only HEAD~1 HEAD -- 'game-jam-*/*.md' | grep -v README.md || true)
+          files=$(git diff --name-only HEAD~1 HEAD -- 'gj*/*.md' | grep -v README.md || true)
           if [ -z "$files" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
