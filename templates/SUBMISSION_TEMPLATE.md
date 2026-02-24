@@ -20,28 +20,23 @@ To submit your project:
 > Give a short summary of your game project.
 Tell us about your game!
 
-### GitHub
-> Provide the GitHub URL where your project is hosted.
-Enter your GitHub here!
+### Source Code
+> Provide the GitHub URL for your project's source code.
+> Link to the root of a standalone repository (not a subdirectory or fork of another project).
 
-### Play
-> Provide instructions on how to play your game. Include at least one of the following:
-> - **Live URL** (preferred): Link to deployed game (e.g., Vercel, Netlify)
-> - **Video demo**: Link to a gameplay video
-> - **Local setup**: Brief instructions to run locally
->
-> Example format:
-> ```
-> **Live:** https://my-game.vercel.app
-> **How to play:** Connect wallet, click New Game, drag pieces to score points.
-> ```
+### Live Demo
+> If your game is deployed, provide the URL. Leave blank if not deployed.
 
-Enter your play instructions here!
+### Gameplay Video
+> Link to a video showing gameplay (YouTube, Google Drive, Loom, etc.). Leave blank if none.
+
+### How to Play
+> Brief instructions for playing the game.
+> Example: Connect wallet, click New Game, drag pieces to score points.
 
 ### Twitter
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
 Enter your twitter handle here!
 
-### Team members
-> Provide a list of your team members.
-Provide names, githubs, discords, or twitters of each team member!
+### Team Members
+> List each team member (name or handle).

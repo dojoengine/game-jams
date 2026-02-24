@@ -18,32 +18,25 @@ Features:
 - Global leaderboard
 - Cartridge Controller authentication
 
-## GitHub
+## Source Code
 
-Repository: https://github.com/example/block-quest
+https://github.com/example/block-quest
 
-## Play
-
-### Live Demo
+## Live Demo
 
 https://block-quest.vercel.app
 
-### How to Play
+## Gameplay Video
+
+https://www.youtube.com/watch?v=example
+
+## How to Play
 
 1. Connect with Cartridge Controller
 2. Click "New Game"
 3. Drag blocks onto the grid
 4. Clear lines to score points
 5. Build combos for bonus points
-
-### Local Setup (optional)
-
-```bash
-git clone https://github.com/example/block-quest
-cd block-quest
-pnpm install
-pnpm dev
-```
 
 ## Architecture
 

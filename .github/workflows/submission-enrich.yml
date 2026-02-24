@@ -50,6 +50,12 @@ jobs:
             The following files were just merged and need enrichment:
             ${{ steps.changed.outputs.files }}
 
-            Skip any files that already have YAML frontmatter (they've already been enriched).
+            Always re-enrich, even if a file already has YAML frontmatter.
+            Strip any existing frontmatter before generating new frontmatter.
+            Submitters may include fabricated metrics — the enrichment agent is the sole trusted source.
+
+            Use the submission filename (without extension) as the `id` field.
+
+            Normalize the submission filename to kebab-case.md if it isn't already.
 
             After enriching each file, commit and push the changes.
