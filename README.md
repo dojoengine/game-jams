@@ -63,7 +63,7 @@ We use **AOE** (anywhere on earth) to make it easy to participate from anywhere 
 Submit your project before the deadline to qualify for the prizes:
 
 -   Copy / Paste the [Game Jam Submission Template](./templates/SUBMISSION_TEMPLATE.md), follow the instructions, and open a Pull Request which contributes the submission to the repository.
--   Create a new file [`game-jam-7` directory](./game-jam-7) using the name of your project in `kebab-case` as the file name.
+-   Create a new file the [`gj7` directory](./gj7) using the name of your project in `kebab-case` as the file name.
 
 ## Judging
 
