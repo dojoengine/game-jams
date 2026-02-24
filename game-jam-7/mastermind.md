@@ -1,3 +1,42 @@
+---
+id: "mastermind"
+emoji: "🧠"
+title: "ZK Word Mastermind"
+summary_short: >
+  Two-player code-breaking game combining classic Mastermind with zero-knowledge proofs.
+  Players guess each other's secret 4-character codes while ZK proofs verify feedback
+  honesty without revealing secrets.
+summary_long: >
+  ZK Word Mastermind brings the classic code-breaking game on-chain with cryptographic
+  guarantees. Two players each commit a Poseidon hash of their secret 4-letter code, then
+  take turns guessing across up to 10 rounds. Feedback (hits and blows) is verified using
+  zero-knowledge proofs generated with Noir and verified via Garaga, ensuring honest
+  responses without premature revelation. Built on Dojo's ECS framework with Cartridge
+  Controller integration, real-time multiplayer matchmaking, and player statistics tracking.
+work_done_short: >
+  Built a complete two-player ZK Mastermind game from scratch, including Dojo contracts,
+  ZK circuit design with Noir/Garaga, and a React frontend.
+work_done_long: >
+  Developed the full game implementing Dojo models and systems for on-chain game state,
+  Poseidon hash commitments for secret codes, and ZK proof generation and verification
+  using Noir circuits with Garaga. Built a React frontend with real-time game updates,
+  multiplayer matchmaking, and Cartridge Controller wallet integration.
+repo_url: "https://github.com/truthixify/mastermind-dojo"
+demo_url: null
+video_url: null
+team:
+  - "@truthixify"
+  - "@birdmannn"
+metrics:
+  classification: "Whole Game"
+  team_size: 2
+  dojo_models: 1
+  dojo_systems: 1
+  dojo_events: 1
+  frontend_sdk: true
+  jam_commits_pct: 100
+  playability: "None"
+---
 # ZK Word Mastermind
 
 ### Submission Track

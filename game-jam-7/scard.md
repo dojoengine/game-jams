@@ -1,3 +1,42 @@
+---
+id: "scard"
+emoji: "🧟"
+title: "Scar'd"
+summary_short: >
+  Fully on-chain roguelike dungeon crawler. Navigate a haunted 5x5 grid, battle vampires
+  and werewolves, collect ability-enhancing gifts, and reach the exit. Each game exists as
+  a transferable ERC-721 token carrying all state.
+summary_long: >
+  Scar'd is a roguelike dungeon crawler built on Starknet with Dojo where players navigate
+  a 5x5 grid encountering weighted random events: free roam (40%), gifts (35%), and beast
+  encounters (25%). The game implements the Embeddable Game Standard, representing each game
+  as a transferable ERC-721 token that carries full state, enabling in-progress game trading.
+  Encounters are deterministically generated using Poseidon hashes. A dynamic SVG renderer
+  generates real-time visual representations of game state as token metadata. Built with 5
+  Dojo models and 2 systems.
+work_done_short: >
+  Built a complete roguelike dungeon crawler from scratch, implementing the Embeddable Game
+  Standard with ERC-721 game tokens and Dojo-powered on-chain state.
+work_done_long: >
+  Developed 5 Dojo models and 2 systems managing game state, encounters, and combat.
+  Implemented ERC-721 tokens carrying transferable game state, a dynamic SVG renderer for
+  on-chain metadata, Poseidon hash-based deterministic encounter generation, weighted
+  probability distributions, and Cartridge Controller integration. Deployed live on Vercel.
+repo_url: "https://github.com/FemiOje/scard"
+demo_url: "https://scard-roan.vercel.app/"
+video_url: null
+team:
+  - "@FemiOje"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 5
+  dojo_systems: 2
+  dojo_events: 1
+  frontend_sdk: true
+  jam_commits_pct: 95
+  playability: "Live"
+---
 # Scar'd
 
 ### Submission Track

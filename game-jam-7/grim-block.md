@@ -1,3 +1,42 @@
+---
+id: "grim-block"
+emoji: "🧩"
+title: "Grim Block"
+summary_short: >
+  A fully on-chain Block Blast-style puzzle game. Players drag and drop tetris-like
+  pieces onto an 8x8 grid to clear lines, build combos, and compete on a global
+  leaderboard with all state verified on-chain.
+summary_long: >
+  Grim Block is a fully on-chain puzzle game modeled after Block Blast, built with Dojo.
+  Players place 19 unique piece types with 4 orientations each onto an 8x8 grid, clearing
+  rows and columns to earn points amplified by combo and streak multipliers. The grid is
+  stored as a single u64 using bit-packing, and up to 3 pieces are packed into one u32.
+  The React 19 frontend features drag-and-drop controls, optimistic UI updates, and a
+  Cartridge Controller wallet integration. A Torii indexer powers the global leaderboard.
+work_done_short: >
+  Built a complete on-chain Block Blast puzzle with 19 piece types, combo scoring,
+  bit-packed grid storage, and a polished React drag-and-drop frontend.
+work_done_long: >
+  Developed Dojo smart contracts implementing grid logic with u64 bit-packing, 19 piece
+  types with rotation support packed into u32, combo and streak scoring multipliers, and
+  on-chain RNG piece generation. Built a React 19 + Vite frontend with drag-and-drop
+  placement, optimistic UI, and a paginated leaderboard. Integrated Cartridge Controller
+  and Torii for real-time indexing.
+repo_url: "https://github.com/bal7hazar/grimblock"
+demo_url: "https://grimblock-client.vercel.app/"
+video_url: null
+team:
+  - "@bal7hazar"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 1
+  dojo_systems: 1
+  dojo_events: 0
+  frontend_sdk: true
+  jam_commits_pct: 100
+  playability: "Live"
+---
 # Grim Block
 
 ## Project Summary
