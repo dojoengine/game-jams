@@ -1,3 +1,40 @@
+---
+id: "starkcity"
+emoji: "🏘️"
+title: "Starkcity"
+summary_short: >
+  On-chain Monopoly-style board game where players buy, trade, and build properties
+  represented as ERC-1155 tokens. Every dice roll, property trade, and rent payment is
+  verified on Starknet via Dojo.
+summary_long: >
+  Starkcity is a multiplayer Monopoly-inspired game built on Starknet using Dojo. Players
+  roll dice, purchase properties minted as ERC-1155 tokens, collect rent, and develop
+  holdings, all verified on-chain. The Dojo backend uses 1 model, 1 system, and 1 event.
+  A frontend SDK connects the browser client to the chain. Deployed live on Vercel, though
+  only 5 of 59 commits (8%) fall within the jam window.
+work_done_short: >
+  Built a Dojo contract layer with one model, one system, and one event, plus a
+  live-deployed frontend connected via the SDK.
+work_done_long: >
+  Implemented a Dojo model for board and player state, a system contract for turn
+  processing and property transactions, and an event for real-time updates. Connected a
+  browser frontend through the Dojo SDK and deployed it to Vercel. With 5 of 59 total
+  commits (8%) during the jam, the majority of the codebase predates the event.
+repo_url: "https://github.com/zarah-s/stark-city"
+demo_url: "https://starkcity.vercel.app"
+video_url: null
+team:
+  - "@zarah_0x"
+metrics:
+  classification: "Feature"
+  team_size: 1
+  dojo_models: 1
+  dojo_systems: 1
+  dojo_events: 1
+  frontend_sdk: true
+  jam_commits_pct: 8
+  playability: "Live"
+---
 # Starkcity
 
 ### Submission Track

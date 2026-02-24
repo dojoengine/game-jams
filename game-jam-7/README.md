@@ -1,6 +1,8 @@
 # Game Jam VII
 
-**Date:** November 28-30, 2025
+**Date:** October 31 – November 3, 2025
+
+**Jam Window:** 2025-10-31 / 2025-11-03
 
 **Prize Pool:** $15,000
 

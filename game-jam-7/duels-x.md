@@ -1,3 +1,41 @@
+---
+id: "duels-x"
+emoji: "🃏"
+title: "Duels X"
+summary_short: >
+  Card battle game where players build decks of magical spells and engage in strategic
+  turn-based combat. Features damage, healing, buff, debuff, and special effect cards
+  with mechanics like Freeze, Shield, and Resurrection.
+summary_long: >
+  Duels X is a card battle game built on Starknet using Dojo. Players build decks from
+  damage spells, healing, buffs, debuffs, and special effects. Combat revolves around
+  managing HP, ATK, and DEF stats while chaining card effects. Special mechanics include
+  Freeze, Shield, Double Damage, Resurrection, and persistent Aura effects. The Dojo
+  backend uses 1 model and 2 systems with 1 event for on-chain state verification.
+  Deployed live on Vercel with Cartridge Controller integration.
+work_done_short: >
+  Built a complete card battle game with deck building, multiple card types, special
+  effects, progressive difficulty, and live deployment.
+work_done_long: >
+  Developed a full card battle game with Dojo contracts defining 1 model, 2 systems, and
+  1 event for on-chain game state and combat logic. Implemented a rich card system with 5
+  card categories and special effects. Built a frontend with Cartridge Controller integration
+  and multiple difficulty levels.
+repo_url: "https://github.com/nlyrthiia/duels-x"
+demo_url: "https://duels-x-client.vercel.app/"
+video_url: "https://www.youtube.com/watch?v=bSJI_kUsw-s"
+team:
+  - "@nlyrthiia"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 1
+  dojo_systems: 2
+  dojo_events: 1
+  frontend_sdk: false
+  jam_commits_pct: 100
+  playability: "Live"
+---
 # Duels X
 
 ### Project Summary
