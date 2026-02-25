@@ -2,6 +2,7 @@
 start_date: "2025-10-31"
 end_date: "2025-11-03"
 prize_pool: "$15,000"
+registration_url: "https://luma.com/ug5owx3y"
 ---
 
 # Game Jam VII
