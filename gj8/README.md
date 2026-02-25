@@ -2,6 +2,7 @@
 start_date: "2026-03-06"
 end_date: "2026-03-08"
 prize_pool: "$15,000"
+registration_url: "https://luma.com/w1wxpfv3"
 ---
 
 # Dojo Game Jam VIII
