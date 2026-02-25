@@ -12,6 +12,8 @@ Teams will come together for **3 days** to build games on the open-source, prova
 
 ## Getting Started
 
+[**Register on Luma**](https://luma.com/w1wxpfv3)
+
 [**Register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name)
 
 If you're looking for teammates or game ideas, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
