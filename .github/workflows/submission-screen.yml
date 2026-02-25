@@ -29,8 +29,8 @@ jobs:
           direct_prompt: |
             You are screening a Dojo Game Jam submission PR.
 
-            Read SCREENING.md from the base branch (main) for the full screening process and follow it step by step.
-            Use `git show origin/main:SCREENING.md` to read it, rather than the copy on the PR branch.
+            Read spec/SCREENING.md from the base branch (main) for the full screening process and follow it step by step.
+            Use `git show origin/main:spec/SCREENING.md` to read it, rather than the copy on the PR branch.
 
             Environment:
             - PR number: ${{ github.event.pull_request.number }}

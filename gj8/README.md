@@ -1,14 +1,18 @@
-# Dojo Game Jams
+---
+start_date: "2026-03-06"
+end_date: "2026-03-08"
+prize_pool: "$15,000"
+---
 
-![Game Jam VIII Header](.github/assets/GJ8Header.png)
+# Dojo Game Jam VIII
 
-​Dojo **Game Jam VIII** is here and **starts on 3/6**!
+![Game Jam VIII Header](../.github/assets/GJ8Header.png)
 
-​Teams will come together for **3 days** to build games on the open-source, provable Dojo Engine, competing for a slice of a **$15,000 prize pool**.
+Teams will come together for **3 days** to build games on the open-source, provable Dojo Engine, competing for a slice of a **$15,000 prize pool**.
 
 ## Getting Started
 
-👉 [**Register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name)
+[**Register your game idea here**](https://github.com/dojoengine/game-jams/issues/new?assignees=&labels=&projects=&template=register_project.yaml&title=%5BProject+Registration%5D:+Your+Project+Name)
 
 If you're looking for teammates or game ideas, head over to the **#game-jam** channel in the [Dojo Discord](https://discord.gg/tHezCAA4).
 The Dojo team will do our best to help match you with great people.
@@ -37,13 +41,13 @@ Dojo also maintains a [**spreadsheet of interesting game concepts**](https://doc
 Coding begins **Friday, March 6 at 00:00 AOE** and submissions are due **Sunday, March 8 at 23:59 AOE**.
 ([AOE](https://en.wikipedia.org/wiki/Anywhere_on_Earth) = anywhere on earth, so everyone can participate.)
 
-To submit, open a Pull Request adding a file to the [`gj8` directory](./gj8):
+To submit, open a Pull Request adding a file to this directory:
 
-1. Copy the [Submission Template](./templates/SUBMISSION_TEMPLATE.md) and fill it out ([see example]((./templates/EXAMPLE_SUBMISSION.md)))
+1. Copy the [Submission Template](../templates/SUBMISSION_TEMPLATE.md) and fill it out ([see example](../templates/EXAMPLE_SUBMISSION.md))
 2. Name the file after your project in `kebab-case`.
 
 Your submission must include Dojo contracts (models + systems), a frontend using the Dojo SDK, Cartridge Controller integration, deployment to Slot/Sepolia, and play instructions.
-See [SCREENING.md](./spec/SCREENING.md) for details on the automated screening process.
+See [SCREENING.md](../spec/SCREENING.md) for details on the automated screening process.
 
 ## Judging
 
