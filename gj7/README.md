@@ -16,6 +16,8 @@ prize_pool: "$15,000"
 
 **Sponsors:** Starknet, StarkWare, Cartridge
 
+**Registration:** https://luma.com/ug5owx3y
+
 **Winners Announcement:** https://x.com/ohayo_dojo/status/1995548529927094746
 
 ## Winners
