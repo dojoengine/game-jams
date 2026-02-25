@@ -1,3 +1,9 @@
+---
+start_date: "2025-06-27"
+end_date: "2025-06-29"
+prize_pool: "$25,000"
+---
+
 # Game Jam VI
 
 **Date:** June 27-29, 2025

@@ -1,3 +1,9 @@
+---
+start_date: "2024-04-05"
+end_date: "2024-04-07"
+prize_pool: "$20,000"
+---
+
 ![Game Jam 4 Header](../.github/assets/gj4/header.png)
 
 The Dojo Game Jam is back! This 72-hour weekend will bring together the Dojo ecosystem to build games on the open-source, provable Dojo Engine.

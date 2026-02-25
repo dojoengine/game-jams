@@ -1,3 +1,9 @@
+---
+start_date: "2025-10-31"
+end_date: "2025-11-03"
+prize_pool: "$15,000"
+---
+
 # Game Jam VII
 
 **Date:** October 31 – November 3, 2025
