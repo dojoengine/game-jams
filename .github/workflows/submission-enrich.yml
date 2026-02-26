@@ -18,10 +18,10 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Find new/modified submissions
+      - name: Find new submissions
         id: changed
         run: |
-          files=$(git diff --name-only HEAD~1 HEAD -- 'gj*/*.md' | grep -v README.md || true)
+          files=$(git diff --diff-filter=A --name-only HEAD~1 HEAD -- 'gj*/*.md' | grep -v README.md || true)
           if [ -z "$files" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
