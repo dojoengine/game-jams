@@ -36,6 +36,7 @@ metrics:
   client_sdk: "None"
   jam_commits_pct: 56
   playability: "None"
+  repo_unavailable: true
 ---
 # Overgoal: More Than a Match
 
