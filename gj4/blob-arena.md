@@ -31,7 +31,7 @@ metrics:
   dojo_models: 6
   dojo_systems: 3
   dojo_events: 0
-  frontend_sdk: false
+  client_sdk: "dojo.unity"
   jam_commits_pct: 100
   playability: "None"
 ---

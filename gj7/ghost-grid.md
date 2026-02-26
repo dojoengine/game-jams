@@ -32,7 +32,7 @@ metrics:
   dojo_models: 2
   dojo_systems: 2
   dojo_events: 2
-  frontend_sdk: false
+  client_sdk: "None"
   jam_commits_pct: 100
   playability: "Live"
 ---

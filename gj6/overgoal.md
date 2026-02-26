@@ -33,9 +33,10 @@ metrics:
   dojo_models: 8
   dojo_systems: 1
   dojo_events: 1
-  frontend_sdk: true
+  client_sdk: "None"
   jam_commits_pct: 56
   playability: "None"
+  repo_unavailable: true
 ---
 # Overgoal: More Than a Match
 
