@@ -1,3 +1,40 @@
+---
+id: "moving-mountains-with-yu"
+emoji: "🏔️"
+title: "Moving Mountains With Yu"
+summary_short: >
+  Cookie Clicker-inspired idle game on Katana L3 where all population increases are
+  onchain transactions, featuring totem upgrades and strategic progression.
+summary_long: >
+  Moving Mountains With Yu is a **Cookie Clicker-inspired idle game** leveraging Katana L3's
+  low gas costs for fully onchain interactions. Players produce Blobert population by clicking
+  on houses, with all increases completed through **chain interactions** rather than local
+  record-keeping. Upgrades include consuming population for click multipliers and purchasing
+  totems with **strategic upgrade paths**. Built with 4 Dojo models and 2 systems with
+  **frontend SDK integration**, 97% of 32 commits were made during the jam.
+work_done_short: >
+  Built an idle clicker game with 4 Dojo models, 2 systems, and frontend SDK,
+  with all interactions fully onchain via Katana L3.
+work_done_long: >
+  Developed Dojo contracts with 4 models and 2 systems for population tracking, click
+  multipliers, and totem upgrade mechanics. Integrated the Dojo frontend SDK for real-time
+  state synchronization. Designed all interactions as onchain transactions using Katana
+  L3's low gas costs. 31 of 32 commits (97%) during the jam. Video demo only.
+repo_url: "https://github.com/FrostStarBook/moving-mountains-with-yu"
+demo_url: null
+video_url: "https://www.youtube.com/watch?v=wopJoorMcQA"
+team:
+  - "@book_frostStar"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 4
+  dojo_systems: 2
+  dojo_events: 0
+  frontend_sdk: true
+  jam_commits_pct: 97
+  playability: "Video"
+---
 # Moving Mountains With Yu
 
 ### Project Summary
@@ -36,5 +73,5 @@ https://www.youtube.com/watch?v=wopJoorMcQA&ab_channel=BookFrostStar%28book%29
 ### Submission Tracks
 > Provide a list of the tracks your project is submitting to. Provide each track on a new line.
 
-Road to Mainnet 
-Blobert / Realms 
+Road to Mainnet
+Blobert / Realms

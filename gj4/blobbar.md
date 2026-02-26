@@ -1,3 +1,39 @@
+---
+id: "blobbar"
+emoji: "🍹"
+title: "Blobbar"
+summary_short: >
+  Blobert bartending game built with Three.js where players mix drinks for NFT characters,
+  featuring 4 Dojo models and 7 systems with frontend SDK integration.
+summary_long: >
+  Blobbar is a **Blobert bartending game** built with Three.js and Dojo. Players serve drinks
+  to Blobert NFT characters in a bar setting, though the frontend was admittedly **buggy at
+  submission time**. The Dojo contracts feature 4 models and 7 systems with **frontend SDK
+  integration** for real-time state updates. Built solo with 89% of 27 commits during the jam,
+  the game requires **local setup** with Katana, Torii, and the development client.
+work_done_short: >
+  Built a Three.js bartending game with 4 Dojo models, 7 systems, and frontend SDK,
+  with 89% of commits during the jam.
+work_done_long: >
+  Developed Dojo contracts with 4 models and 7 systems for drink mixing, Blobert
+  interactions, and bar state management. Integrated the Dojo frontend SDK for real-time
+  updates. Built with Three.js for the visual client. 24 of 27 commits (89%) during
+  the jam. Local setup only.
+repo_url: "https://github.com/ZackAmes/blobbar"
+demo_url: null
+video_url: null
+team:
+  - "@zackames"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 4
+  dojo_systems: 7
+  dojo_events: 0
+  frontend_sdk: true
+  jam_commits_pct: 89
+  playability: "None"
+---
 # Blobbar
 
 ### Project Summary
@@ -18,7 +54,7 @@ Unfortuanately to play you have to run it locally, the same way as the dojo.js s
 ### Twitter
 > Provide the projects twitter handle. Please share your submission on socials too for more exposure!
 
-x.com/zackames 
+x.com/zackames
 
 ### Team members
 > Provide a list of your team members.
