@@ -31,7 +31,7 @@ metrics:
   dojo_models: 17
   dojo_systems: 2
   dojo_events: 9
-  frontend_sdk: true
+  client_sdk: "dojo.js"
   jam_commits_pct: 100
   playability: "None"
 ---
