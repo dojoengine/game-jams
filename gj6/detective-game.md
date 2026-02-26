@@ -1,3 +1,40 @@
+---
+id: "detective-game"
+emoji: "🔍"
+title: "Detective Game"
+summary_short: >
+  Blockchain-first murder mystery where players interrogate AI-powered suspects to solve
+  crimes, with accusations and stats recorded onchain via Dojo.
+summary_long: >
+  Detective Game is a **blockchain-first murder mystery** where players interrogate AI-powered
+  suspects to solve a crime. Each session allows a single accusation, with the outcome recorded
+  on Starknet using **Dojo smart contracts**. Uses a hybrid architecture with fully onchain game
+  state and **GPT-generated suspect dialogue** handled off-chain. Built solo with 3 models,
+  1 system, and 2 events. All 23 commits during the jam. **Deployed live on Vercel** with
+  custom React + Tailwind frontend.
+work_done_short: >
+  Built a complete AI-powered murder mystery with 3 Dojo models, 1 system, 2 events,
+  and live Vercel deployment during the jam.
+work_done_long: >
+  Developed Dojo contracts with 3 models, 1 system, and 2 events for game state,
+  accusations, and player stats. Integrated GPT for AI suspect dialogue. Built custom
+  React + Tailwind frontend. All 23 commits during the jam. Deployed live on Vercel
+  at detective-game-iota.vercel.app.
+repo_url: "https://github.com/EthanPerello/detective-game"
+demo_url: "https://detective-game-iota.vercel.app"
+video_url: null
+team:
+  - "@EthanPerello"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 3
+  dojo_systems: 1
+  dojo_events: 2
+  frontend_sdk: true
+  jam_commits_pct: 100
+  playability: "Live"
+---
 # Detective Game
 
 ### Submission Track

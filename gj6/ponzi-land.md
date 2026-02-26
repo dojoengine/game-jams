@@ -1,3 +1,40 @@
+---
+id: "ponzi-land"
+emoji: "🏗️"
+title: "Ponzi Land Mod"
+summary_short: >
+  Game mod for Ponzi Land adding a mini-map widget, sound effects for land interactions,
+  and fixing the buy land transaction functionality.
+summary_long: >
+  Ponzi Land Mod adds features to the existing **Ponzi Land** game including a **mini-map
+  widget** showing a grid overview with color-coded owned and empty lands, **sound effects**
+  for land interactions (auction and empty land clicks), and a critical fix for the **buy land
+  functionality** that was preventing transactions. Built with 3 models, 3 systems, and 9
+  events with **frontend SDK integration**. All 3 commits during the jam. Submitted as a
+  **Game Mod** track entry.
+work_done_short: >
+  Added mini-map widget, sound effects, and buy land fix to Ponzi Land with
+  3 models, 3 systems, and 9 events during the jam.
+work_done_long: >
+  Extended Ponzi Land with a Svelte mini-map component showing color-coded land grid,
+  audio feedback for land interactions, and a critical buy land transaction fix.
+  Dojo contracts with 3 models, 3 systems, and 9 events. Integrated the Dojo frontend SDK.
+  All 3 commits during the jam. Submitted as Game Mod track.
+repo_url: "https://github.com/ussyalfaks/PonziLand_Mod"
+demo_url: null
+video_url: null
+team:
+  - "@usman_alfaki"
+metrics:
+  classification: "Feature"
+  team_size: 1
+  dojo_models: 3
+  dojo_systems: 3
+  dojo_events: 9
+  frontend_sdk: true
+  jam_commits_pct: 100
+  playability: "None"
+---
 #  Project Name
 
 Ponzi Land Mod

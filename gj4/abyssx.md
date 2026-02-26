@@ -1,3 +1,40 @@
+---
+id: "abyssx"
+repo_unavailable: true
+emoji: "🕳️"
+title: "AbyssX"
+summary_short: >
+  Roguelike dungeon crawler where adventurers descend into a mysterious bottomless cavern,
+  confronting creatures and harvesting treasures while acquiring skills and blessings.
+summary_long: >
+  AbyssX is a **roguelike dungeon crawler** set in a vast bottomless cavern called "X" where
+  adventurers descend deeper into unknown depths. Players confront dangerous creatures, harvest
+  **mysterious treasures**, and acquire various skills, abilities, and blessings to strengthen
+  themselves. Built with the **Dojo Engine and Unity**, the game features irresistible temptations
+  and irreversible curses as players forge ahead to uncover the abyss's true secrets. The
+  repository is private/unavailable for **metric analysis**.
+work_done_short: >
+  Built a Unity-based roguelike dungeon crawler with Dojo integration during the jam.
+  Repository is unavailable for detailed analysis.
+work_done_long: >
+  Developed a roguelike dungeon crawler using Unity and Dojo Engine. Implemented creature
+  encounters, treasure harvesting, and skill/blessing systems. Repository is private
+  or deleted, preventing detailed metric analysis. Gameplay demonstrated via YouTube video.
+repo_url: "https://github.com/mcjkn007/AbyssXDemo"
+demo_url: null
+video_url: "https://www.youtube.com/watch?v=j8g6KALxocc"
+team:
+  - "@mcjkn007"
+metrics:
+  classification: "Feature"
+  team_size: 2
+  dojo_models: 0
+  dojo_systems: 0
+  dojo_events: 0
+  frontend_sdk: false
+  jam_commits_pct: 0
+  playability: "Video"
+---
 # AbyssX
 
 ### Project Summary
@@ -23,14 +60,14 @@ In a world where every corner has been explored, the only remaining mystery is t
 ### Team members
 > Provide a list of your team members.
 
-midasX:  
-discords:midasx0322  
+midasX:
+discords:midasx0322
 
-Lettie Clarke:  
+Lettie Clarke:
 discords:0b1f5cc3
 
 ### Submission Tracks
 > Provide a list of the tracks your project is submitting to. Provide each track on a new line.
 
-Unity  
+Unity
 New World

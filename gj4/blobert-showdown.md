@@ -1,3 +1,42 @@
+---
+id: "blobert-showdown"
+emoji: "⚡"
+title: "Blobert Showdown"
+summary_short: >
+  Pokemon Showdown-inspired onchain game where players engage in tactical Blobert battles
+  using element types and strategic move selection.
+summary_long: >
+  Blobert Showdown is a **Pokemon Showdown-inspired onchain game** where players engage in
+  tactical battles using Bloberts with various elements and moves. Through strategic
+  **team building and skillful play**, players climb the arena ranks. The Dojo contracts
+  feature 13 models and 3 systems with **frontend SDK integration** for a comprehensive
+  battle system. All 47 commits were made during the jam. The game promotes **transparency
+  and decentralized gaming** through onchain mechanics.
+work_done_short: >
+  Built a complete Pokemon-style battle game with 13 Dojo models, 3 systems, element
+  types, and strategic combat, all during the jam.
+work_done_long: >
+  Developed Dojo contracts with 13 models and 3 systems for Blobert stats, element types,
+  move sets, battle state, and ranking. Integrated the Dojo frontend SDK. Implemented
+  team building and ranked arena climbing mechanics. All 47 commits during the jam.
+  Demo available via README.
+repo_url: "https://github.com/ML-Village/draft-blobert-showdown"
+demo_url: null
+video_url: null
+team:
+  - "@0xhatsume"
+  - "@0xgavinowen"
+  - "@0xvincent_eth"
+metrics:
+  classification: "Whole Game"
+  team_size: 3
+  dojo_models: 13
+  dojo_systems: 3
+  dojo_events: 0
+  frontend_sdk: true
+  jam_commits_pct: 100
+  playability: "None"
+---
 # Blobert Showdown
 
 ### Project Summary

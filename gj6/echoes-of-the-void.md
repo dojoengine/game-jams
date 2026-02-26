@@ -1,3 +1,41 @@
+---
+id: "echoes-of-the-void"
+emoji: "🔊"
+title: "Echoes of the Void"
+summary_short: >
+  Minimalist puzzle-platformer where players navigate pitch-black procedurally generated
+  chambers using only sound pulses, with all moves as onchain transactions.
+summary_long: >
+  Echoes of the Void is a **minimalist puzzle-platformer** where players navigate pitch-black,
+  procedurally generated chambers using only sound. Every move and sound pulse is a **provable
+  onchain transaction** on Starknet powered by Dojo. Players reveal surroundings by sending
+  pulses that momentarily illuminate the grid. Built with 3 models, 1 system, and 5 events
+  with **frontend SDK integration**. 97% of 34 commits during the jam. Requires **local setup**
+  with Katana and Torii.
+work_done_short: >
+  Built a sound-based puzzle-platformer with 3 Dojo models, 1 system, 5 events,
+  and frontend SDK during the jam.
+work_done_long: >
+  Developed Dojo contracts with 3 models, 1 system, and 5 events for chamber generation,
+  movement validation, pulse mechanics, and map discovery. Procedural generation from
+  onchain seeds. Integrated the Dojo frontend SDK. 33 of 34 commits (97%) during
+  the jam. Local setup with Katana and Torii.
+repo_url: "https://github.com/bitfalt/echoes-of-the-void"
+demo_url: null
+video_url: null
+team:
+  - "@bitfalt"
+  - "@3rickDev"
+metrics:
+  classification: "Whole Game"
+  team_size: 2
+  dojo_models: 3
+  dojo_systems: 1
+  dojo_events: 5
+  frontend_sdk: true
+  jam_commits_pct: 97
+  playability: "None"
+---
 # Echoes of the Void
 
 ### Submission Track
@@ -21,12 +59,12 @@ https://github.com/bitfalt/echoes-of-the-void/tree/main
 Instructions on how to run the game, copied from the README of Dojo Game Starter
 > The next three steps assume you are in the `contract/` directory.
 
-### 1️⃣ Start Katana (Local Blockchain)
+### 1⃣ Start Katana (Local Blockchain)
 ```bash
 katana --config katana.toml
 ```
 
-### 2️⃣ Local Deployment
+### 2⃣ Local Deployment
 ```bash
 sozo build
 sozo migrate
@@ -34,12 +72,12 @@ sozo migrate
 
 Usually the world address is always: "0x00a692c55875b9d0ee7186bf4e3bea34f798e44c4ef72e36ed9fd4d14c21e279", however it is better to check after doing sozo migrate.
 
-### 3️⃣ Start Local Torii
+### 3⃣ Start Local Torii
 ```bash
 torii --world "0x00a692c55875b9d0ee7186bf4e3bea34f798e44c4ef72e36ed9fd4d14c21e279" --http.cors_origins "*"
 ```
 
-### 4️⃣ Configure the Client for local development
+### 4⃣ Configure the Client for local development
 
 In the `client/` directory, create an `.env.development.local` file with the following contents:
 

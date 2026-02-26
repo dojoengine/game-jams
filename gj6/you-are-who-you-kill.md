@@ -1,3 +1,40 @@
+---
+id: "you-are-who-you-kill"
+emoji: "🧟"
+title: "You Are Who You Kill"
+summary_short: >
+  Frankenstein-style web3 game where players build their body from defeated enemies,
+  gaining stat bonuses from collected parts in turn-based PvE combat.
+summary_long: >
+  You Are Who You Kill is a **Frankenstein-style web3 game** where players build their body
+  from the enemies they defeat. Each part gives **stat bonuses** — HP, Damage, or Mobility —
+  building a unique character. Features two playable demo levels with **turn-based PvE combat**,
+  obstacles, and inventory. Built with 17 Dojo models, 2 systems, and 9 events with **frontend
+  SDK integration**. All 9 commits during the jam. Requires **local setup**. Long-term vision
+  includes PvP and **modular NFT body parts**.
+work_done_short: >
+  Built a complete body-harvesting combat game with 17 Dojo models, 2 systems, 9 events,
+  and two demo levels during the jam.
+work_done_long: >
+  Developed Dojo contracts with 17 models, 2 systems, and 9 events for body part
+  collection, stat bonuses, turn-based combat, obstacle interaction, and inventory
+  management. Integrated the Dojo frontend SDK. Two playable demo levels. All 9
+  commits during the jam. Local setup only.
+repo_url: "https://github.com/last-dot/you-are-who-you-kill"
+demo_url: null
+video_url: null
+team:
+  - "@0xyawyk"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 17
+  dojo_systems: 2
+  dojo_events: 9
+  frontend_sdk: true
+  jam_commits_pct: 100
+  playability: "None"
+---
 # you-are-who-you-kill
 
 ### Submission Track
