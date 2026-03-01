@@ -3,8 +3,8 @@ id: "echoes-of-the-void"
 emoji: "🔊"
 title: "Echoes of the Void"
 summary_short: >
-  Minimalist puzzle-platformer where players navigate pitch-black procedurally generated
-  chambers using only sound pulses, with all moves as onchain transactions.
+  **Minimalist puzzle-platformer** where players navigate pitch-black **procedurally generated
+  chambers** using only sound pulses, with all moves as **onchain transactions**.
 summary_long: >
   Echoes of the Void is a **minimalist puzzle-platformer** where players navigate pitch-black,
   procedurally generated chambers using only sound. Every move and sound pulse is a **provable
@@ -13,13 +13,13 @@ summary_long: >
   with **frontend SDK integration**. 97% of 34 commits during the jam. Requires **local setup**
   with Katana and Torii.
 work_done_short: >
-  Built a sound-based puzzle-platformer with 3 Dojo models, 1 system, 5 events,
-  and frontend SDK during the jam.
+  Built a **sound-based puzzle-platformer** with **3 Dojo models, 1 system, 5 events**,
+  and **frontend SDK** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 3 models, 1 system, and 5 events for chamber generation,
-  movement validation, pulse mechanics, and map discovery. Procedural generation from
-  onchain seeds. Integrated the Dojo frontend SDK. 33 of 34 commits (97%) during
-  the jam. Local setup with Katana and Torii.
+  Developed Dojo contracts with **3 models, 1 system, and 5 events** for chamber generation,
+  movement validation, pulse mechanics, and map discovery. **Procedural generation from
+  onchain seeds**. Integrated the **Dojo frontend SDK**. 33 of 34 commits (97%) during
+  the jam. **Local setup** with Katana and Torii.
 repo_url: "https://github.com/bitfalt/echoes-of-the-void"
 demo_url: null
 video_url: null

@@ -3,25 +3,25 @@ id: "witch-craft"
 emoji: "🧙"
 title: "Witchcraft"
 summary_short: >
-  Blockchain-first survival game where players explore mystical biomes, gather ingredients,
-  brew potions, and fight hostile NPCs. Features a day/night cycle with daytime foraging
+  **Blockchain-first survival game** where players explore mystical biomes, gather ingredients,
+  brew potions, and fight hostile NPCs. Features a **day/night cycle** with daytime foraging
   and nighttime potion selling.
 summary_long: >
-  Witchcraft is a fully on-chain survival game built on Starknet with Dojo. Players explore
+  Witchcraft is a **fully on-chain survival game** built on Starknet with Dojo. Players explore
   six biomes collecting ingredients while fending off hostile NPCs. During the day players
-  forage and fight; at night they brew and sell potions to earn gold and faction reputation.
+  forage and fight; at night they **brew and sell potions** to earn gold and faction reputation.
   The game implements 14 Dojo systems covering spawning, movement, foraging, brewing, combat,
   selling, faction reputation, progression, economy, zone management, and resource
-  regeneration. The React frontend features sprite animations, day/night backgrounds, and
-  real-time blockchain state synchronization.
+  regeneration. The React frontend features **sprite animations**, day/night backgrounds, and
+  **real-time blockchain state synchronization**.
 work_done_short: >
-  Built a complete survival game with 14 Dojo systems, six explorable biomes, real-time
-  combat, a brewing economy, and a React frontend with animated sprites.
+  Built a **complete survival game** with **14 Dojo systems**, six explorable biomes, real-time
+  combat, a brewing economy, and a **React frontend** with animated sprites.
 work_done_long: >
-  Developed 14 on-chain Dojo systems handling player spawning, movement, foraging, brewing,
+  Developed **14 on-chain Dojo systems** handling player spawning, movement, foraging, brewing,
   combat, selling, faction reputation, progression, economy, zone management, and resource
-  regeneration. Created a React frontend with 2D sprite-based exploration, NPC combat,
-  day/night transitions, an inventory and recipe system, and a shop interface.
+  regeneration. Created a React frontend with **2D sprite-based exploration**, NPC combat,
+  **day/night transitions**, an inventory and recipe system, and a shop interface.
 repo_url: "https://github.com/krishnan74/witchcraft"
 demo_url: "http://witchcraft-eight.vercel.app/"
 video_url: "https://drive.google.com/file/d/1ZSpFxMKiPKTqp2P5k09DwYTuYMvSgbuv/view?usp=sharing"

@@ -3,8 +3,8 @@ id: "golem-runner"
 emoji: "🏃"
 title: "Golem Runner"
 summary_short: >
-  Mobile-first endless runner with elemental golems featuring an AI-powered daily missions
-  system with onchain persistence, deployed live on Sepolia.
+  **Mobile-first endless runner** with elemental golems featuring an **AI-powered daily missions
+  system** with **onchain persistence**, deployed live on Sepolia.
 summary_long: >
   Golem Runner is a **mobile-first endless runner** where players control elemental golems
   racing through mystical realms. For this jam, the team built an **AI-powered daily missions
@@ -13,13 +13,13 @@ summary_long: >
   reward system. Built with 5 models and 1 system with **frontend SDK integration**. 11% of
   100 commits during the jam. **Deployed live on Sepolia** at golemrunner.live.
 work_done_short: >
-  Added AI-powered daily missions to Golem Runner with 5 Dojo models, 1 system,
-  and Eliza AI agent, deployed on Sepolia during the jam.
+  Added **AI-powered daily missions** to Golem Runner with **5 Dojo models, 1 system**,
+  and **Eliza AI agent**, deployed on Sepolia during the jam.
 work_done_long: >
-  Extended Golem Runner with AI-generated daily missions using Eliza AI agent. Developed
-  Dojo contracts with 5 models and 1 system for mission generation, progress tracking,
-  and reward claims. Integrated the Dojo frontend SDK. 11 of 100 commits (11%) during
-  the jam. Deployed live on Sepolia at golemrunner.live with YouTube demo.
+  Extended Golem Runner with **AI-generated daily missions** using Eliza AI agent. Developed
+  Dojo contracts with **5 models and 1 system** for mission generation, progress tracking,
+  and reward claims. Integrated the **Dojo frontend SDK**. 11 of 100 commits (11%) during
+  the jam. **Deployed live on Sepolia** at golemrunner.live with YouTube demo.
 repo_url: "https://github.com/AkatsukiLabs/GolemRunner"
 demo_url: "https://golemrunner.live/"
 video_url: "https://youtube.com/shorts/QJrE3gRWE0c"

@@ -3,24 +3,24 @@ id: "take-your-shot"
 emoji: "🔫"
 title: "Take Your Shot"
 summary_short: >
-  3D first-person shooter set in procedurally generated mazes, connected to a Vesu
-  liquidation bot. Players fight increasingly faster enemies, and upon death their kill
+  **3D first-person shooter** set in **procedurally generated mazes**, connected to a **Vesu
+  liquidation bot**. Players fight increasingly faster enemies, and upon death their kill
   count translates into liquidation earnings assigned to their wallet.
 summary_long: >
-  Take Your Shot is a browser-based 3D FPS where players navigate randomly generated mazes
-  and fight enemies that speed up over time. The game integrates with a Vesu liquidation bot
+  Take Your Shot is a **browser-based 3D FPS** where players navigate randomly generated mazes
+  and fight enemies that speed up over time. The game integrates with a **Vesu liquidation bot**
   on Starknet. When the player dies, their kill count determines how many liquidation
   earnings are assigned to their wallet. The Dojo backend uses 1 model and 1 system. A
-  frontend SDK provides the browser interface with keyboard controls. All commits were made
+  **frontend SDK** provides the browser interface with keyboard controls. All commits were made
   during the jam.
 work_done_short: >
-  Built a complete 3D FPS with procedural maze generation, enemy AI, and Vesu liquidation
-  bot integration from scratch during the jam.
+  Built a **complete 3D FPS** with **procedural maze generation**, enemy AI, and **Vesu liquidation
+  bot integration** from scratch during the jam.
 work_done_long: >
-  Developed a 3D first-person shooter with procedural maze generation, progressive enemy
+  Developed a **3D first-person shooter** with procedural maze generation, progressive enemy
   difficulty, and keyboard controls. Implemented 1 Dojo model for player state and 1 system
-  for game logic. Integrated a Vesu liquidation bot that converts kill counts to on-chain
-  earnings. Connected the frontend via the Dojo SDK.
+  for game logic. Integrated a **Vesu liquidation bot** that converts kill counts to on-chain
+  earnings. Connected the frontend via the **Dojo SDK**.
 repo_url: "https://github.com/jilt/take-your-shot"
 demo_url: null
 video_url: null

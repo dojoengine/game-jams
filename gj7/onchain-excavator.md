@@ -3,23 +3,23 @@ id: "onchain-excavator"
 emoji: "⛏️"
 title: "Onchain Excavator"
 summary_short: >
-  Treasure-mining strategy game where players compete to excavate digital mines, uncover
-  hidden treasures, and earn on-chain rewards. Every action from digging to claiming
-  finds is recorded on the blockchain.
+  **Treasure-mining strategy game** where players compete to excavate digital mines, uncover
+  hidden treasures, and earn **on-chain rewards**. Every action from digging to claiming
+  finds is **recorded on the blockchain**.
 summary_long: >
-  Onchain Excavator is a treasure-mining strategy game on Starknet where players compete
+  Onchain Excavator is a **treasure-mining strategy game** on Starknet where players compete
   to excavate digital mines and uncover hidden treasures. Built with Dojo, the game records
-  every action on-chain providing a provably fair mining experience. The project features
-  frontend SDK integration for real-time gameplay and a deployed live demo. While the
+  every action on-chain providing a **provably fair mining experience**. The project features
+  **frontend SDK integration** for real-time gameplay and a **deployed live demo**. While the
   repository predates the jam, significant feature work was contributed during the jam
   period adding new excavation mechanics and reward systems.
 work_done_short: >
-  Contributed significant feature additions during the jam, including new excavation
-  mechanics and on-chain reward systems on an existing repository.
+  Contributed **significant feature additions** during the jam, including **new excavation
+  mechanics** and **on-chain reward systems** on an existing repository.
 work_done_long: >
-  During the jam, approximately 52% of commits were made adding new game features. Work
-  included implementing Dojo models and systems for excavation gameplay, integrating the
-  frontend SDK for real-time state updates, and deploying a live demo. The project builds
+  During the jam, **approximately 52% of commits** were made adding new game features. Work
+  included implementing **Dojo models and systems** for excavation gameplay, integrating the
+  frontend SDK for real-time state updates, and **deploying a live demo**. The project builds
   on prior infrastructure with substantial jam-period contributions.
 repo_url: "https://github.com/felabs1/onchain_excavator"
 demo_url: "https://onchain-excavator.vercel.app"

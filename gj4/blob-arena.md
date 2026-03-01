@@ -3,8 +3,8 @@ id: "blob-arena"
 emoji: "🥊"
 title: "Blob Arena"
 summary_short: >
-  Pokemon-like battle game featuring Blobert NFTs in strategic rock-paper-scissors combat
-  modified by each character's unique attributes.
+  **Pokemon-like battle game** featuring Blobert NFTs in **strategic rock-paper-scissors combat**
+  modified by each character's **unique attributes**.
 summary_long: >
   Blob Arena is a **Pokemon-inspired battle game** where Blobert characters engage in strategic
   combat. Players navigate through encounters using their Bloberts' distinctive traits to
@@ -13,13 +13,13 @@ summary_long: >
   All 19 commits were made during the jam. Available as local setup with a Unity client for
   **visual battle rendering**.
 work_done_short: >
-  Built a complete Blobert battle game with 6 Dojo models, 3 systems, PvP and AI modes,
+  Built a complete **Blobert battle game** with **6 Dojo models, 3 systems**, **PvP and AI modes**,
   all during the jam window.
 work_done_long: >
-  Developed Dojo contracts with 6 models and 3 systems for character attributes, battle
-  state, and combat resolution. Implemented enhanced rock-paper-scissors mechanics modified
-  by Blobert traits. Supports PvP and AI opponents. All 19 commits during the jam. Local
-  setup with Unity client.
+  Developed **Dojo contracts with 6 models and 3 systems** for character attributes, battle
+  state, and combat resolution. Implemented **enhanced rock-paper-scissors mechanics** modified
+  by Blobert traits. Supports **PvP and AI opponents**. All 19 commits during the jam. Local
+  setup with **Unity client**.
 repo_url: "https://github.com/GrugLikesRocks/Blob-arena/"
 demo_url: null
 video_url: null

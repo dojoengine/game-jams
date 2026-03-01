@@ -3,8 +3,8 @@ id: "bu"
 emoji: "👻"
 title: "Bu at the Mu"
 summary_short: >
-  Tower defense game where players build towers to defend a tunnel from ghosts
-  emerging from a portal, built with Dojo and deployed on Vercel.
+  **Tower defense game** where players build towers to defend a tunnel from ghosts
+  emerging from a portal, built with **Dojo** and **deployed on Vercel**.
 summary_long: >
   Bu at the Mu is a **tower defense game** where players strategically place towers to stop
   ghosts coming out of a portal. Built on Dojo with 3 models and 1 system, the game features
@@ -12,12 +12,12 @@ summary_long: >
   the jam window, it was built almost entirely during the event. **Deployed live on Vercel**
   with a separate contracts repository for the Dojo backend.
 work_done_short: >
-  Built a complete tower defense game with 3 Dojo models, 1 system, and frontend SDK,
-  deployed live on Vercel during the jam.
+  Built a complete **tower defense game** with **3 Dojo models, 1 system**, and **frontend SDK**,
+  **deployed live on Vercel** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 3 models and 1 system for tower placement, ghost spawning,
-  and defense mechanics. Integrated the Dojo frontend SDK for real-time state updates.
-  Deployed live on Vercel. 39 of 41 commits (95%) during the jam period. Separate
+  Developed Dojo contracts with **3 models and 1 system** for tower placement, ghost spawning,
+  and defense mechanics. Integrated the **Dojo frontend SDK** for real-time state updates.
+  **Deployed live on Vercel**. 39 of 41 commits (**95%**) during the jam period. Separate
   contracts repository at shramee/zashmu-contracts.
 repo_url: "https://github.com/ZackAmes/bu"
 demo_url: "https://bu-three.vercel.app/"

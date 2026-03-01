@@ -3,8 +3,8 @@ id: "depths-of-dread"
 emoji: "🏚️"
 title: "Depths of Dread"
 summary_short: >
-  Top-down roguelike with pixel art where players memorize codes to navigate obscured
-  dungeon floors filled with traps, enemies, and treasures.
+  **Top-down roguelike** with pixel art where players **memorize codes** to navigate obscured
+  dungeon floors filled with **traps, enemies, and treasures**.
 summary_long: >
   Depths of Dread is a **top-down roguelike** with pixel art and dungeon environments. Players
   receive a code at the start of each level that they must **memorize to complete the floor**.
@@ -13,12 +13,12 @@ summary_long: >
   for real-time updates. 70% of 66 commits were made during the jam. Requires **local setup**
   to play.
 work_done_short: >
-  Built a roguelike dungeon game with 7 Dojo models, 1 system, 7 events, and
-  frontend SDK integration during the jam.
+  Built a **roguelike dungeon game** with **7 Dojo models, 1 system, 7 events**, and
+  **frontend SDK** integration during the jam.
 work_done_long: >
-  Developed Dojo contracts with 7 models, 1 system, and 7 events for level generation,
-  trap placement, enemy behavior, and score tracking. Integrated the Dojo frontend SDK.
-  Built pixel art visual client for the dungeon environment. 46 of 66 commits (70%)
+  Developed Dojo contracts with **7 models, 1 system, and 7 events** for level generation,
+  trap placement, enemy behavior, and score tracking. Integrated the **Dojo frontend SDK**.
+  Built **pixel art visual client** for the dungeon environment. 46 of 66 commits (**70%**)
   during the jam. Local setup only.
 repo_url: "https://github.com/joeperpetua/depths-of-dread-backend"
 demo_url: null

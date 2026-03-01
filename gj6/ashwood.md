@@ -3,8 +3,8 @@ id: "ashwood"
 emoji: "⚔️"
 title: "Ashwood"
 summary_short: >
-  Fully onchain tactical strategy game where players command armies across a 54-position
-  battlefield divided into 6 tactical zones with seasonal warfare and supply chain logistics.
+  **Fully onchain tactical strategy game** where players command armies across a **54-position
+  battlefield** divided into 6 tactical zones with **seasonal warfare** and supply chain logistics.
 summary_long: >
   Ashwood is a **fully onchain tactical strategy game** built on Starknet using Dojo.
   Players command armies across a **54-position battlefield** divided into 6 tactical zones,
@@ -13,13 +13,13 @@ summary_long: >
   and 120-round battles where winners claim ownership of NFT units. A rich frontend with
   **Dojo SDK integration** delivers the complete strategic experience.
 work_done_short: >
-  Built a complete tactical strategy game with 8 models, 4 systems, 13 events,
-  seasonal warfare, supply logistics, and Dojo SDK during the jam.
+  Built a **complete tactical strategy game** with **8 models, 4 systems, 13 events**,
+  seasonal warfare, supply logistics, and **Dojo SDK** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 8 models, 4 systems, and 13 events for army management,
-  tactical zone control, seasonal effects, and combat resolution. 6 unique unit classes
-  with distinct movement patterns. Integrated the Dojo frontend SDK. All 13 commits
-  during the jam. Deployed live on Vercel with YouTube tutorial.
+  Developed Dojo contracts with **8 models, 4 systems, and 13 events** for army management,
+  tactical zone control, seasonal effects, and combat resolution. **6 unique unit classes**
+  with distinct movement patterns. Integrated the **Dojo frontend SDK**. All 13 commits
+  during the jam. **Deployed live on Vercel** with YouTube tutorial.
 repo_url: "https://github.com/Kagwep/ashwood"
 demo_url: "https://ashwood.vercel.app/"
 video_url: "https://youtu.be/1PGdqDZSXrY"

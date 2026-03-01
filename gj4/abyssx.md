@@ -4,8 +4,8 @@ repo_unavailable: true
 emoji: "🕳️"
 title: "AbyssX"
 summary_short: >
-  Roguelike dungeon crawler where adventurers descend into a mysterious bottomless cavern,
-  confronting creatures and harvesting treasures while acquiring skills and blessings.
+  **Roguelike dungeon crawler** where adventurers descend into a mysterious bottomless cavern,
+  confronting creatures and **harvesting treasures** while acquiring **skills and blessings**.
 summary_long: >
   AbyssX is a **roguelike dungeon crawler** set in a vast bottomless cavern called "X" where
   adventurers descend deeper into unknown depths. Players confront dangerous creatures, harvest
@@ -14,12 +14,12 @@ summary_long: >
   and irreversible curses as players forge ahead to uncover the abyss's true secrets. The
   repository is private/unavailable for **metric analysis**.
 work_done_short: >
-  Built a Unity-based roguelike dungeon crawler with Dojo integration during the jam.
-  Repository is unavailable for detailed analysis.
+  Built a **Unity-based roguelike dungeon crawler** with **Dojo integration** during the jam.
+  Repository is **unavailable** for detailed analysis.
 work_done_long: >
-  Developed a roguelike dungeon crawler using Unity and Dojo Engine. Implemented creature
-  encounters, treasure harvesting, and skill/blessing systems. Repository is private
-  or deleted, preventing detailed metric analysis. Gameplay demonstrated via YouTube video.
+  Developed a **roguelike dungeon crawler** using **Unity and Dojo Engine**. Implemented creature
+  encounters, treasure harvesting, and **skill/blessing systems**. Repository is private
+  or deleted, preventing detailed metric analysis. Gameplay demonstrated via **YouTube video**.
 repo_url: "https://github.com/mcjkn007/AbyssXDemo"
 demo_url: null
 video_url: "https://www.youtube.com/watch?v=j8g6KALxocc"

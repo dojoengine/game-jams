@@ -3,23 +3,23 @@ id: "destiny"
 emoji: "⚔️"
 title: "Destiny"
 summary_short: >
-  Turn-based RPG battle game where players command heroes against monsters across 3
-  difficulty levels. Features 9 skill types including offensive, support, and debuff
-  abilities with on-chain progression.
+  **Turn-based RPG battle game** where players command heroes against monsters across 3
+  difficulty levels. Features **9 skill types** including offensive, support, and debuff
+  abilities with **on-chain progression**.
 summary_long: >
-  Destiny is a fully on-chain turn-based RPG built on Starknet using Dojo. Players select
+  Destiny is a **fully on-chain turn-based RPG** built on Starknet using Dojo. Players select
   heroes and assign skills each turn to battle waves of monsters. The combat system features
   9 skill types spanning offensive attacks, healing, buffs, and debuffs, with critical hits,
   evasion, and defense calculations. Dojo manages game state through 2 models and 1 system
-  with 1 event. The frontend features pixel-art animated characters, sound effects, and
-  background music. Deployed live on Vercel with Cartridge Controller integration.
+  with 1 event. The frontend features **pixel-art animated characters**, sound effects, and
+  background music. **Deployed live on Vercel** with Cartridge Controller integration.
 work_done_short: >
-  Built a complete turn-based RPG with heroes, 9 skill types, 3 difficulty levels,
-  pixel-art animations, and live deployment.
+  Built a **complete turn-based RPG** with heroes, 9 skill types, 3 difficulty levels,
+  **pixel-art animations**, and **live deployment**.
 work_done_long: >
-  Developed a full turn-based RPG with Dojo contracts defining 2 models, 1 system, and 1
-  event for on-chain game state. Built a React frontend with pixel-art character animations,
-  sound effects, and background music. Implemented combat mechanics including critical hits,
+  Developed a full turn-based RPG with **Dojo contracts** defining 2 models, 1 system, and 1
+  event for on-chain game state. Built a React frontend with **pixel-art character animations**,
+  sound effects, and background music. Implemented **combat mechanics** including critical hits,
   evasion, and defense calculations across 3 progressive difficulty levels.
 repo_url: "https://github.com/SimplementeCao/dojo-game-jam-destiny"
 demo_url: "https://dojo-destiny.vercel.app/"

@@ -3,8 +3,8 @@ id: "the-marquis-checkers"
 emoji: "♟️"
 title: "The Marquis: Checkers"
 summary_short: >
-  Fully onchain checkers game on Starknet using Dojo Engine, part of The Marquis gaming
-  platform, with all game logic implemented in smart contracts.
+  **Fully onchain checkers game** on Starknet using **Dojo Engine**, part of **The Marquis** gaming
+  platform, with all game logic implemented in **smart contracts**.
 summary_long: >
   The Marquis: Checkers is a **fully onchain checkers game** implemented using the Dojo Engine
   on Starknet Layer 2. All game logic including player moves, validations, and win conditions
@@ -12,13 +12,13 @@ summary_long: >
   1 system, and 4 events with **frontend SDK integration**. Part of **The Marquis** gaming
   platform, with 25% of 167 commits during the jam. A **Loom demo video** showcases gameplay.
 work_done_short: >
-  Added onchain checkers to The Marquis platform with 4 Dojo models, 1 system,
-  4 events, and frontend SDK during the jam.
+  Added **onchain checkers** to The Marquis platform with **4 Dojo models, 1 system,
+  4 events**, and **frontend SDK** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 4 models, 1 system, and 4 events for checkers game
-  logic, move validation, and win conditions. Integrated the Dojo frontend SDK.
+  Developed Dojo contracts with **4 models, 1 system, and 4 events** for checkers game
+  logic, **move validation, and win conditions**. Integrated the **Dojo frontend SDK**.
   Part of The Marquis gaming platform. 42 of 167 commits (25%) during the jam.
-  Gameplay demonstrated via Loom video.
+  Gameplay demonstrated via **Loom video**.
 repo_url: "https://github.com/The-Marquis-Gaming/checkers-dojo"
 demo_url: null
 video_url: "https://www.loom.com/share/59af22d54b2542bd92db39fb4245876d"

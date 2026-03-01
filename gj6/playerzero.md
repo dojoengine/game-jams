@@ -3,8 +3,8 @@ id: "playerzero"
 emoji: "💎"
 title: "Player Zero"
 summary_short: >
-  20-round onchain brawl where players scramble to stockpile Gold, Water, and Oil
-  through buying, sabotage, and market manipulation on Dojo and Starknet.
+  **20-round onchain brawl** where players scramble to stockpile Gold, Water, and Oil
+  through buying, **sabotage, and market manipulation** on **Dojo and Starknet**.
 summary_long: >
   Player Zero is a **20-round onchain brawl** on Dojo and Starknet where players scramble to
   stockpile Gold, Water, and Oil before anyone else. Every sneaky buy, cheeky sabotage, and
@@ -13,12 +13,12 @@ summary_long: >
   63% of 8 commits during the jam. **Deployed live on Vercel** with retro vibes and a
   Google Drive demo video.
 work_done_short: >
-  Built a complete commodity trading brawl with 5 Dojo models, 1 system, 6 events,
-  and live Vercel deployment during the jam.
+  Built a complete **commodity trading brawl** with **5 Dojo models, 1 system, 6 events**,
+  and **live Vercel deployment** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 5 models, 1 system, and 6 events for resource trading,
-  sabotage mechanics, price dynamics, and round management. Integrated the Dojo frontend
-  SDK. 5 of 8 commits (63%) during the jam. Deployed live on Vercel with Google Drive
+  Developed Dojo contracts with **5 models, 1 system, and 6 events** for resource trading,
+  **sabotage mechanics**, price dynamics, and round management. Integrated the **Dojo frontend
+  SDK**. 5 of 8 commits (63%) during the jam. **Deployed live on Vercel** with Google Drive
   demo video.
 repo_url: "https://github.com/0xmukeshr/Player_zero"
 demo_url: "https://player-zero-final-1pot.vercel.app/"

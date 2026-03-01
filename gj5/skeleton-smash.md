@@ -3,8 +3,8 @@ id: "skeleton-smash"
 emoji: "💀"
 title: "Skeleton Smash"
 summary_short: >
-  Halloween-themed platformer where players control a pumpkin navigating eerie landscapes,
-  available on Telegram and web with live deployment.
+  **Halloween-themed platformer** where players control a pumpkin navigating eerie landscapes,
+  available on **Telegram and web** with **live deployment**.
 summary_long: >
   Skeleton Smash is a **Halloween-themed platformer** where players control a fearless pumpkin
   navigating eerie landscapes filled with spine-chilling surprises. Built with 6 Dojo models
@@ -12,12 +12,12 @@ summary_long: >
   the jam. **Deployed live** on both Telegram (@SkeletonSmashBot) and the web at
   skeleton-smash.pages.dev, making it **accessible across platforms** without installation.
 work_done_short: >
-  Built a cross-platform Halloween platformer with 6 Dojo models, 2 systems, and
-  frontend SDK, deployed on Telegram and web during the jam.
+  Built a **cross-platform Halloween platformer** with **6 Dojo models, 2 systems**, and
+  **frontend SDK**, deployed on **Telegram and web** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 6 models and 2 systems for player movement, enemy
-  encounters, and scoring. Integrated the Dojo frontend SDK. Deployed on both Telegram
-  and Cloudflare Pages for cross-platform access. 136 of 143 commits (95%) during
+  Developed Dojo contracts with **6 models and 2 systems** for player movement, enemy
+  encounters, and scoring. Integrated the **Dojo frontend SDK**. Deployed on both **Telegram
+  and Cloudflare Pages** for cross-platform access. 136 of 143 commits (**95%**) during
   the jam. Published under RuneLabsxyz.
 repo_url: "https://github.com/RuneLabsxyz/skeleton-smash/"
 demo_url: "https://skeleton-smash.pages.dev"

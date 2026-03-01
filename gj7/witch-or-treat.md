@@ -3,23 +3,23 @@ id: "witch-or-treat"
 emoji: "🎃"
 title: "Witch or Treat"
 summary_short: >
-  On-chain Halloween mini-game built with Dojo where players ring a doorbell to collect
-  treats, brew magical potions with different effects, and risk being cursed by the Witch.
+  **On-chain Halloween mini-game** built with Dojo where players ring a doorbell to collect
+  treats, **brew magical potions** with different effects, and risk being **cursed by the Witch**.
 summary_long: >
-  Witch or Treat is a Halloween-themed on-chain mini-game on Starknet using Dojo and Cairo
+  Witch or Treat is a **Halloween-themed on-chain mini-game** on Starknet using Dojo and Cairo
   smart contracts. Players ring a doorbell to randomly collect treats, then brew three types
-  of potions with different costs and strategic effects. Drinking potions activates buffs,
-  but the Witch can curse players at any time. The game uses Dojo's on-chain architecture
+  of potions with different costs and **strategic effects**. Drinking potions activates buffs,
+  but the **Witch can curse players** at any time. The game uses Dojo's on-chain architecture
   with Torii for real-time state synchronization. The repository is a fork of the game-jams
   repo with game code in a subdirectory.
 work_done_short: >
-  Built a Halloween-themed treat-collecting and potion-brewing mini-game using Dojo and
-  Cairo contracts with a JavaScript frontend.
+  Built a **Halloween-themed** treat-collecting and **potion-brewing mini-game** using Dojo and
+  **Cairo contracts** with a JavaScript frontend.
 work_done_long: >
-  Developed an on-chain mini-game within the game-jams repository fork, implementing
-  doorbell interaction for random treat collection, a potion brewing system with three
-  recipe types, potion activation effects, and a curse mechanic. Built Cairo smart contracts
-  with Torii indexing for real-time state sync. Created a JavaScript/HTML/CSS frontend.
+  Developed an **on-chain mini-game** within the game-jams repository fork, implementing
+  doorbell interaction for random treat collection, a **potion brewing system** with three
+  recipe types, potion activation effects, and a curse mechanic. Built **Cairo smart contracts**
+  with **Torii indexing** for real-time state sync. Created a JavaScript/HTML/CSS frontend.
 repo_url: "https://github.com/Akaninyang/game-jams/tree/aa6dca3d11953c23151fa8981b123385ed79ef26/games/witch-or-treat"
 demo_url: null
 video_url: null

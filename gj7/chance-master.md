@@ -3,25 +3,25 @@ id: "chance-master"
 emoji: "🎲"
 title: "Chance Master"
 summary_short: >
-  Chess variant where dice rolls determine which piece type you can move each turn.
+  **Chess variant** where **dice rolls** determine which piece type you can move each turn.
   Three dice are rolled before every move, injecting suspense into classical chess
-  strategy and forcing creative improvisation under constraints.
+  strategy and forcing **creative improvisation** under constraints.
 summary_long: >
-  Chance Master combines classical chess with dice-driven piece selection, where players
+  Chance Master combines classical chess with **dice-driven piece selection**, where players
   roll three dice each turn to determine which piece types they can move. The game uses
-  ZK proofs for anti-cheat: Circom circuits produce Groth16 proofs of move legality,
+  **ZK proofs** for anti-cheat: Circom circuits produce Groth16 proofs of move legality,
   verified on-chain via Garaga on Starknet. Dojo ECS models store game state including
-  board, clock, and claims. Real-time multiplayer is powered by Torii WebSocket
-  subscriptions, and a permissive account policy flow enables sign-less gameplay.
+  board, clock, and claims. Real-time multiplayer is powered by **Torii WebSocket
+  subscriptions**, and a permissive account policy flow enables sign-less gameplay.
 work_done_short: >
-  Built a complete ZK-verified chess variant with dice mechanics, Circom proof generation,
-  on-chain Garaga verification, and real-time multiplayer via Torii.
+  Built a **complete ZK-verified chess variant** with dice mechanics, **Circom proof generation**,
+  on-chain Garaga verification, and **real-time multiplayer** via Torii.
 work_done_long: >
   Developed a full chess game with dice-based piece selection. Implemented Circom circuits
-  and snarkjs for Groth16 proof generation of move legality, with Cairo-based on-chain
-  verification using Garaga. Built Dojo contracts with 1 model, 1 system, and 1 event for
+  and snarkjs for **Groth16 proof generation** of move legality, with **Cairo-based on-chain
+  verification** using Garaga. Built Dojo contracts with 1 model, 1 system, and 1 event for
   game state management. Created a multiplayer frontend with WebSocket sync via Torii and
-  sign-less UX through permissive account policies.
+  **sign-less UX** through permissive account policies.
 repo_url: "https://github.com/armaanansari121/Chance-Master"
 demo_url: null
 video_url: "https://youtu.be/li_P68mlM-Y"

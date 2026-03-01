@@ -3,23 +3,23 @@ id: "harvest-heist"
 emoji: "💰"
 title: "Harvest Heist"
 summary_short: >
-  A roguelike heist adventure where players infiltrate procedurally generated banks to
+  A **roguelike heist adventure** where players infiltrate **procedurally generated banks** to
   steal loot, dodge traps, and escape before the timer runs out. Loot is only permanent
-  if you return to the safe zone in time.
+  if you **return to the safe zone** in time.
 summary_long: >
-  Harvest Heist is a roguelike heist game built on Starknet using Dojo. Players explore
+  Harvest Heist is a **roguelike heist game** built on Starknet using Dojo. Players explore
   randomized bank rooms filled with traps, loot, and enemies, accumulating unbanked loot
   that must be secured by reaching the safe zone before time expires. The game features
-  progressive levels from training vaults to countryside stealth missions, plus upgrades
+  **progressive levels** from training vaults to countryside stealth missions, plus upgrades
   like speed boots, bigger bags, and timer extenders. Built with 1 Dojo model and 2 systems
-  for on-chain game state. Frontend SDK integration provides the browser interface.
+  for on-chain game state. **Frontend SDK integration** provides the browser interface.
 work_done_short: >
-  Built a complete roguelike heist game from scratch with procedural generation, timer
-  mechanics, upgrades, and a live deployment.
+  Built a **complete roguelike heist game from scratch** with **procedural generation**, timer
+  mechanics, upgrades, and a **live deployment**.
 work_done_long: >
-  Developed Dojo contracts with 1 model and 2 systems for on-chain game state including
-  bank layouts, loot tracking, and timer mechanics. Built a frontend with Dojo SDK
-  integration for real-time state synchronization. Implemented procedural level generation,
+  Developed **Dojo contracts** with 1 model and 2 systems for on-chain game state including
+  bank layouts, loot tracking, and timer mechanics. Built a frontend with **Dojo SDK
+  integration** for real-time state synchronization. Implemented **procedural level generation**,
   a loot banking system, and player upgrades across multiple heist levels.
 repo_url: "https://github.com/Ashar20/game3"
 demo_url: "https://harvestheist.vercel.app"

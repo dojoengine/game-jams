@@ -3,8 +3,8 @@ id: "tale-weaver"
 emoji: "📖"
 title: "Tale Weaver"
 summary_short: >
-  AI-powered interactive storytelling game using DALL-E rendering and blockchain integration
-  via Dojo, with Blobert NFT contest mode.
+  **AI-powered interactive storytelling** game using **DALL-E rendering** and **blockchain integration
+  via Dojo**, with **Blobert NFT contest mode**.
 summary_long: >
   Tale Weaver is an **AI-powered interactive storytelling** game that crafts immersive narratives
   rendered through DALL-E image generation. Every player choice shapes the journey, creating
@@ -13,12 +13,12 @@ summary_long: >
   Built with 6 models, 3 systems, and 1 event with frontend SDK. The "v2-gamejam" designation
   and 39% jam commits indicate **significant pre-existing work** extended during the jam.
 work_done_short: >
-  Extended an existing AI storytelling platform with Blobert NFT integration and Dojo
-  contracts during the jam, with 39% of commits in the jam window.
+  Extended an existing **AI storytelling platform** with **Blobert NFT integration** and **Dojo
+  contracts** during the jam, with **39% of commits** in the jam window.
 work_done_long: >
-  Built on a pre-existing storytelling platform (v2), adding Dojo contracts with 6 models,
-  3 systems, and 1 event for onchain game state. Integrated Blobert NFTs for a contest mode.
-  Frontend uses the Dojo SDK. Only 14 of 36 commits (39%) during the jam, indicating
+  Built on a pre-existing storytelling platform (v2), adding **Dojo contracts with 6 models,
+  3 systems, and 1 event** for onchain game state. Integrated **Blobert NFTs** for a contest mode.
+  Frontend uses the **Dojo SDK**. Only **14 of 36 commits (39%)** during the jam, indicating
   significant prior work. Requires API keys for local setup.
 repo_url: "https://github.com/taleweaver-ai/taleweaver-v2-gamejam"
 demo_url: null

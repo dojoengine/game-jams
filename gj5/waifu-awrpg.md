@@ -3,8 +3,8 @@ id: "waifu-awrpg"
 emoji: "🎮"
 title: "Waifu-AWRPG"
 summary_short: >
-  Free-to-use onchain protocol for creators to upload moddable waifu assets and invite
-  friends to play, built with Phaser and Dojo.
+  **Free-to-use onchain protocol** for creators to upload **moddable waifu assets** and invite
+  friends to play, built with **Phaser and Dojo**.
 summary_long: >
   Waifu-AWRPG is a **free-to-use onchain protocol** for creators to upload moddable waifu
   assets and invite friends to play. Built with **Phaser and Dojo**, players can spawn heroes,
@@ -13,12 +13,12 @@ summary_long: >
   **local deployment** with burner wallet support. Plans include IPFS/Arweave integration
   and **AI protocol** support for immersive UX.
 work_done_short: >
-  Built an onchain RPG protocol with 18 Dojo models, 12 systems, 2 events, and
-  frontend SDK using Phaser during the jam.
+  Built an **onchain RPG protocol** with **18 Dojo models, 12 systems, 2 events**, and
+  **frontend SDK** using **Phaser** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 18 models, 12 systems, and 2 events for hero spawning,
-  combat mechanics, and asset management. Built visual client with Phaser. Integrated
-  the Dojo frontend SDK with burner wallet support. 26 of 34 commits (76%) during
+  Developed Dojo contracts with **18 models, 12 systems, and 2 events** for hero spawning,
+  combat mechanics, and asset management. Built visual client with **Phaser**. Integrated
+  the **Dojo frontend SDK** with **burner wallet support**. 26 of 34 commits (76%) during
   the jam. Local deployment only with Google Drive video demo.
 repo_url: "https://github.com/BriefCandle/dojo-gamejam"
 demo_url: null

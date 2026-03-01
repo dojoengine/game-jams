@@ -4,8 +4,8 @@ repo_unavailable: true
 emoji: "🏝️"
 title: "Craft Island: Exploration"
 summary_short: >
-  Flying ship exploration feature for Craft Island where players access procedurally
-  generated islands to gather resources, built with Unreal Engine 5 and Dojo.
+  **Flying ship exploration** feature for Craft Island where players access **procedurally
+  generated islands** to gather resources, built with **Unreal Engine 5 and Dojo**.
 summary_long: >
   Craft Island: Exploration adds **island exploration** to the existing Craft Island prototype.
   Players use a flying ship to access **procedurally generated islands** and gather new
@@ -14,12 +14,12 @@ summary_long: >
   demo. AI tools used for 3D asset generation (Rodin AI) and contract development (Claude Code).
   The repository is private/unavailable for **metric analysis**.
 work_done_short: >
-  Added procedural island exploration to Craft Island with UE5 and Dojo.
-  Repository is unavailable for detailed analysis.
+  Added **procedural island exploration** to Craft Island with **UE5 and Dojo**.
+  Repository is **unavailable** for detailed analysis.
 work_done_long: >
-  Extended the Craft Island prototype with procedural island generation, resource gathering,
-  onboarding quests, and mobile controls. Used Unreal Engine 5 with Dojo contracts. AI-assisted
-  development with Claude Code and Rodin AI for 3D assets. TestFlight demo available. Repository
+  Extended the Craft Island prototype with **procedural island generation**, resource gathering,
+  onboarding quests, and mobile controls. Used **Unreal Engine 5** with Dojo contracts. **AI-assisted
+  development** with Claude Code and Rodin AI for 3D assets. **TestFlight demo** available. Repository
   is private or deleted, preventing detailed metric analysis.
 repo_url: "https://github.com/caillef/craft-island"
 demo_url: null

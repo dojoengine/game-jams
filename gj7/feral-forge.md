@@ -3,24 +3,24 @@ id: "feral-forge"
 emoji: "🧌"
 title: "Feral Forge"
 summary_short: >
-  A fully on-chain 2048-style beast-merging puzzle game set in the Loot Survivor universe.
+  A **fully on-chain 2048-style beast-merging puzzle game** set in the Loot Survivor universe.
   Players slide beasts on a 4x4 grid to merge them into higher tiers and rare Shiny
-  variants, competing for high scores minted as soul-bound ERC-721 tokens.
+  variants, competing for high scores minted as **soul-bound ERC-721 tokens**.
 summary_long: >
-  Feral Forge reimagines the classic 2048 mechanic through the Loot Survivor bestiary.
+  Feral Forge reimagines the classic 2048 mechanic through the **Loot Survivor bestiary**.
   Players slide a 4x4 grid to merge same-tier beasts into stronger creatures, with matching
-  names producing coveted Shiny Beasts. Each game is minted as a soul-bound ERC-721 token
+  names producing coveted **Shiny Beasts**. Each game is minted as a soul-bound ERC-721 token
   with its own leaderboard that transfers to whoever beats the high score. The game uses
-  read-only contract methods for client-side gameplay and a single batch-submit transaction
+  read-only contract methods for **client-side gameplay** and a single batch-submit transaction
   at game end, enabling a mobile-friendly experience without per-move delays.
 work_done_short: >
-  Built a complete on-chain beast-merging puzzle game with ERC-721 leaderboard tokens,
-  batch move submission, and a mobile-optimized React client.
+  Built a **complete on-chain beast-merging puzzle game** with **ERC-721 leaderboard tokens**,
+  batch move submission, and a **mobile-optimized React client**.
 work_done_long: >
-  Developed Dojo smart contracts implementing 2048-style grid logic, beast tier merging,
-  Shiny variant detection, and ERC-721 token minting with per-game leaderboards. Designed
-  a batch move replay system and built a mobile-first React frontend integrated with
-  Cartridge Controller, requiring no indexer for state reads.
+  Developed **Dojo smart contracts** implementing 2048-style grid logic, beast tier merging,
+  Shiny variant detection, and **ERC-721 token minting** with per-game leaderboards. Designed
+  a **batch move replay system** and built a mobile-first React frontend integrated with
+  **Cartridge Controller**, requiring no indexer for state reads.
 repo_url: "https://github.com/rsodre/feral-forge"
 demo_url: "https://feral.beta.underware.gg/"
 video_url: null
