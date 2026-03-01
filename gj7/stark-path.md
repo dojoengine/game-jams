@@ -3,22 +3,22 @@ id: "stark-path"
 emoji: "🧠"
 title: "Stark-Path"
 summary_short: >
-  On-chain memory puzzle game where players navigate paths by recalling sequences.
+  **On-chain memory puzzle game** where players navigate paths by **recalling sequences**.
   Built with Dojo Engine on Starknet, combining traditional memory gameplay with
-  blockchain verification.
+  **blockchain verification**.
 summary_long: >
-  StarkPath is an on-chain memory game built with Dojo on Starknet. Players recall and
+  StarkPath is an **on-chain memory game** built with Dojo on Starknet. Players recall and
   reproduce path sequences in a blockchain-verified environment. The game stores player
   state using a single Dojo model and processes moves through a dedicated system contract.
-  A frontend SDK integration provides a responsive browser interface. The repository is
-  largely pre-existing work with only 2% of commits made during the jam.
+  A **frontend SDK integration** provides a responsive browser interface. The repository is
+  largely **pre-existing work** with only 2% of commits made during the jam.
 work_done_short: >
-  Integrated a Dojo smart contract with one model and one system into an existing memory
-  game codebase, plus a frontend SDK connection.
+  Integrated a **Dojo smart contract** with one model and one system into an existing memory
+  game codebase, plus a **frontend SDK connection**.
 work_done_long: >
-  Built a single Dojo model for player puzzle state and one system contract for move logic.
-  Connected the frontend to the Dojo backend via the SDK. The repository is largely
-  pre-existing with only 1 of 37 total commits attributable to the jam period.
+  Built a **single Dojo model** for player puzzle state and one system contract for move logic.
+  Connected the frontend to the Dojo backend via the **SDK**. The repository is largely
+  **pre-existing** with only 1 of 37 total commits attributable to the jam period.
 repo_url: "https://github.com/dimka90/stark-path"
 demo_url: null
 video_url: "https://youtu.be/-7fKWNWSPfg"

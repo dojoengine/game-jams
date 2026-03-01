@@ -3,8 +3,8 @@ id: "caps"
 emoji: "♟️"
 title: "Caps"
 summary_short: >
-  Fast-paced chess-like board game where pieces have special abilities, featuring 4 teams,
-  elo-based matchmaking, and a Daydreams AI opponent.
+  **Fast-paced chess-like board game** where pieces have special abilities, featuring 4 teams,
+  **elo-based matchmaking**, and a **Daydreams AI opponent**.
 summary_long: >
   Caps is a **fast-paced chess-like board game** where pieces have special abilities. Players
   choose from 4 teams with varied playstyles, competing via **elo-based matchmaking** or
@@ -12,13 +12,13 @@ summary_long: >
   **frontend SDK integration**. Mobile-friendly design. 18% of 149 commits were during the
   jam window. **Deployed live on Vercel** with invite functionality for direct challenges.
 work_done_short: >
-  Built a chess-like board game with 15 Dojo models, 4 systems, elo matchmaking,
-  and AI opponent, deployed on Vercel during the jam.
+  Built a chess-like board game with **15 Dojo models, 4 systems**, **elo matchmaking**,
+  and **AI opponent**, deployed on Vercel during the jam.
 work_done_long: >
-  Developed Dojo contracts with 15 models, 4 systems, and 1 event for piece abilities,
-  team selection, elo ranking, and match state. Integrated Daydreams AI agent as opponent.
-  Dojo frontend SDK for real-time state. 27 of 149 commits (18%) during the jam.
-  Deployed live on Vercel with mobile-friendly design.
+  Developed Dojo contracts with **15 models, 4 systems, and 1 event** for piece abilities,
+  team selection, elo ranking, and match state. Integrated **Daydreams AI agent** as opponent.
+  **Dojo frontend SDK** for real-time state. 27 of 149 commits (18%) during the jam.
+  **Deployed live on Vercel** with mobile-friendly design.
 repo_url: "https://github.com/ZackAmes/caps-jam"
 demo_url: "https://caps-jam.vercel.app/"
 video_url: null

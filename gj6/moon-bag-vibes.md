@@ -3,8 +3,8 @@ id: "moon-bag-vibes"
 emoji: "🌙"
 title: "Moon Bag Vibes"
 summary_short: >
-  Cosmic-themed push-your-luck rogue-like bag-building game where players draw orbs
-  to score points while avoiding bombs, built with PixiJS and Dojo.
+  **Cosmic-themed push-your-luck rogue-like** bag-building game where players draw orbs
+  to score points while avoiding bombs, built with **PixiJS and Dojo**.
 summary_long: >
   Moon Bag Vibes is a **cosmic-themed push-your-luck rogue-like** bag-building game where
   players draw orbs from a bag to score points while avoiding bombs. Every tap of the moon
@@ -12,12 +12,12 @@ summary_long: >
   and survival. Built with 8 Dojo models and 1 system using **PixiJS for the client**. 89%
   of 72 commits during the jam. Requires **local setup** with Katana and Torii.
 work_done_short: >
-  Built a complete push-your-luck bag-building game with 8 Dojo models, 1 system,
-  and PixiJS client during the jam.
+  Built a complete **push-your-luck bag-building game** with **8 Dojo models, 1 system**,
+  and **PixiJS client** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 8 models and 1 system for bag contents, orb drawing,
-  bomb mechanics, scoring, and round management. Built visual client with PixiJS.
-  64 of 72 commits (89%) during the jam. Local setup with Katana and Torii.
+  Developed Dojo contracts with **8 models and 1 system** for bag contents, orb drawing,
+  bomb mechanics, scoring, and round management. Built visual client with **PixiJS**.
+  **64 of 72 commits (89%)** during the jam. Local setup with Katana and Torii.
   No frontend SDK integration.
 repo_url: "https://github.com/elton-cs/moonbag-intro"
 demo_url: null

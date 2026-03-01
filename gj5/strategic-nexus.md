@@ -4,8 +4,8 @@ repo_unavailable: true
 emoji: "🗺️"
 title: "Strategic Nexus"
 summary_short: >
-  Web3 adventure game where players collect items and evade enemies using Dojo's Move
-  and Spawn features, navigating obstacles with strategic item abilities.
+  **Web3 adventure game** where players collect items and **evade enemies** using **Dojo's Move
+  and Spawn features**, navigating obstacles with **strategic item abilities**.
 summary_long: >
   Strategic Nexus is a **Web3 adventure game** utilizing Dojo's Move and Spawn features.
   Players navigate a vibrant world, collecting items like the Fire Suit, Key, and Sword while
@@ -13,12 +13,12 @@ summary_long: >
   that open new challenges and pathways. The repository is private/unavailable for metric
   analysis. A **Loom demo video** demonstrates the gameplay.
 work_done_short: >
-  Built a Web3 adventure game using Dojo's Move and Spawn features. Repository is
-  unavailable for detailed analysis.
+  Built a **Web3 adventure game** using **Dojo's Move and Spawn features**. Repository is
+  **unavailable** for detailed analysis.
 work_done_long: >
-  Developed a Web3 adventure game with item collection and enemy evasion mechanics
-  using Dojo contracts. Separate contracts repository. Repository is private or deleted,
-  preventing detailed metric analysis. Gameplay demonstrated via Loom video.
+  Developed a **Web3 adventure game** with **item collection and enemy evasion** mechanics
+  using Dojo contracts. Separate contracts repository. Repository is **private or deleted**,
+  preventing detailed metric analysis. Gameplay demonstrated via **Loom video**.
 repo_url: "https://github.com/AkankshaAttavar/Strategic-Nexus"
 demo_url: null
 video_url: "https://www.loom.com/share/8af646b2d283451a9e79f4b70396f38d"

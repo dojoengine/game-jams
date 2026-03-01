@@ -3,8 +3,8 @@ id: "song-of-camelot"
 emoji: "🏰"
 title: "Song of Camelot"
 summary_short: >
-  Onchain strategy game where players compete to dominate a map by strategically placing
-  elemental influences, with Cartridge wallet integration for onboarding.
+  **Onchain strategy game** where players compete to dominate a map by strategically placing
+  **elemental influences**, with **Cartridge wallet integration** for onboarding.
 summary_long: >
   Song of Camelot is an **onchain strategy game** where players compete to dominate a map by
   strategically placing elemental influences. Features a separate **Cartridge wallet login
@@ -12,13 +12,13 @@ summary_long: >
   **frontend SDK integration**. All 8 commits during the jam. Requires **local setup** with
   instructions in the repository README.
 work_done_short: >
-  Built a complete elemental strategy game with 6 Dojo models, 4 systems, and
-  Cartridge wallet integration during the jam.
+  Built a complete **elemental strategy game** with **6 Dojo models, 4 systems**, and
+  **Cartridge wallet integration** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 6 models and 4 systems for map state, elemental
-  placement, influence mechanics, and competition logic. Integrated Cartridge wallet
-  login wrapper for user onboarding. Dojo frontend SDK integration. All 8 commits
-  during the jam. Local setup only.
+  Developed Dojo contracts with **6 models and 4 systems** for map state, elemental
+  placement, influence mechanics, and competition logic. Integrated **Cartridge wallet
+  login wrapper** for user onboarding. **Dojo frontend SDK** integration. All 8 commits
+  during the jam. **Local setup** only.
 repo_url: "https://github.com/gogibear/song-of-camelot"
 demo_url: null
 video_url: null

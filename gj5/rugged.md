@@ -3,8 +3,8 @@ id: "rugged"
 emoji: "💰"
 title: "Rugged"
 summary_short: >
-  High-risk trading simulator where players avoid getting rugged to become Team Members,
-  then choose between holding for dividends or rugging others.
+  **High-risk trading simulator** where players avoid getting rugged to become **Team Members**,
+  then choose between **holding for dividends** or **rugging others**.
 summary_long: >
   Rugged is a **high-risk trading simulator** by Haus of Sosij. Players face a 30% chance
   of getting rugged in phase 1; survivors become **Team Members** who must decide how long
@@ -12,12 +12,12 @@ summary_long: >
   models, 1 system, and 2 events with **frontend SDK integration**. 80% of 15 commits were
   during the jam. Phase 1 deployed to **Sepolia testnet** with a **YouTube gameplay video**.
 work_done_short: >
-  Built a two-phase trading simulator with 3 Dojo models, 1 system, 2 events,
-  and frontend SDK, deployed to Sepolia during the jam.
+  Built a **two-phase trading simulator** with **3 Dojo models, 1 system, 2 events**,
+  and **frontend SDK**, deployed to **Sepolia** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 3 models, 1 system, and 2 events for rug mechanics,
-  team membership, and dividend distribution. Integrated the Dojo frontend SDK.
-  Deployed phase 1 to Sepolia testnet. 12 of 15 commits (80%) during the jam.
+  Developed Dojo contracts with **3 models, 1 system, and 2 events** for rug mechanics,
+  team membership, and dividend distribution. Integrated the **Dojo frontend SDK**.
+  **Deployed phase 1 to Sepolia testnet**. 12 of 15 commits (**80%**) during the jam.
   YouTube gameplay video demonstrates the JS-based client.
 repo_url: "https://github.com/PoulavBhowmick03/rugged01"
 demo_url: null

@@ -3,8 +3,8 @@ id: "panda-panda"
 emoji: "🐼"
 title: "Panda Panda"
 summary_short: >
-  Browser-based tile-matching puzzle game inspired by Sheep a Sheep where players
-  strategically match tiles to clear levels, deployed on Slot and Render.
+  **Browser-based tile-matching puzzle** game inspired by Sheep a Sheep where players
+  strategically match tiles to clear levels, **deployed on Slot and Render**.
 summary_long: >
   Panda Panda is a **browser-based puzzle game** inspired by Sheep a Sheep, designed for
   desktop. Players must **match tiles strategically** to clear levels while managing limited
@@ -13,13 +13,13 @@ summary_long: >
   the jam. **Deployed on Slot** (Cartridge infrastructure) and **live on Render** with
   YouTube demo videos.
 work_done_short: >
-  Built a complete tile-matching puzzle with 3 Dojo models, 1 system, 4 events,
-  deployed on Slot and Render during the jam.
+  Built a complete **tile-matching puzzle** with **3 Dojo models, 1 system, 4 events**,
+  **deployed on Slot and Render** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 3 models, 1 system, and 4 events for tile state,
-  matching logic, slot management, and scoring. Integrated the Dojo frontend SDK.
-  Deployed on Cartridge Slot infrastructure and Render. All 7 commits during the jam.
-  YouTube demo videos available.
+  Developed Dojo contracts with **3 models, 1 system, and 4 events** for tile state,
+  matching logic, slot management, and scoring. Integrated the **Dojo frontend SDK**.
+  Deployed on **Cartridge Slot infrastructure** and Render. All 7 commits during the jam.
+  **YouTube demo videos** available.
 repo_url: "https://github.com/dpinones/panda-panda"
 demo_url: "https://panda-panda.onrender.com"
 video_url: "https://www.youtube.com/shorts/F1BVz7NrzOQ"

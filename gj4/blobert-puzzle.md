@@ -3,8 +3,8 @@ id: "blobert-puzzle"
 emoji: "🧩"
 title: "Blobert Puzzle"
 summary_short: >
-  Collaborative onchain puzzle where Blobert NFT owners each hold a piece, working together
-  on Starknet mainnet to reveal a hidden masterpiece.
+  **Collaborative onchain puzzle** where Blobert NFT owners each hold a piece, working together
+  on **Starknet mainnet** to reveal a **hidden masterpiece**.
 summary_long: >
   Blobert Puzzle is a **collaborative onchain puzzle** deployed on Starknet mainnet where
   each Blobert NFT owner possesses a piece of a collective puzzle. Players work together to
@@ -13,12 +13,12 @@ summary_long: >
   The game is **live on mainnet** at blobertpuzzle.xyz, making it one of the few jam projects
   deployed to production.
 work_done_short: >
-  Built and deployed a collaborative NFT puzzle game on Starknet mainnet with 3 Dojo
-  models, 2 systems, and frontend SDK integration.
+  Built and **deployed on Starknet mainnet** a collaborative NFT puzzle game with **3 Dojo
+  models, 2 systems**, and **frontend SDK integration**.
 work_done_long: >
-  Developed Dojo contracts with 3 models and 2 systems for puzzle piece ownership,
-  placement validation, and collaborative assembly. Integrated the Dojo frontend SDK.
-  Deployed live on Starknet mainnet at blobertpuzzle.xyz. All 5 commits during the jam.
+  Developed **Dojo contracts with 3 models and 2 systems** for puzzle piece ownership,
+  placement validation, and collaborative assembly. Integrated the **Dojo frontend SDK**.
+  **Deployed live on Starknet mainnet** at blobertpuzzle.xyz. All **5 commits during the jam**.
 repo_url: "https://github.com/Await-0x/blobert-puzzle"
 demo_url: "https://blobertpuzzle.xyz/"
 video_url: null

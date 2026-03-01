@@ -3,21 +3,21 @@ id: "tycoon"
 emoji: "🏠"
 title: "Tycoon"
 summary_short: >
-  Monopoly-inspired on-chain strategy game on Starknet. Players buy properties, collect
-  rent, and compete in a fully transparent economy where all game logic runs through smart
+  **Monopoly-inspired on-chain strategy game** on Starknet. Players buy properties, collect
+  rent, and compete in a **fully transparent economy** where all game logic runs through smart
   contracts.
 summary_long: >
-  Tycoon brings the Monopoly board game formula on-chain using Starknet. Players roll dice,
+  Tycoon brings the **Monopoly board game formula** on-chain using Starknet. Players roll dice,
   purchase properties, pay rent, and manage their economy with every action verified through
-  smart contracts. However, the repository is a large pre-existing project with 1244 commits
+  **smart contracts**. However, the repository is a large **pre-existing project** with 1244 commits
   and no Dojo framework markers were detected. The submission appears to be a previously
   developed project rather than work created during the game jam.
 work_done_short: >
-  Submitted a pre-existing Monopoly-style game. No Dojo contracts or jam-period development
+  Submitted a **pre-existing** Monopoly-style game. **No Dojo contracts** or jam-period development
   activity was detected in the repository.
 work_done_long: >
-  The repository contains 1244 commits with none attributable to the jam period. No Dojo
-  models, systems, or events were found. The frontend does not use the Dojo SDK. The project
+  The repository contains **1244 commits** with none attributable to the jam period. **No Dojo
+  models, systems, or events** were found. The frontend does not use the Dojo SDK. The project
   appears to be a fully developed game submitted without Dojo integration or jam-specific
   development.
 repo_url: "https://github.com/aji70/Tycoon"

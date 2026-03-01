@@ -3,23 +3,23 @@ id: "survivor-valhalla"
 emoji: "⚔️"
 title: "Survivor Valhalla"
 summary_short: >
-  Composable auto-battler built on the Loot Survivor ecosystem. Players create beast
-  bases and attack enemy bases using survivor lineups, extending ERC-721 NFTs from Loot
+  **Composable auto-battler** built on the **Loot Survivor ecosystem**. Players create beast
+  bases and attack enemy bases using survivor lineups, extending **ERC-721 NFTs** from Loot
   Survivor with new on-chain gameplay.
 summary_long: >
-  Survivor Valhalla is an auto-battler that composes on top of the Loot Survivor ecosystem,
+  Survivor Valhalla is an **auto-battler** that composes on top of the **Loot Survivor ecosystem**,
   giving existing ERC-721 beast and survivor NFTs new strategic utility. Players assemble
   beast bases for defense and survivor lineups for offense, then launch attacks resolved
   entirely on-chain. The Dojo backend features 1 model for game state, 3 system contracts,
-  and 2 events for combat outcomes. A frontend SDK connects to a live deployment on Netlify.
+  and 2 events for combat outcomes. A **frontend SDK** connects to a **live deployment on Netlify**.
   All commits were made during the jam.
 work_done_short: >
-  Built a full auto-battler from scratch with 1 model, 3 systems, 2 events, and a
-  live-deployed frontend during the jam.
+  Built a **full auto-battler from scratch** with 1 model, 3 systems, 2 events, and a
+  **live-deployed frontend** during the jam.
 work_done_long: >
-  Created a Dojo model for beast base and survivor lineup state, 3 system contracts for
+  Created a **Dojo model** for beast base and survivor lineup state, **3 system contracts** for
   base creation, attack resolution, and lineup management, and 2 events for combat results.
-  Integrated the frontend via the Dojo SDK and deployed live on Netlify.
+  Integrated the frontend via the Dojo SDK and **deployed live on Netlify**.
 repo_url: "https://github.com/Eikix/survivor-valhalla"
 demo_url: "https://survivor-valhalla.netlify.app/"
 video_url: null

@@ -3,24 +3,24 @@ id: "tomie-games"
 emoji: "🎭"
 title: "Tomie Games"
 summary_short: >
-  Narrative-driven on-chain Rock, Paper, Scissors duel on Starknet with Dojo. Players face
-  off against Tomie in a psychological battle with voice-acted dialogue, expressive
-  character animations, and a life-based elimination system.
+  **Narrative-driven** on-chain **Rock, Paper, Scissors** duel on Starknet with Dojo. Players face
+  off against Tomie in a psychological battle with **voice-acted dialogue**, expressive
+  character animations, and a **life-based elimination system**.
 summary_long: >
-  Tomie Games reimagines Rock, Paper, Scissors as a cinematic horror experience inspired by
+  Tomie Games reimagines Rock, Paper, Scissors as a **cinematic horror experience** inspired by
   Junji Ito. Players connect via Cartridge Controller and engage in a best-of-five duel
   against Tomie, whose expressions and dialogue shift dynamically based on match outcomes.
-  The game features a typewriter text system, voice-acted lines, and cinematic transitions.
+  The game features a **typewriter text system**, voice-acted lines, and cinematic transitions.
   Built with React, TypeScript, and Vite, using Dojo's on-chain architecture to store every
-  action as verifiable game state, with a custom HTML5 audio sync manager.
+  action as verifiable game state, with a custom **HTML5 audio sync manager**.
 work_done_short: >
-  Built a complete narrative Rock-Paper-Scissors game from scratch including on-chain game
-  logic, voice-acted dialogue system, and animated character reactions.
+  Built a **complete narrative Rock-Paper-Scissors game from scratch** including on-chain game
+  logic, **voice-acted dialogue system**, and animated character reactions.
 work_done_long: >
-  Developed a Dojo contract layer with game model and action system for on-chain RPS duels.
-  Created a React/TypeScript frontend with typewriter text animation, dynamic character
-  expressions, custom HTML5 audio synchronization for voice acting, life-tracking UI, and
-  cinematic fade transitions. Deployed live on Vercel with Cartridge Controller.
+  Developed a **Dojo contract layer** with game model and action system for on-chain RPS duels.
+  Created a React/TypeScript frontend with **typewriter text animation**, dynamic character
+  expressions, **custom HTML5 audio synchronization** for voice acting, life-tracking UI, and
+  cinematic fade transitions. **Deployed live on Vercel** with Cartridge Controller.
 repo_url: "https://github.com/dubzn/tomie-games"
 demo_url: "https://tomie-games.vercel.app/"
 video_url: "https://www.youtube.com/watch?v=bah7IStmMq8"

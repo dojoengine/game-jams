@@ -3,8 +3,8 @@ id: "moving-mountains-with-yu"
 emoji: "🏔️"
 title: "Moving Mountains With Yu"
 summary_short: >
-  Cookie Clicker-inspired idle game on Katana L3 where all population increases are
-  onchain transactions, featuring totem upgrades and strategic progression.
+  **Cookie Clicker-inspired idle game** on **Katana L3** where all population increases are
+  **onchain transactions**, featuring totem upgrades and **strategic progression**.
 summary_long: >
   Moving Mountains With Yu is a **Cookie Clicker-inspired idle game** leveraging Katana L3's
   low gas costs for fully onchain interactions. Players produce Blobert population by clicking
@@ -13,13 +13,13 @@ summary_long: >
   totems with **strategic upgrade paths**. Built with 4 Dojo models and 2 systems with
   **frontend SDK integration**, 97% of 32 commits were made during the jam.
 work_done_short: >
-  Built an idle clicker game with 4 Dojo models, 2 systems, and frontend SDK,
-  with all interactions fully onchain via Katana L3.
+  Built an **idle clicker game** with **4 Dojo models, 2 systems**, and **frontend SDK**,
+  with all interactions **fully onchain via Katana L3**.
 work_done_long: >
-  Developed Dojo contracts with 4 models and 2 systems for population tracking, click
-  multipliers, and totem upgrade mechanics. Integrated the Dojo frontend SDK for real-time
-  state synchronization. Designed all interactions as onchain transactions using Katana
-  L3's low gas costs. 31 of 32 commits (97%) during the jam. Video demo only.
+  Developed **Dojo contracts with 4 models and 2 systems** for population tracking, click
+  multipliers, and totem upgrade mechanics. Integrated the **Dojo frontend SDK** for real-time
+  state synchronization. Designed all interactions as **onchain transactions using Katana
+  L3's low gas costs**. **31 of 32 commits (97%)** during the jam. Video demo only.
 repo_url: "https://github.com/FrostStarBook/moving-mountains-with-yu"
 demo_url: null
 video_url: "https://www.youtube.com/watch?v=wopJoorMcQA"

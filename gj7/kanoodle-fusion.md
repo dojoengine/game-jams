@@ -3,25 +3,25 @@ id: "kanoodle-fusion"
 emoji: "🎨"
 title: "Kanoodle Fusion"
 summary_short: >
-  Blockchain-based color-mixing puzzle game where players place translucent polyomino
-  pieces on a 4x4 grid. Colors stack and blend additively to match target patterns
-  across 50 progressively challenging levels.
+  Blockchain-based **color-mixing puzzle game** where players place translucent polyomino
+  pieces on a 4x4 grid. Colors **stack and blend additively** to match target patterns
+  across **50 progressively challenging levels**.
 summary_long: >
-  Kanoodle Fusion is a spatial puzzle game built on Starknet using Dojo. Players place 13
+  Kanoodle Fusion is a **spatial puzzle game** built on Starknet using Dojo. Players place 13
   different polyomino pieces onto a 4x4 grid where primary colors (red, yellow, blue)
-  combine to create secondary colors (orange, green, purple). The game features 50 levels
-  of increasing difficulty, piece rotation and flipping, drag-and-drop controls, undo and
-  clear functionality, multi-language support, colorblind mode, and a Commodore 64 retro
-  aesthetic with CRT effects. All game state and logic stored on-chain.
+  combine to create secondary colors (orange, green, purple). The game features **50 levels
+  of increasing difficulty**, piece rotation and flipping, drag-and-drop controls, undo and
+  clear functionality, **multi-language support**, colorblind mode, and a **Commodore 64 retro
+  aesthetic** with CRT effects. All game state and logic stored on-chain.
 work_done_short: >
-  Built a complete color-mixing puzzle game with 50 levels, 13 piece types, additive
-  color blending, and a retro Commodore 64 aesthetic.
+  Built a **complete color-mixing puzzle game** with **50 levels**, 13 piece types, additive
+  color blending, and a **retro Commodore 64 aesthetic**.
 work_done_long: >
-  Developed a full puzzle game with Dojo contracts defining 1 model and 1 system for
-  on-chain game state. Implemented additive RGB color blending, 13 polyomino pieces with
-  rotation and flip transforms, 50 hand-designed levels, drag-and-drop controls, colorblind
-  accessibility mode, and multi-language support. Built a React frontend with Commodore 64
-  styling and CRT effects. Deployed live on Vercel.
+  Developed a full puzzle game with **Dojo contracts** defining 1 model and 1 system for
+  on-chain game state. Implemented **additive RGB color blending**, 13 polyomino pieces with
+  rotation and flip transforms, 50 hand-designed levels, drag-and-drop controls, **colorblind
+  accessibility mode**, and multi-language support. Built a React frontend with Commodore 64
+  styling and CRT effects. **Deployed live on Vercel**.
 repo_url: "https://github.com/dpinones/kanoodle-fusion"
 demo_url: "https://kanoodle-fusion.vercel.app/"
 video_url: "https://www.youtube.com/watch?v=eW0aSUBjs6c"

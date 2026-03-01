@@ -3,23 +3,23 @@ id: "simula"
 emoji: "🏙️"
 title: "Simula"
 summary_short: >
-  An 8-bit city builder where players claim plots, construct buildings like gold mines and
-  energy plants, and manage resources that generate passively in real-time based on
+  An **8-bit city builder** where players claim plots, construct buildings like gold mines and
+  energy plants, and manage resources that **generate passively in real-time** based on
   elapsed time.
 summary_long: >
-  Simula is an 8-bit city builder on Starknet where players claim terrain plots and
+  Simula is an **8-bit city builder** on Starknet where players claim terrain plots and
   construct resource-generating buildings. Resources accrue passively based on elapsed time,
-  with offline progress calculated on return. The game uses a two-layer architecture: instant
+  with **offline progress** calculated on return. The game uses a **two-layer architecture**: instant
   client-side feedback with localStorage persistence, paired with blockchain validation for
   security. Built with Dojo using 6 models and 2 systems. While the repository predates
   the jam, targeted feature work was contributed during the jam period.
 work_done_short: >
-  Contributed targeted feature additions to an existing city builder codebase, enhancing
-  resource management and on-chain state synchronization.
+  Contributed **targeted feature additions** to an existing city builder codebase, enhancing
+  **resource management** and **on-chain state synchronization**.
 work_done_long: >
-  During the jam, approximately 8% of total commits were made, adding targeted features.
-  Work included refinements to Dojo models and systems for resource generation and
-  improvements to the client-blockchain architecture for state synchronization.
+  During the jam, **approximately 8% of total commits** were made, adding targeted features.
+  Work included refinements to **Dojo models and systems** for resource generation and
+  improvements to the **client-blockchain architecture** for state synchronization.
 repo_url: "https://github.com/marlonedwards/simula"
 demo_url: "https://worldrep.xyz/play/simula"
 video_url: null

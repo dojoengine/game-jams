@@ -4,8 +4,8 @@ repo_unavailable: true
 emoji: "⚽"
 title: "ZoKer"
 summary_short: >
-  Fully onchain football manager game powered by Dojo, Controller, and Paymaster,
-  playable via Telegram and web with community-driven tournaments.
+  **Fully onchain football manager game** powered by **Dojo, Controller, and Paymaster**,
+  playable via **Telegram and web** with **community-driven tournaments**.
 summary_long: >
   ZoKer is a **fully onchain football manager game** powered by Dojo, Controller, and
   Paymaster. Players build dream teams and compete in **PvP matches and season tournaments**
@@ -14,12 +14,12 @@ summary_long: >
   repository is private/unavailable for metric analysis. **Deployed live** on Vercel with
   a Telegram bot for accessible gameplay.
 work_done_short: >
-  Built an onchain football manager game with Dojo, Controller, and Paymaster.
-  Repository is unavailable for detailed analysis.
+  Built an **onchain football manager game** with **Dojo, Controller, and Paymaster**.
+  Repository is **unavailable** for detailed analysis.
 work_done_long: >
-  Developed a football manager game using Dojo with Controller and Paymaster integration
-  for frictionless blockchain experience. Features PvP matches, tournaments, and internal
-  market. Telegram bot integration. Repository is private or deleted, preventing detailed
+  Developed a **football manager game** using Dojo with **Controller and Paymaster** integration
+  for frictionless blockchain experience. Features **PvP matches, tournaments, and internal
+  market**. **Telegram bot** integration. Repository is private or deleted, preventing detailed
   metric analysis. Live deployment on Vercel.
 repo_url: "https://github.com/Gianfranco99/ZoKer-Game-Jam"
 demo_url: "https://football-mini-game.vercel.app/"

@@ -3,8 +3,8 @@ id: "dtanks"
 emoji: "🎯"
 title: "DTanks"
 summary_short: >
-  Deceptive tank warfare game where players command 6 real tanks and 6 dummy decoys,
-  using terrain and misdirection to reach 1,500 points first.
+  **Deceptive tank warfare game** where players command 6 real tanks and **6 dummy decoys**,
+  using **terrain and misdirection** to reach 1,500 points first.
 summary_long: >
   DTanks is a **deceptive tank warfare game** where players command a mix of 6 real tanks and
   6 dummy decoys. Victory requires both **combat skill and clever misdirection** as players
@@ -12,12 +12,12 @@ summary_long: >
   SDK integration**, all 14 commits were made during the jam. **Deployed live on Vercel**
   with a playable demo and a **YouTube gameplay video** available.
 work_done_short: >
-  Built a complete tank warfare game with 7 Dojo models, 5 systems, and frontend SDK,
-  all during the jam with live Vercel deployment.
+  Built a complete **tank warfare game** with **7 Dojo models, 5 systems**, and **frontend SDK**,
+  all during the jam with **live Vercel deployment**.
 work_done_long: >
-  Developed Dojo contracts with 7 models and 5 systems for tank movement, combat resolution,
-  decoy management, and scoring. Integrated the Dojo frontend SDK for real-time state.
-  All 14 commits during the jam. Deployed live on Vercel at dtanks.vercel.app with
+  Developed Dojo contracts with **7 models and 5 systems** for tank movement, combat resolution,
+  decoy management, and scoring. Integrated the **Dojo frontend SDK** for real-time state.
+  All **14 commits during the jam**. **Deployed live on Vercel** at dtanks.vercel.app with
   YouTube gameplay demo.
 repo_url: "https://github.com/Kagwep/dtanks"
 demo_url: "https://dtanks.vercel.app/"

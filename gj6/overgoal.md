@@ -3,8 +3,8 @@ id: "overgoal"
 emoji: "⚽"
 title: "Overgoal"
 summary_short: >
-  Mobile-first football career game where matches play out in arcade sequences while
-  off-field choices reshape stats and storyline, all stored onchain.
+  **Mobile-first football career game** where matches play out in **arcade sequences** while
+  off-field choices reshape stats and storyline, all **stored onchain**.
 summary_long: >
   Overgoal drops players into the life of a **rising football legend**. Matches play out in
   snappy, arcade-style sequences while off-field choices (endorsements, nightlife, training)
@@ -13,13 +13,13 @@ summary_long: >
   56% of 126 commits during the jam. **Mobile-first design** with local setup required.
   Match logic currently runs **client-side** with backend service in progress.
 work_done_short: >
-  Built a mobile-first football career game with 8 Dojo models, 1 system, 1 event,
-  and arcade match sequences during the jam.
+  Built a **mobile-first football career game** with **8 Dojo models, 1 system, 1 event**,
+  and **arcade match sequences** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 8 models, 1 system, and 1 event for player stats,
-  career progression, match state, and off-field events. Integrated the Dojo frontend SDK.
-  Mobile-first React client with arcade-style match rendering. 70 of 126 commits (56%)
-  during the jam. Local setup with team seeding scripts.
+  Developed Dojo contracts with **8 models, 1 system, and 1 event** for player stats,
+  career progression, match state, and off-field events. Integrated the **Dojo frontend SDK**.
+  **Mobile-first React client** with arcade-style match rendering. 70 of 126 commits (56%)
+  during the jam. Local setup with **team seeding scripts**.
 repo_url: "https://github.com/mgrunwaldt/overgoal-game-repo"
 demo_url: null
 video_url: null

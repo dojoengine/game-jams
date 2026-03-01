@@ -3,8 +3,8 @@ id: "dodgeballer"
 emoji: "🏐"
 title: "Dodgeballer"
 summary_short: >
-  Blobert NFT-based dodgeball game where players mint unique Dodgeball NFTs from their
-  Blobert traits, earn Dodgecoin by hitting bullseyes with cannonballs.
+  **Blobert NFT-based dodgeball game** where players **mint unique Dodgeball NFTs** from their
+  Blobert traits, earn **Dodgecoin** by hitting bullseyes with cannonballs.
 summary_long: >
   DodgeBaller is a **Blobert NFT-powered dodgeball game** built with Phaser. Players mint
   unique Dodgeball NFTs derived from their Blobert's armor, weapon, and material traits,
@@ -13,13 +13,13 @@ summary_long: >
   Dojo markers, the project has 39 total commits with **95% made during the jam**. Deployed
   live on Vercel with **Starknet mainnet wallet** connection.
 work_done_short: >
-  Built a Phaser-based dodgeball game with NFT minting and Dodgecoin economy,
-  deployed live on Vercel with mainnet integration.
+  Built a **Phaser-based dodgeball game** with **NFT minting** and **Dodgecoin economy**,
+  **deployed live on Vercel** with mainnet integration.
 work_done_long: >
-  Developed a Phaser-based game with NFT minting mechanics that derive Dodgeball NFT
-  attributes from Blobert traits. Implemented a Dodgecoin token economy with earning
-  and spending mechanics. Uses Phaser rather than standard Dojo contract markers. 37 of
-  39 commits (95%) during the jam. Deployed live on Vercel.
+  Developed a **Phaser-based game** with **NFT minting mechanics** that derive Dodgeball NFT
+  attributes from Blobert traits. Implemented a **Dodgecoin token economy** with earning
+  and spending mechanics. Uses Phaser rather than standard Dojo contract markers. **37 of
+  39 commits (95%)** during the jam. **Deployed live on Vercel**.
 repo_url: "https://github.com/satyambnsal/dodgeballers"
 demo_url: "https://dodgeballers.vercel.app/"
 video_url: null

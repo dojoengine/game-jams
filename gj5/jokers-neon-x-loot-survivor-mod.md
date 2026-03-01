@@ -3,8 +3,8 @@ id: "jokers-neon-x-loot-survivor-mod"
 emoji: "🃏"
 title: "Jokers of Neon x Loot Survivor Mod"
 summary_short: >
-  Community mod for Jokers of Neon integrating Loot Survivor mechanics, dead adventurers,
-  and collectible beasts into the card game, deployed on Starknet mainnet.
+  **Community mod** for Jokers of Neon integrating **Loot Survivor** mechanics, dead adventurers,
+  and collectible beasts into the card game, **deployed on Starknet mainnet**.
 summary_long: >
   Jokers of Neon x Loot Survivor Mod is a **community mod** for the Jokers of Neon card game,
   incorporating gameplay mechanics and elements from **Loot Survivor** including dead adventurers
@@ -13,13 +13,13 @@ summary_long: >
   **deployed on Starknet mainnet** at ls.jokersofneon.com. Built by the 5-person **Caravana
   Studio** team.
 work_done_short: >
-  Built a Loot Survivor mod for Jokers of Neon with 46 models, 10 systems, 39 events,
-  deployed to mainnet during the jam.
+  Built a **Loot Survivor mod** for Jokers of Neon with **46 models, 10 systems, 39 events**,
+  **deployed to mainnet** during the jam.
 work_done_long: >
-  Extended the Jokers of Neon contracts with 46 models, 10 systems, and 39 events for
-  Loot Survivor integration including adventurer and beast mechanics. Separate contracts
-  and client repositories. 57 of 65 commits (88%) during the jam. Deployed on Starknet
-  mainnet at ls.jokersofneon.com.
+  Extended the Jokers of Neon contracts with **46 models, 10 systems, and 39 events** for
+  **Loot Survivor integration** including adventurer and beast mechanics. Separate contracts
+  and client repositories. 57 of 65 commits (**88%**) during the jam. **Deployed on Starknet
+  mainnet** at ls.jokersofneon.com.
 repo_url: "https://github.com/caravana-studio/jokers-ls-mod-contracts"
 demo_url: "https://ls.jokersofneon.com/"
 video_url: null

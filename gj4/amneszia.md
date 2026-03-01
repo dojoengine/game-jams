@@ -3,8 +3,8 @@ id: "amneszia"
 emoji: "🧠"
 title: "Amneszia"
 summary_short: >
-  Multi-player Memory-like game using the Blobert NFT collection where players gain private
-  intel and prove tile matches using zero-knowledge proofs.
+  **Multi-player Memory-like game** using the Blobert NFT collection where players gain private
+  intel and prove tile matches using **zero-knowledge proofs**.
 summary_long: >
   Amneszia is a **multi-player Memory-like game** built around the Blobert NFT collection.
   Bloberts are revealed for only a few seconds, and players must gain private intel to match
@@ -13,12 +13,12 @@ summary_long: >
   live on Vercel**. All 14 commits were made during the jam, making it a complete
   **jam-built project**.
 work_done_short: >
-  Built a complete ZK-based memory matching game with 5 Dojo models, 2 systems, and
-  live Vercel deployment during the jam.
+  Built a complete **ZK-based memory matching game** with **5 Dojo models, 2 systems**, and
+  **live Vercel deployment** during the jam.
 work_done_long: >
-  Developed Dojo contracts with 5 models and 2 systems for tile state, player matching,
-  and ZK proof verification. Built a separate frontend deployed on Vercel. All 14 commits
-  made during the jam period. Game uses zero-knowledge proofs for hidden information mechanics.
+  Developed **Dojo contracts with 5 models and 2 systems** for tile state, player matching,
+  and **ZK proof verification**. Built a separate frontend **deployed on Vercel**. All 14 commits
+  made during the jam period. Game uses **zero-knowledge proofs** for hidden information mechanics.
 repo_url: "https://github.com/tekkac/amneszia-dojo"
 demo_url: "https://amneszia.vercel.app/"
 video_url: null
