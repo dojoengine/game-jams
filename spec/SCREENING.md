@@ -43,6 +43,38 @@ The project must meaningfully use the Dojo engine.
 - Uses a different "Dojo" framework (e.g. the legacy Dojo Toolkit JS library)
 - Only config files, no actual implementation
 
+#### Client-Contract Integration
+
+Having Dojo artifacts and having a frontend is not enough — they must be **connected**.
+This is the most important check.
+A common pattern in weak submissions is a working client-side game alongside contracts that exist but aren't wired up.
+
+**Check the contracts implement game logic, not just data storage:**
+- Do systems contain actual game rules (validation, state transitions, computed outcomes)?
+- Or do they only write caller-provided values with no verification?
+  A single function that stores a self-reported score is not meaningful game logic.
+- Are the models used by any system? Dead models (defined but never read or written) don't count.
+
+**Check that the client actually calls the contracts:**
+- Trace from the app entry point (e.g. `main.ts`, `index.html`).
+  Packages in `package.json` / `Scarb.toml` don't count — look for actual `import` statements in files that are reachable from the entry point.
+- Watch for "bridge" files that set up Dojo connections but are never imported by the application.
+  If a file defines `initGame()` or `setupDojo()` but nothing calls it, the integration is dead code.
+- Check that `window.*` or global references used by the game are actually initialized somewhere in the import chain.
+
+**Check for deployment evidence:**
+- Are world addresses real hex values, or placeholders like `0xYOUR_DOJO_WORLD_ADDRESS`?
+- Is there a `manifest.json` or deployment output consistent with a real deployment?
+- Placeholder addresses mean the system was never actually connected.
+
+**Pass** if the client reads from or writes to contracts in a way that affects gameplay, AND the contracts contain logic beyond self-reported data storage.
+
+**Flag** if any of these are true:
+- Dojo packages are listed as dependencies but never imported in source code
+- Connection/initialization code exists in files that are never imported
+- Contracts only store caller-provided values with no validation or game logic
+- Deployment config contains placeholder addresses
+
 #### Cartridge Controller
 
 The project must use [Cartridge Controller](https://docs.cartridge.gg/controller/overview) for player authentication and wallet management.
@@ -86,7 +118,7 @@ The enrichment agent will normalize it after merge.
 
 ### Step 4: Decide
 
-- **APPROVE** if the project uses Dojo, integrates Cartridge Controller, has meaningful work during the jam window, and contains no frontmatter
+- **APPROVE** if the project uses Dojo, the client and contracts are connected, integrates Cartridge Controller, has meaningful work during the jam window, and contains no frontmatter
 - **FLAG** if any check fails — a maintainer will review
 
 ### Step 5: Post Comment
@@ -103,6 +135,7 @@ Post a PR comment using `gh pr comment` with this format:
 **Repository:** [url]
 
 **Dojo Usage:** [1-2 sentences — what Dojo artifacts were found]
+**Client-Contract Integration:** [1-2 sentences — is the client actually wired to the contracts?]
 **Cartridge Controller:** [1-2 sentences — how Controller is integrated]
 **Timeline:** [1-2 sentences — when work happened relative to jam window]
 **Frontmatter:** [None found, or: flagged — submitter included YAML frontmatter]
@@ -124,8 +157,16 @@ Likely deployment, bug fixes, or polish.
 **Very sophisticated project in 3 days** — APPROVE.
 Game jams produce impressive results.
 
-**Contracts exist but frontend doesn't use them** — FLAG.
-Dead code doesn't count as Dojo usage.
+**Contracts exist but frontend doesn't call them** — FLAG.
+Packages in `package.json` or bridge files that are never imported don't count.
+Trace from the app entry point — if the import chain never reaches the Dojo setup code, the integration is dead.
+
+**Contracts only store self-reported values** — FLAG.
+A contract that writes whatever the caller sends (e.g. a `redeem(score)` that just stores the score) is not game logic.
+Real Dojo usage means the contracts enforce rules, compute outcomes, or manage state transitions.
+
+**Game works entirely client-side** — FLAG.
+If the game is fully playable with no on-chain interaction (all state in memory / localStorage), the Dojo backend is decorative.
 
 **Uses "Dojo" but wrong framework** — FLAG.
 Must use the Dojo game engine, not the legacy Dojo Toolkit JS library.
