@@ -21,8 +21,7 @@ The URL may appear in various formats — look for any GitHub link in the file a
 ### Step 2: Parse Jam Dates
 
 Read the jam's `README.md` and find the **Jam Window** field (ISO dates: `YYYY-MM-DD / YYYY-MM-DD`).
-Use AOE (Anywhere on Earth) timezone.
-Allow a 1-day buffer on each side for setup and polish.
+Use AOE (Anywhere on Earth) timezone with a 12-hour buffer on each side.
 
 ### Step 3: Analyze
 
@@ -90,17 +89,23 @@ The project must use [Cartridge Controller](https://docs.cartridge.gg/controller
 
 #### Timeline
 
-Check when commits were made relative to the jam window.
-A few commits before (setup) or after (polish, deployment) are fine.
-The goal is to catch submissions with no meaningful work during the jam — not to penalize edge cases.
+Classify submissions based on how much work happened during the jam window.
 
-Use `git diff --stat` between boundary commits (last commit before jam start vs last commit before jam end) for a high-level picture.
-Also check `jam_commits / total_commits` ratio.
-Use your judgment — both signals together paint a clearer picture than either alone.
+**Step A — Commit ratio:**
+Count commits inside vs outside the jam window (using the buffered dates from Step 2).
+Compute the **jam ratio**: `jam_commits / total_commits`.
 
-Flag only if there's a clear problem:
-- Repository has substantial code but zero commits during the jam window
-- All meaningful work predates the jam by months
+**Step B — Diff weight:**
+Run `git diff --stat` between boundary commits (last commit before jam start vs last commit before jam end).
+Use the diff to interpret the ratio:
+
+- **≥ 50% jam ratio** → **Full submission.** Most work happened during the jam.
+- **< 50% jam ratio, large diff** → **Feature submission.** The project predates the jam, but the jam work is a substantial feature or extension.
+- **< 50% jam ratio, small diff** → **Flag for review.** Low commit ratio and the jam-window changes are minimal — may not represent meaningful jam participation.
+- **0% jam ratio** → **Flag for review** regardless of diff.
+
+The `feature` classification is informational, not disqualifying.
+Judges may weigh full and feature submissions differently.
 
 #### Frontmatter
 
@@ -118,7 +123,7 @@ The enrichment agent will normalize it after merge.
 
 ### Step 4: Decide
 
-- **APPROVE** if the project uses Dojo, the client and contracts are connected, integrates Cartridge Controller, has meaningful work during the jam window, and contains no frontmatter
+- **APPROVE** if the project uses Dojo, the client and contracts are connected, integrates Cartridge Controller, has commits during the jam window, and contains no frontmatter
 - **FLAG** if any check fails — a maintainer will review
 
 ### Step 5: Post Comment
@@ -137,7 +142,7 @@ Post a PR comment using `gh pr comment` with this format:
 **Dojo Usage:** [1-2 sentences — what Dojo artifacts were found]
 **Client-Contract Integration:** [1-2 sentences — is the client actually wired to the contracts?]
 **Cartridge Controller:** [1-2 sentences — how Controller is integrated]
-**Timeline:** [1-2 sentences — when work happened relative to jam window]
+**Timeline:** [jam ratio %, full or feature submission, 1-2 sentences]
 **Frontmatter:** [None found, or: flagged — submitter included YAML frontmatter]
 
 [If flagged: explain what triggered the flag]
@@ -151,8 +156,8 @@ Post a PR comment using `gh pr comment` with this format:
 **All commits in one day** — APPROVE.
 Developers often work locally and push once.
 
-**Commits 1-2 days after deadline** — APPROVE.
-Likely deployment, bug fixes, or polish.
+**Large project with low jam ratio** — APPROVE as `feature`.
+The project predates the jam; the jam contribution is a feature or extension.
 
 **Very sophisticated project in 3 days** — APPROVE.
 Game jams produce impressive results.
