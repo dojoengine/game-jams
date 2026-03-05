@@ -45,6 +45,13 @@ To submit, open a Pull Request adding a file to the [`gj8` directory](./gj8):
 Your submission must include Dojo contracts (models + systems), a frontend using the Dojo SDK, Cartridge Controller integration, deployment to Slot/Sepolia, and play instructions.
 See [SCREENING.md](./spec/SCREENING.md) for details on the automated screening process.
 
+## Prizes
+
+The **$15,000 prize pool** is split into two tracks:
+
+- **$10,000 General Track** — open to all submissions, judged by Dojo Sensei.
+- **$5,000 Embeddable Game Standard Track** — for teams building with the [embeddable game standard](https://docs.provable.games/embeddable-game-standard), judged by Cartridge teammates.
+
 ## Judging
 
 Judging takes place the week after the jam and is based on:
