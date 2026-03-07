@@ -5,20 +5,44 @@ on:
     types: [opened, synchronize, reopened]
     paths:
       - 'gj*/*.md'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to screen'
+        required: true
+        type: string
 
 jobs:
   screen:
     runs-on: ubuntu-latest
-    if: contains(github.event.pull_request.title, '[Project Submission]')
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.pull_request.title, 'Submission') ||
+      contains(github.event.pull_request.title, 'submission')
     permissions:
       contents: read
       pull-requests: write
 
     steps:
+      - name: Get PR info
+        id: pr
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            PR_NUMBER="${{ github.event.inputs.pr_number }}"
+            HEAD_SHA=$(gh pr view "$PR_NUMBER" --json headRefOid --jq .headRefOid)
+          else
+            PR_NUMBER="${{ github.event.pull_request.number }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          fi
+          echo "number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Checkout PR head
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ steps.pr.outputs.head_sha }}
 
       - name: Screen submission
         uses: anthropics/claude-code-action@beta
@@ -33,5 +57,5 @@ jobs:
             Use `git show origin/main:spec/SCREENING.md` to read it, rather than the copy on the PR branch.
 
             Environment:
-            - PR number: ${{ github.event.pull_request.number }}
+            - PR number: ${{ steps.pr.outputs.number }}
             - Repository: ${{ github.repository }}
