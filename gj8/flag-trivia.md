@@ -10,7 +10,7 @@ https://github.com/omondibradley/FlagTrivia
 
 ## Live Demo
 
-
+https://ohb-studio.itch.io/dojo-flag-trivia
 
 ## Gameplay Video
 
