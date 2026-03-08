@@ -25,4 +25,6 @@ Advance through the three ages and win by reaching AGI Breakthrough, Escalation 
 ### Twitter
 
 ### Team Members
-- Eikix
+- Elias Tazartes (@Eikix)
+- Pierre Semanne (@0xMugen)
+- Thomas Belloc (@Cheelax)
