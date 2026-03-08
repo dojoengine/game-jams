@@ -22,15 +22,15 @@ Features:
 
 ## Source Code
 
-https://github.com/Shyaar/bounce.git
+https://github.com/zarah-s/bounce-tale
 
 ## Live Demo
 
-https://bounce-mu-seven.vercel.app
+https://bounce-tale.vercel.app
 
 ## Gameplay Video
 
-https://drive.google.com/file/d/PLACEHOLDER/view?usp=sharing
+https://drive.google.com/file/d/1t1vz96QSdU7rpemo8G5BOm60VxWHmouu/view?usp=sharing
 
 ## How to Play
 
@@ -82,8 +82,8 @@ Built with Dojo 1.8:
 
 ## Team Members
 
-- @Shyaar ([GitHub](https://github.com/Shyaar))
+- @zarah-s ([GitHub](https://github.com/zarah-s))
 
 ## Twitter
 
-@shyaar_xati
+@zarah_0x
