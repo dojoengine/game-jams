@@ -5,7 +5,7 @@
 **Token Defense** is a fully on-chain tower defense game built on StarkNet using the Dojo engine. Defend your AI base from waves of prompt injection attacks by placing towers and factories on a 12×8 grid.
 
 **Features:**
-- **3 tower types** — GPT (input tokens), Vision (image tokens), Code (code tokens)
+- **3 tower types** — GPT (input tokens), Vision (image tokens), Code (code tokens) — up to 14 placed simultaneously; sell to free slots
 - **3 factory types** — each producing a matching token type to power towers
 - **10 waves** of escalating enemies: TextJailbreak, ContextOverflow, HalluSwarm, and Boss enemies on waves 5 & 10
 - **Per-enemy on-chain simulation** — wave resolution runs entirely in the contract using a sequential token-drain model; later enemies face weaker towers as tokens deplete
@@ -46,7 +46,8 @@ _(coming soon)_
 - Place towers where the path crosses multiple times — more path coverage = more shots per enemy
 - Factories next to their matching tower type draw conveyor connections automatically
 - Adjacent towers of **different** types grant a **+20% synergy damage bonus** to each other
-- Token balance is capped at 150 per type — build factories before you hit the cap
+- Token balance is capped at 150 per type — build factories before you hit the cap (UI shows "CAPPED" warning)
+- You can sell towers (free) and factories (50% refund) to reposition mid-game — tower slots are limited to 14
 
 ---
 
@@ -65,7 +66,7 @@ _(coming soon)_
 **Systems:**
 
 - `game_system` — `new_game(token_id, difficulty)`, `activate_overclock(token_id)`, EGS `score()` / `game_over()` / batch variants
-- `building_system` — `place_tower`, `place_factory`, `upgrade_factory`, `upgrade_tower`
+- `building_system` — `place_tower`, `sell_tower`, `place_factory`, `sell_factory`, `upgrade_factory`, `upgrade_tower`
 - `wave_system` — `start_wave(token_id)` runs a full per-enemy sequential simulation on-chain; emits `WaveResolved` event with enemy outcome bitmask
 
 **Wave simulation model:**
