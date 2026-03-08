@@ -1,21 +1,24 @@
 name: Enrich Submissions
 
 on:
-  push:
-    branches: [main]
+  pull_request_target:
+    types: [closed]
     paths:
       - 'gj*/*.md'
 
 jobs:
   enrich:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
     permissions:
       contents: write
+      pull-requests: read
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 2
 
       - name: Find new submissions
