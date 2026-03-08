@@ -42,7 +42,7 @@ https://github.com/dubzn/starkbound
 
 ## Gameplay Video
 
-[Starkbound Gameplay](https://youtu.be/7wH03bXu8Tk)
+[Starkbound Gameplay](https://youtu.be/naOFyJ5kLfE)
 
 ---
 
@@ -108,3 +108,4 @@ The tutorial uses the same physics mirror and rendering pipeline as the live gam
 ## Team
 
 Developer — @dub_zn
+
