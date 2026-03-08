@@ -12,11 +12,11 @@ All game logic, state, and randomness live fully onchain. The frontend is a play
 
 Hex'd existed before Game Jam VIII. The scope of this submission is the implementation of the [Embeddable Game Standard](https://github.com/FemiOje/hexed/tree/embeddable), which turns every game session into a portable, discoverable ERC-721 token on Starknet. This involved:
 
-- **`game_token_systems` contract** — Mints an ERC-721 token per game session via the EGS `MinigameComponent`. Each token carries live game state (HP, XP, position, alive/dead) readable by any EGS-compatible platform.
-- **Token ownership verification** — `spawn()` and `move()` now verify the caller owns the corresponding game token before executing, using EGS `assert_token_ownership()` and `pre_action()`/`post_action()` hooks.
-- **Renderer contract** — Implements `IMinigameDetails` to surface game details (HP, XP, status) for display on external platforms like [Fun Factory](https://funfactory.gg).
-- **Frontend token discovery** — The `MyGames` component uses the Denshokan SDK (`useTokens()`) to discover all EGS tokens owned by the player, enriched with live game state from the contract. Players can browse active runs, view fallen characters, spawn minted-but-unspawned tokens, and view their tokens on external portfolio pages.
-- **Automatic score registration** — When a player dies, the contract auto-registers their score to the onchain leaderboard if it's a new record.
+- `game_token_systems` contract — ERC-721 minting per session via EGS `MinigameComponent`
+- Token ownership verification in `spawn()` and `move()` via EGS hooks
+- Renderer contract implementing `IMinigameDetails` for external platform display
+- Frontend token discovery via Denshokan SDK with live game state enrichment
+- Automatic onchain score registration on player death
 
 The full diff is on the [`embeddable` branch](https://github.com/FemiOje/hexed/tree/embeddable).
 
@@ -36,19 +36,48 @@ https://youtu.be/cZOFKLjaeSw
 
 ## How to Play
 
-1. **Connect** — Hit "Play" and connect with Cartridge Controller.
-2. **Mint** — Mint a game token. Each session is an NFT.
-3. **Spawn** — You land on a random hex tile with 100 HP and 0 XP. The fog reveals whether your six neighboring tiles are occupied.
-4. **Move** — Pick a direction. Every move has consequences:
-   - **Empty tile?** A random encounter fires — heal, empower, bless, poison, drain, or hex. 50/50 gift vs. curse, determined by onchain Poseidon hash.
-   - **Occupied tile?** Combat. Higher XP wins. Ties favor the attacker. Loser takes damage and gets knocked back. HP hits zero = game over.
-5. **Survive** — Climb the leaderboard by stacking XP through encounters and kills. Death is permanent, but you can always mint a new token and go again.
-6. **View your tokens** — Check "My Games" to see all your sessions. Active, dead, or unspawned — they're all in your wallet and visible on any EGS-compatible platform.
+1. Connect with Cartridge Controller
+2. Mint a game token — each session is an NFT
+3. Spawn onto a random hex tile with 100 HP and 0 XP
+4. Move in any of 6 directions — empty tiles trigger random encounters, occupied tiles trigger combat
+5. Survive and climb the leaderboard by stacking XP
+6. Check "My Games" to browse all your tokens — active, dead, or unspawned
 
-## Twitter
+## Architecture
 
-[@0xjinius](https://x.com/0xjinius)
+### Smart Contracts (Cairo)
+
+Built with Dojo 1.8.0:
+
+**Models:**
+- `GameSession` — maps game token to player, tracks active state
+- `PlayerState` — position, last direction, movement state
+- `PlayerStats` — HP, max HP, XP
+- `TileOccupant` — reverse lookup for who occupies a tile
+- `GameCounter` — tracks concurrent active games (max 350)
+- `HighestScore` — leaderboard: highest XP ever achieved
+
+**Systems:**
+- `mint_game(player_name)` — mint an ERC-721 game token via EGS
+- `spawn(token_id)` — initialize game session on a random tile
+- `move(token_id, direction)` — move, resolve combat or encounter
+- `get_game_state(token_id)` — read-only view of full game state
+
+**EGS Integration:**
+- `game_token_systems` — `MinigameComponent` for token minting, `score()` and `game_over()` for external queries
+- `renderer_systems` — `IMinigameDetails` for surfacing HP, XP, and status on platforms like Fun Factory
+
+### Client
+
+- React + TypeScript + Three.js (3D hex grid)
+- Dojo SDK for blockchain integration
+- Cartridge Controller for wallet
+- Denshokan SDK for EGS token discovery
 
 ## Team Members
 
-- **FemiOje** ([GitHub](https://github.com/FemiOje)) — Solo developer (contracts, frontend, game design)
+- @FemiOje ([GitHub](https://github.com/FemiOje)) — Solo developer (contracts, frontend, game design)
+
+## Twitter
+
+@0xjinius
