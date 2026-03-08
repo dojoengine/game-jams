@@ -9,6 +9,7 @@ The game logic lives onchain in Dojo contracts and the client reads and writes m
 https://github.com/Eikix/bloc-duel
 
 ### Live Demo
+https://bloc-duel.vercel.app
 
 ### Gameplay Video
 
