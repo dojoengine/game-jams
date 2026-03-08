@@ -1,9 +1,13 @@
 # Bloc Duel
 
+Last synced: 2026-03-08
+
 ### Project Summary
 Bloc Duel is a two-player strategy card game on Starknet. Players draft from a shared pyramid, build resource engines, invoke historical heroes, and race across multiple win conditions: AGI, escalation, systems, or points.
 
 The game logic lives onchain in Dojo contracts and the client reads and writes match state through Torii and the Dojo SDK. The frontend also uses Cartridge Controller for player authentication on public networks.
+
+The current public deployment is live on Starknet Sepolia.
 
 ### Source Code
 https://github.com/Eikix/bloc-duel
