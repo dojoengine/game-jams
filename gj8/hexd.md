@@ -10,7 +10,7 @@ All game logic, state, and randomness live fully onchain. The frontend is a play
 
 **Jam scope — Embeddable Game Standard (EGS) integration:**
 
-Hex'd existed before Game Jam VIII. The scope of this submission is the implementation of the [Embeddable Game Standard](https://github.com/FemiOje/hexed/tree/embeddable), which turns every game session into a portable, discoverable ERC-721 token on Starknet. This involved:
+The scope of this submission is the implementation of the [Embeddable Game Standard](https://github.com/FemiOje/hexed/tree/embeddable), which turns every game session into a portable, discoverable ERC-721 token on Starknet. This involved:
 
 - `game_token_systems` contract — ERC-721 minting per session via EGS `MinigameComponent`
 - Token ownership verification in `spawn()` and `move()` via EGS hooks
