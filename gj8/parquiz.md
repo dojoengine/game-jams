@@ -40,7 +40,7 @@ https://parquiz.vercel.app
 
 ## Twitter
 
-N/A
+https://x.com/bitfalt
 
 ## Team Members
 
