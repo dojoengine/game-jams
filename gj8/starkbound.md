@@ -1,3 +1,47 @@
+---
+id: "starkbound"
+emoji: "💥"
+title: "Starkbound"
+summary_short: >
+  A **fully on-chain artillery game** inspired by Gunbound. 2–4 players take turns
+  aiming and firing across **destructible terrain**, with **Poseidon-seeded wind**
+  adding unpredictability each round. Every physics trajectory, damage calculation,
+  and terrain crater is **computed in Cairo** — the client is purely a rendering layer.
+summary_long: >
+  Game state is split across **5 Dojo models** — GameState, Lobby, Player, TankState,
+  and TerrainRow — with two systems handling game and lobby logic. Three tank types
+  (Armor, Ice, Lightning) offer distinct playstyles with different HP and effect profiles.
+  **Shot trajectories are validated on-chain** before state updates; terrain destruction
+  is persisted as a **bitmap model**, craters written per shot. The React client uses the
+  **Dojo SDK** for real-time state sync via Torii. A self-contained **tutorial mode**
+  runs entirely off-chain, guiding new players through movement, aiming, wind, and a bot match.
+work_done_short: >
+  **Built entirely during the jam** — 49 commits over 3 days. Full on-chain artillery
+  engine with **5 Dojo models and 2 systems**, destructible terrain, wind mechanics,
+  3 tank types, multiplayer lobby, and a **tutorial mode**.
+work_done_long: >
+  The team implemented **on-chain physics simulation** (trajectory calculation in
+  `helpers/physics.cairo`), proximity-falloff damage, and **TerrainRow bitmap destruction**
+  persisted per shot. A Poseidon RNG wind system is seeded per turn and stored in GameState.
+  **Cartridge Controller** integration handles wallet creation and login. A fully off-chain
+  **tutorial mode** was added with dedicated BGM and SFX, walking players through all
+  core mechanics including a bot match.
+repo_url: "https://github.com/dubzn/starkbound"
+demo_url: "https://starkbound.up.railway.app/"
+video_url: "https://youtu.be/naOFyJ5kLfE"
+team:
+  - "@dub_zn"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 5
+  dojo_systems: 2
+  dojo_events: 0
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  playability: "Live"
+---
+
 # Starkbound
 
 ## Summary
