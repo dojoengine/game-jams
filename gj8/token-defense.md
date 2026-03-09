@@ -28,7 +28,7 @@ https://token-defense.vercel.app
 
 ## Gameplay Video
 
-https://youtu.be/AtHeGOiQgns
+https://youtu.be/CzbOLKw8nKc
 
 ---
 
