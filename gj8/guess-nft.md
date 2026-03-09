@@ -13,6 +13,7 @@ Features:
 - 999 3D characters encoded into a 1024-leaf Poseidon2 Merkle tree
 - Real-time client sync with Torii indexer
 - Cartridge Controller authentication
+- It's fun, we'll make it even more
 
 ### Source Code
 
