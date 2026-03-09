@@ -66,6 +66,7 @@ Built with Dojo 1.8.0:
 ### Team Members
 - Carlos (@carldlfr)
 - Gianfranco (@Gianfranco99)
+- Juan (@Nacto1122)
 
 ### Implementation Note: Tech vs. Product Focus
 You will notice a differentiation between our Source Code repository and the Live Demo URL. We intentionally split our focus to tackle both the heavy technical architecture and the consumer-facing product experience:
