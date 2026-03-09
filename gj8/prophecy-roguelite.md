@@ -16,6 +16,7 @@ Features:
 - Cinematic terminal intro with typing effect and bass drop
 - Cartridge Controller session keys for popup-free rapid-fire gameplay
 - 6 Dojo models, 9 Cairo system actions, 9 integration tests (all passing)
+- First and only Godot + Dojo game in game jam history
 
 Built solo in 48 hours for Dojo Game Jam VIII.
 
@@ -33,7 +34,7 @@ Deployed on Cartridge Slot:
 
 ### Gameplay Video
 
-
+https://x.com/shariqshkt/status/2030780305104384343
 
 ### How to Play
 
@@ -49,8 +50,8 @@ Deployed on Cartridge Slot:
 
 ### Twitter
 
-@shariqazeem
+@shariqshkt
 
 ### Team Members
 
-- @shariqazeem ([GitHub](https://github.com/shariqazeem)) — Solo developer (contracts + client)
+- @shariqshkt ([GitHub](https://github.com/shariqazeem)) — Solo developer (contracts + client)
