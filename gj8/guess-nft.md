@@ -67,3 +67,10 @@ Built with Dojo 1.8.0:
 - Carlos (@carldlfr)
 - Gianfranco (@Gianfranco99)
 
+### Implementation Note: Tech vs. Product Focus
+You will notice a differentiation between our Source Code repository and the Live Demo URL. We intentionally split our focus to tackle both the heavy technical architecture and the consumer-facing product experience:
+
+- **The Source Code (Tech Focus):** The repository contains our fully trustless, onchain game loop. This integrates Dojo, Cairo, Noir, and Garaga to ensure answers are verified onchain via Zero-Knowledge proofs without revealing the hidden NFT character. 
+- **The Live Demo (Product Focus):** The deployed web domain prioritizes UX, game feel, and product polish. For this frontend, we integrated a smoother Web2-style backend (Supabase) alongside a simpler Mainnet NFT recognition check to ensure a seamless onboarding experience. 
+
+Our long-term vision is to fully merge this premium product UI with the hardcore zero-knowledge backend.
