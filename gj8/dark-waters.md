@@ -1,3 +1,49 @@
+---
+id: "dark-waters"
+emoji: "🌊"
+title: "Dark Waters"
+summary_short: >
+  A **fully on-chain naval strategy duel** where players hide fleets behind
+  **Merkle commitments** and fire via **commit-reveal proofs** on Starknet.
+  Every hit, miss, and win condition is verified by Cairo contracts, with
+  **Cartridge Controller** session gameplay and optional token-linked missions
+  through Denshokan.
+summary_long: >
+  Game state is managed across **8 Dojo models** covering boards, attacks,
+  reveal receipts, and timeout resolution. A single **Actions contract**
+  orchestrates the full lifecycle — spawning, engagement, board commitment,
+  attack commit-reveal, **Merkle proof verification**, win/timeout logic, and
+  optional stake settlement. The **React/Next.js frontend** integrates the Dojo
+  SDK with RPC event fallback for resilient state reads. The game is live on
+  Sepolia, indexed by Torii, and listed on **Fun Factory** with Denshokan game
+  id 19. A **bot opponent** enables instant matchmaking for demos and testing.
+work_done_short: >
+  Added **Denshokan/Fun Factory listing** with token-linked `_egs` gameplay
+  wrappers, an **open-lobby and bot duel system**, in-game chat, player invite
+  by Cartridge name, and **live Sepolia deployment** validated for production.
+work_done_long: >
+  The team shipped **official EGS adapter contracts and callbacks** enabling
+  token-linked missions through Denshokan, alongside updated session policies
+  for the new flows. A **bot duel system** and open-lobby engagement model were
+  added for quick matchmaking. **In-game real-time chat**, player-invite by
+  Cartridge username, exit-to-lobby navigation, and **frontend polish** rounded
+  out the client — all deployed and indexed live on Sepolia.
+repo_url: "https://github.com/0takuc0mrade/Dark-Waters"
+demo_url: "https://dark-waters-m2fn.vercel.app/"
+video_url: "https://youtu.be/9JeAITuk2zA?si=X2nEE88AmPLymY08"
+team:
+  - "June (0takuc0mrade)"
+metrics:
+  classification: "Feature"
+  team_size: 1
+  dojo_models: 8
+  dojo_systems: 1
+  dojo_events: 8
+  client_sdk: "dojo.js"
+  jam_commits_pct: 30
+  playability: "Live"
+---
+
 # Dark Waters
 
 ### Project Summary
