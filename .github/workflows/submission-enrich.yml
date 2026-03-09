@@ -44,8 +44,8 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          allowed_tools: "Bash,Read,Write,Grep,Glob,WebFetch"
-          direct_prompt: |
+          claude_args: "--allowedTools Bash,Read,Write,Grep,Glob,WebFetch"
+          prompt: |
             You are enriching Dojo Game Jam submissions for the judging system.
 
             Read ENRICHMENT.md (in the current directory) for the full enrichment process and follow it step by step.
