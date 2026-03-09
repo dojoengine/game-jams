@@ -15,43 +15,23 @@ on:
 jobs:
   screen:
     runs-on: ubuntu-latest
-    # paths filter on pull_request_target already limits to gj*/*.md changes
     permissions:
       contents: read
       pull-requests: write
 
     steps:
-      - name: Get PR info
+      - name: Get PR number
         id: pr
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            PR_NUMBER="${{ github.event.inputs.pr_number }}"
-            HEAD_SHA=$(gh pr view "$PR_NUMBER" --repo "${{ github.repository }}" --json headRefOid --jq .headRefOid)
+            echo "number=${{ github.event.inputs.pr_number }}" >> "$GITHUB_OUTPUT"
           else
-            PR_NUMBER="${{ github.event.pull_request.number }}"
-            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+            echo "number=${{ github.event.pull_request.number }}" >> "$GITHUB_OUTPUT"
           fi
-          echo "number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
-          echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Checkout PR head
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ steps.pr.outputs.head_sha }}
-          fetch-depth: 0
-
-      - name: Fetch main branch
-        run: git fetch origin main
 
       - name: Screen submission
         timeout-minutes: 30
-        uses: anthropics/claude-code-action@beta
-        env:
-          # claude-code-action doesn't recognize pull_request_target;
-          # override so it parses the (identical) payload as pull_request
-          GITHUB_EVENT_NAME: pull_request
+        uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -60,8 +40,13 @@ jobs:
           direct_prompt: |
             You are screening a Dojo Game Jam submission PR.
 
-            Read spec/SCREENING.md from the base branch (main) for the full screening process and follow it step by step.
-            Use `git show origin/main:spec/SCREENING.md` to read it, rather than the copy on the PR branch.
+            First, fetch the screening instructions:
+            gh api repos/${{ github.repository }}/contents/spec/SCREENING.md --jq .content | base64 -d
+
+            Follow the screening process step by step.
+
+            To get the submission content, run:
+            gh pr diff ${{ steps.pr.outputs.number }} --repo ${{ github.repository }}
 
             Environment:
             - PR number: ${{ steps.pr.outputs.number }}
