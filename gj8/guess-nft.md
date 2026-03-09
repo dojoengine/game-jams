@@ -24,6 +24,7 @@ https://guesschizodio.fun/
 
 ### Gameplay Video
 
+https://youtu.be/-Uk583nL-tw
 
 ### How to Play
 
