@@ -21,6 +21,10 @@ https://github.com/crackedstudio/Tweetle_dojo
 
 https://tweetle-dojo.vercel.app
 
+
+## Demo video
+https://www.loom.com/share/fbf111a0b37b4fc6ae9e37b35c936e21
+
 ## How to Play
 
 1. Connect with Cartridge Controller
