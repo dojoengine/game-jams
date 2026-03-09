@@ -53,8 +53,6 @@ Deployed on Starknet Sepolia. World address: `0x07f3647c6cb682cdf2cc02f6348d24a8
 | `match_system` | `0x01e4593029bff8ed22cae9c1aede5daef4f74b0acfc8b01c85796359ed7600ea` | Create ranked/AI matches, cancel matches |
 | `escrow_system` | `0x038b42fdfb42a25de102d628e271b57e24594e48eb4e9ddfa3c0d25aeb3f7b9a` | STRK stake deposit, lock, settlement, refund |
 | `oracle_system` | `0x048e4128aeafe0a088d2525e2e2ff8e4123ab82dc2b8962c7b296fde30a07990` | Capture Pragma price snapshots per round |
-| `combat_system` | `0x04116d895a94b3453f77f294cb8a7bc3cf6b5841fb17a6ad846433707a4b7be4` | Damage formula with momentum modifiers |
-| `round_engine` | `0x017b7f46066c3e9a939dd9c5090da4d83c178067dc5f36c46218b09ce0f89d9d` | Round initialization, momentum calculation |
 | `match_progression` | `0x01948d6d9b21c5cce7918d0132ee61e422f586ba7918445e560e401d0fd8243` | Round advancement, match finalization |
 | `market_system` | `0x057d099649750b0a5e2883518a672653f52af4da8a6bc4d95a3109a641d90e38` | Card pack listings, on-chain purchases |
 | `event_system` | `0x05b238e4ca47e7e61cd5738a1011da8ea45854d176d08c9ba185fc0be38373f5` | WarZone tournament lifecycle, prize distribution |
