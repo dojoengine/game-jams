@@ -24,12 +24,6 @@ https://tactical-beasts.vercel.app
 4. **Battle** — alternating turns on a hex board. Each turn: move, attack, or use a consumable. The contract resolves damage, passives, crits, and counterattacks
 5. **Win** by KO'ing all opposing beasts — stats and score are recorded onchain
 
-**Tips:**
-- Use the combat triangle: Magical beats Brute, Brute beats Hunter, Hunter beats Magical (+50% / -50% damage)
-- Stalkers have 3 movement — use them to flank Rangers who take +30% damage from adjacent enemies
-- Juggernauts reward holding ground with Fortify (-10% damage if they didn't move last turn)
-- Berserkers get stronger below 50% HP — finish them off or leave them alone
-
 ### Twitter
 
 ### Team Members
