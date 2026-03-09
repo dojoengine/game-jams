@@ -14,15 +14,16 @@ Technical highlights:
 
 ## Source Code
 
-[Source Code](#)
+https://github.com/TalesOfRekkai/Juego-autobattle/tree/main/chimera-forge-react
 
 ## Live Demo
 
-[Live Demo](#)
+https://rekkaimon-forge.vercel.app/
+
 
 ## Gameplay Video
 
-[Gameplay Video](#)
+
 
 ## How to Play
 
@@ -43,7 +44,7 @@ Technical highlights:
 
 ## Twitter
 
-N/A
+@Talesofrekkai
 
 ## Team Members
 
