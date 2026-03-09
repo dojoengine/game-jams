@@ -16,6 +16,7 @@ https://github.com/dpinones/tactical-beasts
 https://tactical-beasts-sepolia.vercel.app
 
 ### Gameplay Video
+https://youtu.be/xJ5iF3fTE1Y
 
 ### How to Play
 1. Connect your **Cartridge Controller** wallet
@@ -25,6 +26,8 @@ https://tactical-beasts-sepolia.vercel.app
 5. **Win** by KO'ing all opposing beasts — stats and score are recorded onchain
 
 ### Twitter
+- Damian Piñones - [@dpinoness](https://x.com/dpinoness)
+- Ivan Piñones - [@pilito_06](https://x.com/pilito_06)
 
 ### Team Members
 - [@dpinones](https://github.com/dpinones)
