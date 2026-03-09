@@ -13,7 +13,7 @@ The game is designed to be playable on mobile and compact screens, not only desk
 https://github.com/dpinones/tactical-beasts
 
 ### Live Demo
-https://tactical-beasts.vercel.app
+https://tactical-beasts-sepolia.vercel.app
 
 ### Gameplay Video
 
