@@ -23,7 +23,7 @@ https://parquiz.vercel.app
 
 ## Gameplay Video
 
-
+[Parquiz Gameplay](https://youtu.be/Z6rgHc-X_Tc)
 
 ## How to Play
 
