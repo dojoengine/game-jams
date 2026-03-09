@@ -34,6 +34,10 @@ Deployed on Cartridge Slot:
 
 ### Gameplay Video
 
+https://youtu.be/R2hYI4Eg_bY
+
+### Trailer
+
 https://x.com/shariqshkt/status/2030780305104384343
 
 ### How to Play
