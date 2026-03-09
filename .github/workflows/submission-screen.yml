@@ -48,6 +48,10 @@ jobs:
       - name: Screen submission
         timeout-minutes: 30
         uses: anthropics/claude-code-action@beta
+        env:
+          # claude-code-action doesn't recognize pull_request_target;
+          # override so it parses the (identical) payload as pull_request
+          GITHUB_EVENT_NAME: pull_request
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
