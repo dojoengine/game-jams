@@ -23,7 +23,7 @@ https://rekkaimon-forge.vercel.app/
 
 ## Gameplay Video
 
-
+https://drive.google.com/drive/folders/1To3STQPBIRPUs69-Zmv4i7_-EGWj4Eeb?usp=sharing
 
 ## How to Play
 
