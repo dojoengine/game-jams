@@ -35,9 +35,8 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          mode: agent
-          allowed_tools: "Bash,Read,Grep,Glob,WebFetch"
-          direct_prompt: |
+          claude_args: "--allowedTools Bash,Read,Grep,Glob,WebFetch"
+          prompt: |
             You are screening a Dojo Game Jam submission PR.
 
             First, fetch the screening instructions:
