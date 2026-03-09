@@ -91,7 +91,9 @@ For each enemy in spawn order (TJ → CO → HS → Boss):
 
 Later enemies face weaker towers as tokens deplete and towers degrade — making factories and timely repairs strategically critical.
 
-**EGS (Embeddable Game Standard):**
+---
+
+### EGS (Embeddable Game Standard) Compatible:
 
 Each game session is an ERC721 token minted from Denshokan. The `token_id` is the **session key** used for all contract calls and Torii queries. Players can resume any active session by entering their token ID ( shown in the top-right of the resource bar with a copy button ) on the Resume Game panel or via the `/?id=<tokenId>` URL shortcut.
 
