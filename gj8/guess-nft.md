@@ -6,7 +6,7 @@
 It takes the familiar "Guess Who?" loop and rebuilds it as a Dojo game: the turn order, commitments, guesses, reveals, and timeout logic all live onchain, while the secret answer to each question stays private. The answering player generates a proof client-side in Noir and verifies it onchain in Cairo through a Garaga-generated verifier.
 
 Features:
-- Trustless deduction game logic verified on Starknet
+- Trustless deduction game logic verified combining Dojo + Privacy tooling
 - Client-side Zero-Knowledge proof generation (Noir + bb.js)
 - On-chain proof verification via Garaga
 - Fully onchain game state, match phases, and turn limits (Dojo)
