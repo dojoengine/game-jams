@@ -1,3 +1,51 @@
+---
+id: "crypto-card-war-game"
+emoji: "🃏"
+title: "Crypto Card War Game"
+summary_short: >
+  A **competitive card battler on Starknet** where card damage scales with **live
+  Pragma oracle prices** — BTC pumping means your Bitcoin card hits harder. Players
+  choose from 5 crypto-asset cards (BTC, ETH, STRK, SOL, DOGE), select 3 per match,
+  and execute **Attack, Defend, or Charge** actions across rounds in five game modes.
+summary_long: >
+  Ranked matches require **STRK stakes locked in on-chain escrow**, with automatic
+  settlement via smart contract after the winner is determined. The game uses **23
+  Dojo models** to track players, cards, matches, decks, round snapshots, marketplace
+  listings, WarZone events, and private rooms, backed by **8 contract systems** covering
+  match progression, oracle price capture, staking, market, and room management. An
+  authoritative WebSocket server orchestrates 60-second round timers and AI bot logic
+  while reading **Pragma oracle snapshots on-chain** each round; match transcripts are
+  **Poseidon-hashed before settlement**. Cartridge Controller enables passkey and
+  session-key onboarding.
+work_done_short: >
+  Added **card merging** (combine duplicates to boost stats), a **20+ milestone
+  achievement system** with WebSocket notifications, and two new bots: **E.V.E.**
+  (market-aware AI that reads play patterns) and Lit Trader (conservative BTC-focused
+  bot with speech bubbles).
+work_done_long: >
+  The **card merging system** computes level boosts that feed directly into combat
+  stat calculations. The **achievement system** tracks milestones DB-side, backfills
+  on profile load, and fires real-time WS notifications. **E.V.E.** adjusts strategy
+  based on live price momentum and observed opponent patterns; the Lit Trader takes a
+  conservative stance. Admin tools for market item **image upload** were added, along
+  with market item expiry, leaderboard bot exclusions, mobile fullscreen modals, PWA
+  support, and a suite of combat bug fixes.
+repo_url: "https://github.com/PrimaFi-Labs/ccwg"
+demo_url: "https://ccwg.primafi.xyz"
+video_url: "https://youtu.be/GIhiK1_Tluc?si=6t8vGYjEO3k4VUMe"
+team:
+  - "O.D Doherty (@hiesdiego)"
+metrics:
+  classification: "Feature"
+  team_size: 1
+  dojo_models: 23
+  dojo_systems: 8
+  dojo_events: 26
+  client_sdk: "None"
+  jam_commits_pct: 68
+  playability: "Live"
+---
+
 # Crypto Card War Game
 
 ### Project Summary
