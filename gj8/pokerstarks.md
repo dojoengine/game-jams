@@ -1,3 +1,49 @@
+---
+id: "pokerstarks"
+emoji: "🃏"
+title: "Pokerstarks"
+summary_short: >
+  A **fully on-chain Texas Hold'em** poker game for 2–6 players where privacy is
+  enforced at every layer. Hole cards are encrypted with **ElGamal on the Grumpkin
+  curve** — never stored in plaintext on-chain — and shuffles are provably fair via
+  **ZK proofs** (Noir circuits verified through Garaga).
+summary_long: >
+  The complete Texas Hold'em flow — pre-flop through showdown — runs on **Dojo ECS
+  with 24 models and 11 systems** managing game state, chat, hands, and pot
+  distribution. Each player generates a ZK shuffle proof (~11 seconds) before
+  dealing; cards are **decrypted client-side only**. Chip balances can be hidden
+  with **Tongo confidential ERC20**. The **dojo.js SDK** drives real-time state
+  sync via Torii, and Cartridge Controller provides seamless onboarding via
+  passkeys, social login, session keys, and gasless transactions. Spectator mode
+  lets observers watch live without ever seeing hole cards.
+work_done_short: >
+  During the jam, the team shipped an **LLM-powered poker bot** with a personality
+  system for solo play, an **agent arena with Elo matchmaking**, EGS compliance for
+  rich token metadata, and a **full frontend redesign** with animated emotes.
+work_done_long: >
+  The **LLM bot** uses a structured strategy engine with adjustable personality,
+  enabling challenging solo play. An **arena system** was built with Elo-based
+  matchmaking for bot competitions. **EGS compliance** was added via IMinigameDetails
+  and token metadata interfaces for platform interoperability. Side pot display and
+  **animated emote rendering** improved table UX. StarkZap SDK integration brought
+  **email and social wallet login**. Security fixes addressed P0–P3 audit findings
+  across contracts and frontend.
+repo_url: "https://github.com/KaranSinghBisht/Pokerstarks"
+demo_url: "https://pokerstarks.vercel.app/"
+video_url: "https://youtu.be/T2_A44Vwy6M"
+team:
+  - "Karan Singh Bisht (@Karan_Bisht09)"
+metrics:
+  classification: "Feature"
+  team_size: 1
+  dojo_models: 24
+  dojo_systems: 11
+  dojo_events: 0
+  client_sdk: "dojo.js"
+  jam_commits_pct: 28
+  playability: "Live"
+---
+
 # Pokerstarks
 
 ## Project Summary
