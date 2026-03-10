@@ -1,3 +1,50 @@
+---
+id: "bounce-tale"
+emoji: "🔵"
+title: "Bounce Tale"
+summary_short: >
+  A **nostalgic 2D platformer** where you guide a bouncing ball through 11
+  handcrafted levels across 5 themed worlds. **Ball size mechanics** — Normal,
+  Inflated, and Deflated states — unlock new paths and movement options, with
+  every action **recorded on-chain via Dojo**.
+summary_long: >
+  Collect rings, dodge hazards, and hit checkpoints across Grasslands,
+  Underground, Sky, Lava, and Crystal worlds. Three difficulty modes alter
+  physics feel. A **custom 60 FPS Canvas 2D engine** handles collision,
+  parallax camera, and procedurally generated SFX. On-chain, **8 Dojo models**
+  track player progress, level unlocks, achievements, daily streaks, referrals,
+  and settings. **14 achievements mint as NFT badges**, and global leaderboards
+  cover Score, Stars, and Referrals. The React frontend integrates the **Dojo
+  SDK** for real-time Torii sync, with Cartridge Controller for wallet
+  abstraction and full PWA support for mobile and desktop.
+work_done_short: >
+  **Built entirely during the jam** by a solo developer. Complete game engine,
+  11 levels across 5 worlds, all on-chain contracts, **NFT achievement system**,
+  daily rewards, referral mechanics, and a deployed PWA frontend.
+work_done_long: >
+  The **custom physics engine** supports ball size state transitions
+  (inflate/deflate pads), platformer collision, and a parallax camera — all
+  inside a Canvas 2D renderer. Contracts implement **7 on-chain actions**
+  across registration, level sessions, achievement minting, daily streaks, and
+  referrals, backed by 8 Dojo models and 12 events. The **React 19 + Vite
+  frontend** wires Zustand state management to on-chain data via the Dojo SDK,
+  with service worker pre-caching enabling offline play.
+repo_url: "https://github.com/zarah-s/bounce-tale"
+demo_url: "https://bounce-tale.vercel.app"
+video_url: "https://drive.google.com/file/d/1t1vz96QSdU7rpemo8G5BOm60VxWHmouu/view?usp=sharing"
+team:
+  - "@zarah-s"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 8
+  dojo_systems: 1
+  dojo_events: 12
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  playability: "Live"
+---
+
 # Bounce Tale
 
 ---
