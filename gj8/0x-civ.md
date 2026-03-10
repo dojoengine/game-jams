@@ -1,3 +1,48 @@
+---
+id: "0x-civ"
+emoji: "🤖"
+title: "0xCIV"
+summary_short: >
+  A **fully on-chain prompt strategy game** where players command AI civilizations
+  using **natural language prompts**. Your AI agent reads on-chain state via Torii
+  and autonomously executes actions — the game IS **prompt engineering** on a
+  competitive 5×5 grid.
+summary_long: >
+  Four AI civilizations compete for territory and resources, each driven by a
+  player-written strategy prompt. Claude reads **live game state from Torii GraphQL**
+  and decides optimal actions — gather, attack, defend, or trade — based on your
+  prompt. Opponent prompts are hidden, creating **information warfare** where the
+  same state yields different outcomes. All logic is verified on-chain with **6 Dojo
+  models** and 7 events, while the React frontend features a cyberpunk UI with
+  **synthesized sound effects** and real-time event logging.
+work_done_short: >
+  **Built entirely during the jam** — full Cairo contracts with 6 models, a
+  **Node.js AI agent** integrating Claude API with on-chain execution, and a
+  **React cyberpunk frontend** with Dojo SDK.
+work_done_long: >
+  Implemented all game systems — civilization spawning, resource gathering, combat,
+  trading, and turn advancement — with **12 passing Cairo tests**. Built a Node.js
+  agent that reads Torii state, sends it to Claude, and **executes decisions on-chain**
+  via starknet.js with multi-turn auto-execution. The React frontend uses
+  **@dojoengine/sdk** for real-time state, Cartridge Controller for auth, and Web
+  Audio API for procedural sound effects.
+repo_url: "https://github.com/r0ze998/0xciv"
+demo_url: null
+video_url: null
+team:
+  - "r0ze"
+  - "neo"
+metrics:
+  classification: "Whole Game"
+  team_size: 2
+  dojo_models: 6
+  dojo_systems: 1
+  dojo_events: 7
+  client_sdk: "dojo.js"
+  jam_commits_pct: 99
+  playability: "None"
+---
+
 # 0xCIV
 
 ## Project Summary

@@ -1,3 +1,47 @@
+---
+id: "stark-tycoon"
+emoji: "🏗️"
+title: "Stark Tycoon"
+summary_short: >
+  An **on-chain tycoon game** where players build a digital empire on a **16×16 grid**
+  by purchasing buildings, managing 4 resource types, and maximizing production within
+  a **15-minute game session** using the Embeddable Game Standard.
+summary_long: >
+  Twenty-five unique buildings represent Starknet ecosystem components, each generating
+  one of **4 resource types** (Capital, Users, Research, Transactions). Players
+  purchase from a **dynamic market with limited refreshes**, place buildings on the
+  grid to generate resources, and upgrade them through a **2-tier system** using
+  Research. Randomized tile bonuses via **Cartridge VRF** add replayability. Built
+  with **3 Dojo models** and 1 contract, the React client uses **Material UI and
+  Framer Motion** for polished animations, with Dojo SDK for blockchain state and
+  Cartridge Controller for authentication.
+work_done_short: >
+  **Built from scratch** during the jam. Full tycoon game with **25 buildings**,
+  resource management, market system, and a **polished React frontend** with
+  Material UI and Framer Motion.
+work_done_long: >
+  Implemented all game systems — building purchase and placement, **2-tier upgrades**,
+  resource production with multipliers, dynamic market with limited refreshes, and
+  **score submission** — across 3 models and 1 contract. The React client features
+  a **16×16 interactive grid** with drag-and-drop placement, animated resource
+  counters via Framer Motion, and **Dojo SDK integration** for real-time state
+  synchronization. Each session is an EGS NFT via Denshokan.
+repo_url: "https://github.com/Await-0x/stark-tycoon"
+demo_url: "https://stark-tycoon.vercel.app"
+video_url: null
+team:
+  - "@Await-0x"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 3
+  dojo_systems: 1
+  dojo_events: 0
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  playability: "Live"
+---
+
 # Stark Tycoon
 
 ## Project Summary
