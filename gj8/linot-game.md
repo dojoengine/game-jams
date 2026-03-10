@@ -1,3 +1,49 @@
+---
+id: "linot-game"
+emoji: "🃏"
+title: "Linot"
+summary_short: >
+  A **fully on-chain multiplayer Whot card game** built with Dojo on Starknet.
+  Players connect via Cartridge Controller, join game rooms, and take turns
+  playing cards matching suit or value. **Special cards** — Hold On, Pick Two,
+  General Market, and Wild Card — add strategic depth to each match.
+summary_long: >
+  All game state lives on-chain across **7 Dojo models** — shuffled decks,
+  player hands, turn order, and scores. Two systems handle the full game
+  lifecycle: `game_actions` for room creation, joining, and profile
+  registration, and `play_actions` for card mechanics. **11 events** emit
+  real-time state changes subscribed via Torii, powering instant board updates
+  in the **Next.js frontend**. Cartridge Controller session keys enable smooth,
+  low-friction transactions during play. A three-minute turn timer and
+  **"Last Card" calling and challenge system** complete the competitive experience.
+work_done_short: >
+  **Built the complete Whot card game during the jam** — both Cairo systems
+  (`game_actions` and `play_actions`), the full **Next.js + Dojo SDK frontend**,
+  Cartridge Controller session-key integration, and live Vercel deployment.
+work_done_long: >
+  The `game_actions` system handles **room creation, player joining, and
+  profile registration**, while `play_actions` implements the **full card
+  mechanics** — drawing, playing, calling last card, and challenge resolution
+  for special card effects. **11 events** drive real-time Torii subscriptions
+  for live game updates in the client. The frontend was built from scratch
+  with a full **lobby system, in-game UI, and avatar-based player profiles**.
+repo_url: "https://github.com/Zodxr/linot-dojo"
+demo_url: "https://linot-dojo.vercel.app"
+video_url: null
+team:
+  - "@dinahmaccodes"
+  - "@Divine-designs"
+metrics:
+  classification: "Whole Game"
+  team_size: 2
+  dojo_models: 7
+  dojo_systems: 2
+  dojo_events: 11
+  client_sdk: "dojo.js"
+  jam_commits_pct: 55
+  playability: "Live"
+---
+
 # Linot
 
 ## Project Summary
@@ -32,7 +78,7 @@ https://linot-dojo.vercel.app
 6. Three minute timer for each player
 7. If you have no valid card, draw from the deck - though be careful as the more cards you have, the lower your winning chance
 8. Call "Last Card" when you have one card left
-9. First player to empty their hand wins 
+9. First player to empty their hand wins
 
 ## Architecture
 
