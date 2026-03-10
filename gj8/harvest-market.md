@@ -1,3 +1,47 @@
+---
+id: "harvest-market"
+emoji: "🌾"
+title: "Harvest Market"
+summary_short: >
+  A **fully on-chain incremental farming game** built with Dojo on Starknet, rendered inside a
+  **Unity 6 WebGL client** embedded in React. Players grow crops, process them into higher-value
+  goods using machines, and sell for coins — all with **game state persisted entirely on-chain**.
+summary_long: >
+  Players manage blockchain-owned plots, harvesting crops with **timed growth cycles** and
+  quality tiers (Normal → Perfect) determined by on-chain randomness seeded from the transaction
+  hash. Raw produce feeds into processing machines (Mill, Cannery) to create higher-value goods,
+  while a **tractor upgrade system** scales yield multipliers. The architecture bridges a **Unity 6
+  WebGL game client** to a React/TypeScript shell via a bidirectional JS interop layer, with all
+  contract calls routed through the Dojo SDK and full player state hydrated via **Torii GraphQL**
+  on connect. Cartridge Controller handles wallet authentication.
+work_done_short: >
+  **Built entirely during the jam** — 4 Cairo models and 1 system contract covering the full
+  farming loop, a React/TypeScript frontend shell with **Unity 6 WebGL integration**, and a
+  bidirectional JS bridge connecting the game client to the blockchain layer.
+work_done_long: >
+  Contracts implement 7 on-chain actions (initialize, harvest, sell, process, buy_upgrade,
+  buy_machine, buy_plot) with **on-chain quality rolling** via poseidon-hashed transaction data
+  and tractor multipliers. The React shell uses a **bidirectional message bus** (`bridge.ts`)
+  between React and Unity, with Torii GraphQL for state hydration. The Unity client features
+  **3D plot and machine spawning** from on-chain state, a ghost-placement flow for purchasing
+  assets, a FIFO transaction queue, and a UI Toolkit HUD with inventory panel.
+repo_url: "https://github.com/cristianFleita/harvest-market"
+demo_url: "https://harvest-market.onrender.com"
+video_url: "https://www.youtube.com/watch?v=mRFVq75BazI"
+team:
+  - "@cristianFleita"
+  - "@brendaamareco"
+metrics:
+  classification: "Whole Game"
+  team_size: 2
+  dojo_models: 4
+  dojo_systems: 1
+  dojo_events: 0
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  playability: "Live"
+---
+
 # Harvest Market
 
 ## Project Summary
