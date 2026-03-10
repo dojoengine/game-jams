@@ -1,3 +1,52 @@
+---
+id: "contagion"
+emoji: "🦠"
+title: "Contagion"
+summary_short: >
+  A **social deduction .io game** on Starknet where one hidden Patient Zero spreads
+  infection by proximity. Players move on an **isometric map**, collect cure fragments,
+  and use **ZK proofs** to prove their health status without revealing identity.
+summary_long: >
+  Players join rooms where one is secretly Patient Zero, identified only by a
+  **Poseidon-hashed commitment** revealed at game end. Infection spreads when
+  players move within range of infected others, with proximity validated by the
+  **contagion_actions Dojo system**. Two models — ContagionPlayer and GameRoom —
+  record position, health, cure fragments, and room config on-chain, with
+  **six events** feeding Torii. ZK proofs via **Noir/bb.js** let players prove
+  health without exposing identity. The **Embeddable Game Standard (EGS)**
+  enables verifiable score reporting via denshokan-sdk, while a Bun WebSocket
+  server handles real-time room coordination and proximity logic.
+work_done_short: >
+  Transformed a Treasure Hunt starter into a full social deduction game during
+  the jam: **new Contagion Cairo contracts** (2 models, 1 system, 6 events),
+  a complete isometric React client, **Bun WebSocket backend**, ZK health proofs,
+  and EGS score integration.
+work_done_long: >
+  The Cairo contracts were fully rewritten: **ContagionPlayer and GameRoom
+  models**, and a contagion_actions system with move_player, infect, accuse,
+  collect_cure, and take_damage entry points. A React/Vite client was built
+  with **isometric map rendering**, HUD, radar, and Cartridge Controller
+  authentication. The **Bun WebSocket server** manages real-time room logic
+  and proximity-based infection. **ZK proofs via Noir/bb.js** prove health
+  status, and EGS enables verifiable, embeddable score reporting on Sepolia.
+repo_url: "https://github.com/Ashar20/contagion-dojo"
+demo_url: "https://contagion-dojo.vercel.app"
+video_url: null
+team:
+  - "@fabianferno"
+  - "@Ashar20"
+  - "@Philotheephilix"
+metrics:
+  classification: "Feature"
+  team_size: 3
+  dojo_models: 2
+  dojo_systems: 1
+  dojo_events: 6
+  client_sdk: "dojo.js"
+  jam_commits_pct: 75
+  gameplay: "Offchain"
+---
+
 # Contagion — Dojo Hackathon Submission
 
 ## Project Summary
