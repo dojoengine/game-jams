@@ -1,3 +1,51 @@
+---
+id: "rekkaimon-forge"
+emoji: "🐉"
+title: "Rekkaimon Forge"
+summary_short: >
+  A **fully on-chain creature collection and expedition game** built with Dojo on Starknet.
+  Hatch Rekkaimon with **procedurally generated sprites** via Google Gemini, send teams on
+  time-gated expeditions, breed hybrid species, and upgrade buildings — all
+  **contract-authoritative** with real-time state synced through Torii.
+summary_long: >
+  All game state lives in 9 Dojo models: `PlayerState`, `CreatureModel`, `EggModel`,
+  `ExpeditionModel`, `BuildingState`, `ResourceInventory`, and three counter models.
+  Two systems — `game_actions` and `expedition_actions` — handle hatching, breeding,
+  training, and expedition resolution. The **building buff system** features six
+  upgradeable structures (Incubator, Training Ground, Expedition HQ, Fusion Lab,
+  Herbalist, Mine) that apply stat multipliers. A Canvas-based **BFS flood-fill
+  pipeline** strips backgrounds from Gemini-generated sprites. Cartridge Controller
+  provides **wallet-less session key authentication**, while the React 19 + Zustand
+  frontend polls Torii GraphQL for live on-chain state.
+work_done_short: >
+  **Built from scratch** during the 72-hour jam. Complete ECS architecture with 9 models
+  and 2 systems, a **procedural sprite generation pipeline**, upgradeable building economy,
+  expedition routing, and creature breeding/fusion system.
+work_done_long: >
+  The contracts implement the full creature lifecycle — hatching from eggs, stat
+  progression, and hybrid breeding with inherited traits. The **expedition system**
+  handles multi-creature team selection, route-based difficulty scaling, and
+  time-gated loot rewards. Six upgradeable buildings apply buff multipliers across
+  all game actions. The React frontend integrates **Cartridge Controller session keys**
+  for seamless authentication and uses **Torii GraphQL polling** for real-time
+  on-chain state synchronization.
+repo_url: "https://github.com/TalesOfRekkai/Juego-autobattle"
+demo_url: "https://rekkaimon-forge.vercel.app/"
+video_url: "https://drive.google.com/drive/folders/1To3STQPBIRPUs69-Zmv4i7_-EGWj4Eeb?usp=sharing"
+team:
+  - "@MigueReyRo"
+  - "@808ale"
+metrics:
+  classification: "Whole Game"
+  team_size: 2
+  dojo_models: 9
+  dojo_systems: 2
+  dojo_events: 0
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  playability: "Live"
+---
+
 # Rekkaimon Forge
 
 ## Project Summary
