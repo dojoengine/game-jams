@@ -1,3 +1,53 @@
+---
+id: "tweetle"
+emoji: "🟩"
+title: "Tweetle"
+summary_short: >
+  A **fully on-chain Wordle clone** built with Dojo, featuring Classic, Daily, and
+  **ZK-verified Tournament modes**. Every tournament guess is proven correct via a
+  **Noir circuit and Garaga on-chain verifier** — the hidden word is never revealed
+  to the server or client.
+summary_long: >
+  Tweetle runs three game modes on Starknet: Classic (free play), Daily (one shared
+  word per day with streak tracking), and **Tournament** (competitive, entry-fee
+  gating, prize pool distribution). The standout feature is the **ZK proof pipeline**:
+  a Noir circuit proves each clue is accurate against a Poseidon2-committed solution,
+  Barretenberg generates the Ultra Keccak ZK Honk proof, and **Garaga converts it to
+  ~2900 felt252 calldata values** for an on-chain Cairo verifier. The prover server is
+  stateless — secret words are derived deterministically via HMAC, with no database.
+  **Cartridge Controller with session keys** eliminates wallet popups per guess.
+  18 Dojo models and 5 systems manage player stats, game state, and tournament
+  lifecycle across 4 deployed contracts on Starknet Sepolia.
+work_done_short: >
+  During the jam, the team **replaced the SQLite-backed prover server with a
+  stateless HMAC-based derivation scheme**, added a HowToPlay modal, fixed mobile
+  layout issues, and **wrote the full project README** for submission.
+work_done_long: >
+  The stateless refactor eliminated the database dependency entirely — tournament
+  secrets are now **derived deterministically from a seed via HMAC**, making the
+  prover server deployable as a pure function. The team also switched to a
+  **Debian Trixie Docker base image** to satisfy the glibc 2.38+ requirement for
+  Barretenberg. Frontend polish included a **comprehensive HowToPlay modal** and
+  responsive keyboard layout fixes for mobile. The underlying ZK pipeline,
+  smart contracts, and client integration were all built in the weeks preceding
+  the jam.
+repo_url: "https://github.com/crackedstudio/Tweetle_dojo"
+demo_url: "https://tweetle-dojo.vercel.app"
+video_url: "https://www.loom.com/share/fbf111a0b37b4fc6ae9e37b35c936e21"
+team:
+  - "@manoahLinks"
+  - "@Otaiki1"
+metrics:
+  classification: "Feature"
+  team_size: 2
+  dojo_models: 18
+  dojo_systems: 5
+  dojo_events: 17
+  client_sdk: "dojo.js"
+  jam_commits_pct: 8
+  playability: "Live"
+---
+
 # Tweetle
 
 ## Project Summary
