@@ -1,33 +1,38 @@
 ---
 id: "cipher"
-emoji: "🗡️"
+emoji: "🎖️"
 title: "Cipher"
 summary_short: >
-  A **hidden-ranks war game** on Starknet where two players deploy ten pieces
-  with **Poseidon-hashed rank commitments**, move blind, and resolve combat
-  **onchain** — stronger rank survives, capture the **enemy Flag** to win.
+  A **hidden-ranks war game** on Starknet inspired by Stratego, where two players
+  deploy ten pieces with **Poseidon-hashed rank commitments**, move blind, and
+  resolve combat **fully onchain** — stronger rank survives, capture the **enemy
+  Flag** to win.
 summary_long: >
-  Two players each place ten pieces with ranks hidden behind **Poseidon hash
-  commitments**. Movement is blind until pieces collide, triggering a
-  **two-phase combat resolution**: the attacker's move creates a PendingCombat
-  record, then the defender reveals their rank onchain. Six models — Game,
-  Piece, Square, PendingCombat, PlayerGame, and GameCounter — track the full
-  board state. A single **actions system** handles creation, placement, movement,
-  combat, and forfeit across **seven entry points**. The React client syncs
-  state via **Torii indexer** and authenticates through Cartridge Controller,
-  with all game rules executed deterministically onchain.
+  Each player commits piece ranks using `poseidon_hash(rank, salt)`, keeping
+  their army hidden until collision. When pieces clash, a **two-phase combat
+  resolution** triggers: the attacker's move writes a `PendingCombat` record
+  onchain, then the defender must reveal their rank by submitting the preimage.
+  **Six load-bearing Dojo models** — Game, Piece, Square, PendingCombat,
+  PlayerGame, and GameCounter — track full board state. A single **actions
+  contract** exposes seven entry points covering creation, placement, movement,
+  combat, and forfeit. Special rules for Spy, Miner, Bomb, Scout, and Flag are
+  **enforced deterministically onchain**. The React client syncs in real-time
+  via **Torii** and authenticates through Cartridge Controller.
 work_done_short: >
-  Built the entire game during the jam: **six Cairo models**, a single actions
-  system with **seven entry points**, and a full **React + Vite client** with
-  Cartridge Controller and Torii integration.
+  **Built entirely during the jam**: six Cairo models, a single actions system
+  with **seven entry points**, Poseidon commit-reveal fog-of-war, and a full
+  **React + Vite client** with Torii sync and Cartridge Controller auth.
 work_done_long: >
-  All code was written during the jam window. The Cairo layer includes **six
-  Dojo models** (Game, Piece, Square, PendingCombat, PlayerGame, GameCounter)
-  and one actions system with **seven entry points** (create_game, join_game,
-  place_piece, ready, move_piece, resolve_combat, forfeit). The **React/Vite
-  client** implements board rendering, combat reveal UI, and real-time sync
-  via Torii. **Cartridge Controller** handles wallet authentication. Deployed
-  to Starknet Sepolia via Slot.
+  The Cairo layer implements **six Dojo models** (Game, Piece, Square,
+  PendingCombat, PlayerGame, GameCounter) and one actions contract with entry
+  points for create_game, join_game, place_piece, ready, move_piece,
+  resolve_combat, and forfeit. **Poseidon hash commitments** enforce fog of war
+  with on-chain rank verification at reveal time. Special piece rules — Scout
+  multi-step movement with path-blocking checks, Spy killing the Marshal,
+  Miner defusing Bombs, and **Flag capture ending the game** — are all
+  validated in Cairo. The React/Vite frontend handles board rendering, combat
+  reveal UI, and **real-time state sync via Torii**. Deployed to Starknet
+  Sepolia via Slot.
 repo_url: "https://github.com/0xZyrick/cipher"
 demo_url: "https://playcipher.vercel.app"
 video_url: "https://youtu.be/zV9K-KGHW00"
@@ -41,7 +46,7 @@ metrics:
   dojo_systems: 1
   dojo_events: 0
   client_sdk: "dojo.js"
-  jam_commits_pct: 100
+  jam_commits_pct: 63
   gameplay: "Onchain"
 ---
 
