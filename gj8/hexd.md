@@ -1,3 +1,47 @@
+---
+id: "hexd"
+emoji: "🔮"
+title: "Hex'd"
+summary_short: >
+  A **fully on-chain asynchronous battle royale** with fog of war on a 21×21
+  hexagonal grid. Every step triggers **random encounters or combat**, with all
+  game logic and randomness living entirely on-chain in a **3D Three.js frontend**.
+summary_long: >
+  Players navigate darkness-shrouded hex tiles where empty tiles trigger random
+  gifts or curses and occupied tiles resolve **automatic XP-based combat**. The jam
+  submission adds the **Embeddable Game Standard (EGS)** — turning every session into
+  a portable ERC-721 token. New contracts include `game_token_systems` for **NFT
+  minting via MinigameComponent**, token ownership verification in spawn/move, and a
+  **renderer contract** for external platform display. The React client integrates
+  **Denshokan SDK** for token discovery with live game state enrichment across **6
+  Dojo models** and 3 contracts.
+work_done_short: >
+  Added **Embeddable Game Standard integration** to an existing battle royale —
+  ERC-721 session tokens, **ownership verification**, renderer contract, and
+  **Denshokan SDK** frontend integration.
+work_done_long: >
+  Implemented `game_token_systems` contract with **MinigameComponent for NFT minting**,
+  `score()` and `game_over()` for external queries. Added token ownership verification
+  hooks in `spawn()` and `move()`. Built a **renderer contract implementing
+  IMinigameDetails** to surface HP, XP, and status on platforms like Fun Factory.
+  Frontend updates include **Denshokan SDK** integration for token discovery and a
+  "My Games" panel to browse active, dead, or unspawned sessions.
+repo_url: "https://github.com/FemiOje/hexed"
+demo_url: "https://hexed-silk.vercel.app/"
+video_url: "https://youtu.be/cZOFKLjaeSw"
+team:
+  - "@FemiOje"
+metrics:
+  classification: "Feature"
+  team_size: 1
+  dojo_models: 6
+  dojo_systems: 3
+  dojo_events: 6
+  client_sdk: "dojo.js"
+  jam_commits_pct: 21
+  playability: "Live"
+---
+
 # Hex'd
 
 ## Project Summary
