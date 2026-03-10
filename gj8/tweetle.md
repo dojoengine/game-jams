@@ -33,7 +33,7 @@ work_done_long: >
   the jam.
 repo_url: "https://github.com/crackedstudio/Tweetle_dojo"
 demo_url: "https://tweetle-dojo.vercel.app"
-video_url: "https://www.loom.com/share/fbf111a0b37b4fc6ae9e37b35c936e21"
+video_url: "https://www.loom.com/share/696d847b64944a9d85c3a659578ed145"
 team:
   - "@manoahLinks"
   - "@Otaiki1"
@@ -73,7 +73,7 @@ https://tweetle-dojo.vercel.app
 
 
 ## Demo video
-https://www.loom.com/share/fbf111a0b37b4fc6ae9e37b35c936e21
+https://www.loom.com/share/696d847b64944a9d85c3a659578ed145
 
 ## How to Play
 
