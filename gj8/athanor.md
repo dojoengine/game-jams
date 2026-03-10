@@ -1,3 +1,48 @@
+---
+id: "athanor"
+emoji: "⚗️"
+title: "Athanor"
+summary_short: >
+  A **fully on-chain competitive grimoire race** where players recruit heroes,
+  explore dangerous zones, gather ingredients, and **brew potions by trial-and-error**
+  to discover 30 secret recipes hidden among 300 possible pairs.
+summary_long: >
+  Three hero roles (Mage, Rogue, Warrior) venture through **5 escalating zones**
+  with outcomes computed on-chain using **Cartridge VRF** — no manipulation possible.
+  Discovered potions permanently buff hero stats, enabling deeper exploration. A
+  **hint system with escalating gold costs** helps stuck players, while a competitive
+  leaderboard ranks by grimoire completion time. Built with **7 Dojo models and 8
+  events**, featuring soulbound NFT sessions via the **Embeddable Game Standard**,
+  full sound design with 3 music tracks, and an interactive journey map with
+  animated hero tokens.
+work_done_short: >
+  **Built from scratch** during the jam by a two-person team. Full grimoire race
+  with **VRF-powered expeditions**, potion brewing, hero progression, and a
+  **polished React frontend** with animations and sound.
+work_done_long: >
+  Implemented 7 models and 2 contracts covering exploration, brewing, hero
+  recruitment, hints, and leaderboard systems — all with **on-chain VRF randomness**.
+  The React client features an **interactive journey map** with animated tokens and
+  zone portals, a **12-step tutorial overlay**, keyboard shortcuts, and full sound
+  design via Howler.js. Integrated **Denshokan EGS** for soulbound game sessions
+  and Cartridge Controller with session keys for gasless play.
+repo_url: "https://github.com/djizus/athanor"
+demo_url: "https://athanor-psi.vercel.app"
+video_url: "https://youtu.be/-UvEObfDzP8"
+team:
+  - "@djizus"
+  - "@bal7hazar"
+metrics:
+  classification: "Whole Game"
+  team_size: 2
+  dojo_models: 7
+  dojo_systems: 2
+  dojo_events: 8
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  playability: "Live"
+---
+
 # Athanor
 
 ## Project Summary
