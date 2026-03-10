@@ -1,3 +1,51 @@
+---
+id: "token-defense"
+emoji: "🛡️"
+title: "Token Defense"
+summary_short: >
+  A **fully on-chain tower defense game** where players defend an AI base from waves
+  of prompt injection attacks. Features **per-enemy on-chain wave simulation**, a
+  token economy with 3 tower and factory types, and **EGS session resume** via
+  ERC-721 tokens.
+summary_long: >
+  Ten waves of escalating enemies (TextJailbreak, ContextOverflow, HalluSwarm, and
+  Bosses) are simulated **entirely on-chain** using a sequential token-drain model —
+  later enemies face weaker towers as tokens deplete. Three tower types consume
+  matching tokens per shot, with **synergy bonuses for adjacent mixed towers** and
+  HP degradation from surviving enemies. The **Embeddable Game Standard** turns each
+  session into a portable ERC-721 token with full `IMinigameDetails` and
+  `IMinigameObjectives` interfaces. Built with **3 Dojo models and 3 contracts**,
+  the React client features **deterministic wave replay animations** at 60fps and
+  optimistic UI with Torii sync. Includes **37 Cairo integration tests** and an
+  endless mode after wave 10.
+work_done_short: >
+  **Built entirely during the jam** — full tower defense with **on-chain wave
+  simulation**, 3 tower/factory types, EGS integration with 5 achievements, and a
+  **React client** with 60fps wave replay.
+work_done_long: >
+  Implemented complete wave simulation in Cairo — **per-enemy sequential damage
+  calculation** with tower tiers, synergy bonuses, and HP degradation. Built 3
+  systems (game, building, wave) with **difficulty settings, overclock ability, and
+  endless mode**. Full EGS integration including `IMinigameDetails`,
+  `IMinigameSettings`, and `IMinigameObjectives` with **5 trackable achievements**.
+  The React frontend decodes `WaveResolved` bitmask events for **deterministic
+  replay animation**, with optimistic tower placement and session resume via token ID.
+repo_url: "https://github.com/krishnan74/Token-Defense"
+demo_url: "https://token-defense.vercel.app"
+video_url: "https://youtu.be/CzbOLKw8nKc"
+team:
+  - "@krishnan74"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 3
+  dojo_systems: 3
+  dojo_events: 0
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  playability: "Live"
+---
+
 # Token Defense
 
 ## Project Summary
