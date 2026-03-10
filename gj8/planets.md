@@ -40,7 +40,7 @@ metrics:
   dojo_events: 0
   client_sdk: "None"
   jam_commits_pct: 100
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Planets

@@ -46,7 +46,7 @@ metrics:
   dojo_events: 11
   client_sdk: "dojo.js"
   jam_commits_pct: 100
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # GuessNFT

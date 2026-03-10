@@ -39,7 +39,7 @@ metrics:
   dojo_events: 7
   client_sdk: "dojo.js"
   jam_commits_pct: 100
-  playability: "Live"
+  gameplay: "Offchain"
 ---
 
 # Checkers

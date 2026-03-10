@@ -41,7 +41,7 @@ metrics:
   dojo_events: 11
   client_sdk: "dojo.js"
   jam_commits_pct: 55
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Linot

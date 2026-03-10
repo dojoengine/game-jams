@@ -41,7 +41,7 @@ metrics:
   dojo_events: 8
   client_sdk: "dojo.js"
   jam_commits_pct: 30
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Dark Waters

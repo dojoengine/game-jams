@@ -43,7 +43,7 @@ metrics:
   dojo_events: 3
   client_sdk: "dojo.js"
   jam_commits_pct: 100
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Tactical Beasts

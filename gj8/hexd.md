@@ -39,7 +39,7 @@ metrics:
   dojo_events: 6
   client_sdk: "dojo.js"
   jam_commits_pct: 21
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Hex'd

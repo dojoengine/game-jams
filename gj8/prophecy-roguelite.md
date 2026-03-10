@@ -40,7 +40,7 @@ metrics:
   dojo_events: 4
   client_sdk: "dojo.godot"
   jam_commits_pct: 100
-  playability: "Video"
+  gameplay: "Onchain"
 ---
 
 # Prophecy Roguelite

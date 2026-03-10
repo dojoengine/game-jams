@@ -43,7 +43,7 @@ metrics:
   dojo_events: 26
   client_sdk: "None"
   jam_commits_pct: 68
-  playability: "Live"
+  gameplay: "Offchain"
 ---
 
 # Crypto Card War Game
