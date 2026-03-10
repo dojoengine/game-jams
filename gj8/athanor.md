@@ -34,7 +34,7 @@ https://athanor-psi.vercel.app
 
 ## Gameplay Video
 
-
+https://youtu.be/-UvEObfDzP8
 
 ## How to Play
 
