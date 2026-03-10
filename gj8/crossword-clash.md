@@ -1,3 +1,45 @@
+---
+id: "crossword-clash"
+emoji: "🔤"
+title: "Crossword Clash"
+summary_short: >
+  A **competitive tile-placement word game** on Starknet where two players race to fill a shared 15×15
+  board by placing letter tiles and completing words. Supports **VS Computer** with three difficulty
+  levels and **online multiplayer** via 4-character room codes.
+summary_long: >
+  Players draw from a 6-tile rack each turn, earning points for correct placements (+10 pts) and losing
+  for wrong ones (-5 pts), with bonuses for completing whole words (50 pts, or 75 pts for 7+ letter words).
+  A **60-second turn timer** keeps each round tense. Online multiplayer is handled by a **Socket.IO backend**
+  that manages board state, tile distribution, and turn enforcement authoritatively. Game outcomes, lifetime
+  stats, and **12 on-chain achievements** are recorded via Dojo contracts on Sepolia. The React 19 frontend
+  uses the **Dojo SDK and Cartridge Controller** for wallet abstraction and ships as a **PWA** installable
+  on mobile and desktop.
+work_done_short: >
+  **Built during the jam**: full crossword game with Cairo contracts for player profiles, game records,
+  achievements, and **daily streak rewards**; a React frontend with online multiplayer; and a
+  **Node.js + Socket.IO backend** for real-time room management.
+work_done_long: >
+  The Cairo `actions` contract handles **player registration**, game lifecycle, tile placement recording,
+  word completion bonuses, and a **12-achievement system** with daily login streaks and a referral system.
+  The Socket.IO backend serves as the real-time authority — managing board generation, tile pools, score
+  deltas, and turn timers. The React frontend integrates the **Dojo SDK** for on-chain writes,
+  **Cartridge Controller** for account abstraction, and a service worker for **offline PWA support**.
+repo_url: "https://github.com/Itodo-S/crossword-clash"
+demo_url: "https://crossword-clash-omega.vercel.app/"
+video_url: "https://drive.google.com/file/d/1EsZITDiW7UK3EtLzsq88eIV9psMyQhtr/view?usp=sharing"
+team:
+  - "@Itodo-S"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 0
+  dojo_systems: 0
+  dojo_events: 0
+  client_sdk: "dojo.js"
+  jam_commits_pct: 100
+  gameplay: "Offchain"
+---
+
 # Crossword Clash
 
 ---
