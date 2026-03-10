@@ -1,21 +1,24 @@
 name: Enrich Submissions
 
 on:
-  push:
-    branches: [main]
+  pull_request_target:
+    types: [closed]
     paths:
       - 'gj*/*.md'
 
 jobs:
   enrich:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
     permissions:
       contents: write
+      pull-requests: read
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 2
 
       - name: Find new submissions
@@ -37,12 +40,12 @@ jobs:
 
       - name: Enrich submissions
         if: steps.changed.outputs.skip != 'true'
-        uses: anthropics/claude-code-action@beta
+        uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          allowed_tools: "Bash,Read,Write,Grep,Glob,WebFetch"
-          direct_prompt: |
+          claude_args: "--allowedTools Bash,Read,Write,Grep,Glob,WebFetch"
+          prompt: |
             You are enriching Dojo Game Jam submissions for the judging system.
 
             Read ENRICHMENT.md (in the current directory) for the full enrichment process and follow it step by step.
