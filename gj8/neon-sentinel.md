@@ -1,3 +1,47 @@
+---
+id: "neon-sentinel"
+emoji: "🤖"
+title: "Neon Sentinel"
+summary_short: >
+  A **retro 2D arcade shooter** set inside a collapsing digital megasystem called The Grid. Players
+  control a security program fighting wave after wave of enemy corruption, collecting power-ups, and
+  pushing through **increasingly dangerous system layers**. Features **on-chain leaderboards**, a
+  pregame upgrade shop, and competitive prestige loops powered by Dojo.
+summary_long: >
+  Built on a **17-system Dojo backend** with 20 models tracking player state, leaderboard rankings,
+  economy, and minime support units. Players earn coins in-game and can purchase upgrades, cosmetics,
+  and minimes through an **on-chain marketplace** backed by STRK tokens. Special abilities —
+  GodMode, Shockwave, and Minimes — create risk-reward decisions during runs. The frontend connects
+  to a **deployed Dojo world on Sepolia** via Torii's GraphQL API and Cartridge Controller for wallet
+  authentication. An **NFT rank system** tracks player progression and prestige across sessions.
+work_done_short: >
+  For the jam, the team integrated **Cartridge Controller** into an existing arcade shooter, enabling
+  **wallet-connected gameplay** with on-chain purchases, policy approvals, and live leaderboard
+  submissions — plus contract hardening and frontend polish.
+work_done_long: >
+  The Cartridge minimal integration involved wiring up **controller policies**, fixing marketplace
+  purchase flows, and synchronizing real-time on-chain state updates. Contracts on the minimal branch
+  were hardened for production robustness, including **NFT rank interface improvements** and Sepolia
+  deployment fixes. New **user journey modals** guide players through wallet connection and policy
+  acceptance. Loom walkthroughs were published to help judges and players understand the game's
+  systems and controls.
+repo_url: "https://github.com/Otaiki1/neon-sentinel"
+demo_url: "https://neon-sentinel-testers.vercel.app/"
+video_url: "https://www.loom.com/share/db7b22b6d848430e9e227e9776159746"
+team:
+  - "Otaiki @otaiki"
+  - "JenniferIze @kicg"
+metrics:
+  classification: "Feature"
+  team_size: 2
+  dojo_models: 20
+  dojo_systems: 18
+  dojo_events: 17
+  client_sdk: "None"
+  jam_commits_pct: 16
+  playability: "Live"
+---
+
 
 
 # Neon Sentinel
@@ -41,5 +85,5 @@ The game combines fast, addictive arcade combat, risk-reward mechanics , and end
 [Otaiki](https://x.com/otaikisadiq)
 
 ### Team Members
-Otaiki @otaiki 
+Otaiki @otaiki
 JenniferIze @kicg
