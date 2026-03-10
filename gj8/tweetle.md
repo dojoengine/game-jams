@@ -45,7 +45,7 @@ metrics:
   dojo_events: 17
   client_sdk: "dojo.js"
   jam_commits_pct: 8
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Tweetle

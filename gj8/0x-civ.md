@@ -40,7 +40,7 @@ metrics:
   dojo_events: 7
   client_sdk: "dojo.js"
   jam_commits_pct: 99
-  playability: "None"
+  gameplay: "Onchain"
 ---
 
 # 0xCIV

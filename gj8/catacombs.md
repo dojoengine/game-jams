@@ -41,7 +41,7 @@ metrics:
   dojo_events: 14
   client_sdk: "dojo.js"
   jam_commits_pct: 100
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Catacombs

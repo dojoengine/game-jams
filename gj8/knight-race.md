@@ -41,7 +41,7 @@ metrics:
   dojo_events: 0
   client_sdk: "None"
   jam_commits_pct: 29
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # Knight Racing

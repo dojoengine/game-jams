@@ -44,7 +44,7 @@ metrics:
   dojo_events: 27
   client_sdk: "dojo.js"
   jam_commits_pct: 100
-  playability: "Live"
+  gameplay: "Onchain"
 ---
 
 # ParQuiz

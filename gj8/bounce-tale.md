@@ -42,7 +42,7 @@ metrics:
   dojo_events: 12
   client_sdk: "dojo.js"
   jam_commits_pct: 100
-  playability: "Live"
+  gameplay: "Offchain"
 ---
 
 # Bounce Tale
