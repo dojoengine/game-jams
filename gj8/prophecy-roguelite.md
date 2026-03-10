@@ -1,3 +1,48 @@
+---
+id: "prophecy-roguelite"
+emoji: "🔮"
+title: "Prophecy Roguelite"
+summary_short: >
+  The first **fully on-chain prediction market roguelite** — and the first Dojo game
+  jam entry built with **Godot Engine + Dojo**. Swipe through Tinder-style prediction
+  market cards, wager virtual currency, and survive **roguelite mechanics** with
+  streaks, relics, and a World Boss.
+summary_long: >
+  Players start with $10K and swipe through **75 prediction markets** — right for
+  YES, left for NO — with 30 seconds per card and 10 cards per round. Correct
+  predictions pay at market odds (1.4×–3.5×), while a **streak system** (Hot Hand →
+  On Fire → Oracle) and Dark Pool relic shop add roguelite depth. Elite and Boss
+  cards force high-stakes wagers. Built with **6 Dojo models and 4 events**, the
+  Godot 4.6 client features a **procedural audio engine** (12 sound types, zero
+  audio files), volumetric nebula shaders, and real-time entity subscriptions via
+  **Torii gRPC** through the godot-dojo GDExtension.
+work_done_short: >
+  **Built solo in 48 hours** — full Cairo contracts with 6 models and 9 system
+  actions, a **Godot 4.6 client** with procedural audio and shaders, and
+  **9 passing integration tests**.
+work_done_long: >
+  Implemented prediction market mechanics — wagering, resolution, dynamic cash-out,
+  and **streak-based progression** — across 6 models and 1 contract with 9 actions.
+  The Godot client uses the **godot-dojo GDExtension** for Torii gRPC subscriptions
+  and Cartridge Controller for session keys. All **12 sound types are procedurally
+  synthesized** at runtime. Built a custom **volumetric nebula shader with CRT
+  post-processing** and an 8-panel UI flow with cinematic terminal intro.
+repo_url: "https://github.com/shariqazeem/Prophecy-Roguelite"
+demo_url: null
+video_url: "https://youtu.be/R2hYI4Eg_bY"
+team:
+  - "@shariqshkt"
+metrics:
+  classification: "Whole Game"
+  team_size: 1
+  dojo_models: 6
+  dojo_systems: 1
+  dojo_events: 4
+  client_sdk: "dojo.godot"
+  jam_commits_pct: 100
+  playability: "Video"
+---
+
 # Prophecy Roguelite
 
 ### Project Summary
