@@ -35,6 +35,7 @@ metrics:
   client_sdk: "dojo.js"
   jam_commits_pct: 100
   playability: "None"
+  gameplay: "Offchain"
 ---
 # Take Your Shot
 

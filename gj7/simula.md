@@ -34,6 +34,7 @@ metrics:
   client_sdk: "dojo.js"
   jam_commits_pct: 8
   playability: "Live"
+  gameplay: "Offchain"
 ---
 # Simula
 

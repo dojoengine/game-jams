@@ -37,6 +37,7 @@ metrics:
   client_sdk: "dojo.js"
   jam_commits_pct: 95
   playability: "Live"
+  gameplay: "Onchain"
 ---
 # Witchcraft
 **Submission Track**  

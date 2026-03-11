@@ -35,6 +35,7 @@ metrics:
   client_sdk: "None"
   jam_commits_pct: 0
   playability: "Video"
+  gameplay: "Onchain"
   repo_unavailable: true
 ---
 ## Project Name
