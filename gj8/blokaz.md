@@ -36,9 +36,9 @@ team:
 metrics:
   classification: "Whole Game"
   team_size: 3
-  dojo_models: 6
-  dojo_systems: 1
-  dojo_events: 3
+  dojo_models: 0
+  dojo_systems: 0
+  dojo_events: 0
   client_sdk: "None"
   jam_commits_pct: 100
   gameplay: "Onchain"
