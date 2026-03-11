@@ -57,7 +57,7 @@ The core progression transforms the player's role from individual gambler to ope
 > https://github.com/Kepler22bee/House-of-Stark
 
 ### Live Demo
-> house-of-cards.vercel.app
+> [house-of-cards.vercel.app](https://house-of-stark.vercel.app/)
 
 ### Gameplay Video
 >
