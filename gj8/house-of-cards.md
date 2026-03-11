@@ -27,7 +27,7 @@ work_done_long: >
   player's behalf. Session keys via Cartridge Controller enable **seamless, low-friction
   transactions** throughout, with a final migration to STRK bets on Sepolia.
 repo_url: "https://github.com/Kepler22bee/House-of-Stark"
-demo_url: "https://house-of-cards.vercel.app"
+demo_url: "https://house-of-stark.vercel.app/"
 video_url: null
 team:
   - "@0xrguha"

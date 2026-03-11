@@ -27,7 +27,7 @@ work_done_long: >
   **@dojoengine/sdk** for real-time state, Cartridge Controller for auth, and Web
   Audio API for procedural sound effects.
 repo_url: "https://github.com/r0ze998/0xciv"
-demo_url: null
+demo_url: "https://r0ze998.github.io/0xciv"
 video_url: null
 team:
   - "r0ze"
