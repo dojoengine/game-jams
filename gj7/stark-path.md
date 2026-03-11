@@ -33,6 +33,7 @@ metrics:
   client_sdk: "dojo.js"
   jam_commits_pct: 2
   playability: "Video"
+  gameplay: "Offchain"
 ---
 # Project Name
 Stark-Path

@@ -34,6 +34,7 @@ metrics:
   client_sdk: "None"
   jam_commits_pct: 0
   playability: "None"
+  gameplay: "Offchain"
 ---
 # 🎃 Witch or Treat
 

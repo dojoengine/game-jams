@@ -35,6 +35,7 @@ metrics:
   client_sdk: "dojo.js"
   jam_commits_pct: 52
   playability: "Live"
+  gameplay: "Offchain"
 ---
 # Onchain Excavator
 

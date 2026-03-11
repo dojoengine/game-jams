@@ -35,6 +35,7 @@ metrics:
   client_sdk: "dojo.js"
   jam_commits_pct: 62
   playability: "Live"
+  gameplay: "Offchain"
 ---
 # Feral Forge
 
